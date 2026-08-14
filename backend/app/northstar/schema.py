@@ -1,7 +1,7 @@
 """Schema for the North-Star answer (SPEC §37).
 
-SPEC §37 defines *the* URBAN experience: a minister asks "What happens if we
-implement this?" and URBAN answers with a fixed, ordered narrative — baseline →
+SPEC §37 defines *the* GOV SIM experience: a minister asks "What happens if we
+implement this?" and GOV SIM answers with a fixed, ordered narrative — baseline →
 analogues → mechanisms → median outcome → uncertainty → winners → losers →
 failure modes → opposition's strongest argument → opinion evolution → media
 narratives → three risk-reducing amendments → each amendment's effect → the

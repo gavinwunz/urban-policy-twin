@@ -302,7 +302,7 @@ def compare_grand(
     * **World B** — ``policy`` (the intervention).
     * **World C** — the opposition amendment: ``amendment`` if supplied, else the
       deterministic default from :func:`propose_opposition_amendment`.
-    * **World D** — the URBAN-optimised policy: the §22 optimiser's *best-balanced*
+    * **World D** — the GOV SIM-optimised policy: the §22 optimiser's *best-balanced*
       recommendation (given ``objective``/``constraints``), re-simulated here.
 
     World C/D are composed from existing deterministic services — no new numeric
@@ -338,7 +338,7 @@ def compare_grand(
         "rationale": c_rationale,
     }
 
-    # World D — URBAN-optimised policy (best-balanced pick from the §22 optimiser).
+    # World D — GOV SIM-optimised policy (best-balanced pick from the §22 optimiser).
     opt = optimise_policy(objective, constraints, shocks=shocks)
     rec = opt.recommendations
     # Prefer the best-balanced pick (SPEC §22 "Policy D — best balanced"); fall
@@ -358,10 +358,10 @@ def compare_grand(
     if chosen is not None:
         d_policy = _policy_from_candidate_config(chosen.config, "world_d_optimised")
         specs.append(
-            ("D", "optimised", "World D — URBAN-optimised", d_policy, _describe_optimised(chosen.config))
+            ("D", "optimised", "World D — GOV SIM-optimised", d_policy, _describe_optimised(chosen.config))
         )
     derivation["world_d"] = {
-        "role": "URBAN Optimised Policy (SPEC §21/§22)",
+        "role": "GOV SIM Optimised Policy (SPEC §21/§22)",
         "objective": objective,
         "constraints": constraints,
         "constraints_satisfiable": opt.constraints_satisfiable,
@@ -376,7 +376,7 @@ def compare_grand(
     note = (
         "Grand counterfactual (SPEC §21): World A (baseline) vs World B "
         "(intervention) vs World C (opposition amendment) vs World D "
-        "(URBAN-optimised). Δ outcome = world − World A; the baseline is always "
+        "(GOV SIM-optimised). Δ outcome = world − World A; the baseline is always "
         "present. World C/D are composed from the deterministic amendment + "
         "optimiser services — all Simulated, no LLM (SPEC §34)."
     )

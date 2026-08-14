@@ -11,7 +11,10 @@ nothing is invented (SPEC §34).
 from __future__ import annotations
 
 from fastapi import APIRouter, HTTPException
+from pydantic import BaseModel, Field
 
+from ..parliament import nz
+from ..parliament.rollcall import simulate_division
 from ..parliament import (
     AskRequest,
     AskResponse,
@@ -25,6 +28,19 @@ from ..parliament import (
 )
 
 router = APIRouter(prefix="/parliament", tags=["parliament"])
+
+
+class DivisionRequest(BaseModel):
+    """A compiled policy, plus the simulated outcome the House is reacting to."""
+
+    policy: dict = Field(..., description="Compiled Policy DSL (or its key fields)")
+    outcome: dict | None = Field(
+        None,
+        description=(
+            "Simulated percentage changes: car_trips_into_cbd_pct, co2_pct, "
+            "congestion_pct, transit_trips_pct, low_income_burden_pct"
+        ),
+    )
 
 
 @router.post("/debate", response_model=DebateResponse, summary="Adversarial policy debate")
@@ -66,3 +82,56 @@ def ask(req: AskRequest) -> AskResponse:
         return ask_persona(req.policy, req.persona, req.question, shocks=req.shocks)
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+
+# ---------------------------------------------------------------------------
+# The real House (SPEC §11) — New Zealand, 2005–2023
+# ---------------------------------------------------------------------------
+
+
+@router.get("/nz/history", summary="Real NZ general-election results, 2005–2023")
+def nz_history() -> dict:
+    """Official party-vote shares and seat counts for seven general elections.
+
+    Observed, not modelled — this is the Electoral Commission's published
+    record, and it is what the chamber view draws its benches from.
+    """
+    return nz.history()
+
+
+@router.get("/nz/chamber", summary="The House as it currently stands")
+def nz_chamber() -> dict:
+    """Seats by party after the most recent election (2023)."""
+    return nz.current_chamber()
+
+
+@router.post("/nz/division", summary="Simulate a roll-call division on a policy")
+def nz_division(req: DivisionRequest) -> dict:
+    """Run a whipped division over the real 2023 House.
+
+    Seat counts are Observed; party stance priors are Estimated; the division
+    itself is Simulated. Computed rather than LLM-generated, because a division
+    count is a numeric effect (SPEC §34).
+    """
+    return simulate_division(req.policy, req.outcome)
+
+
+@router.get("/nz/division/example", summary="Keyless example division")
+def nz_division_example() -> dict:
+    """A division on the canonical demo charge, with a plausible outcome."""
+    policy = {
+        "charge_amount": 12.0,
+        "public_transport_share": 0.7,
+        "instruments": ["cordon charge", "public transport reinvestment"],
+        "summary": "A $12 cordon charge on private vehicles, revenue to buses.",
+    }
+    outcome = {
+        "car_trips_into_cbd_pct": -21.4,
+        "co2_pct": -11.2,
+        "congestion_pct": -18.0,
+        "transit_trips_pct": 14.6,
+        "low_income_burden_pct": 1.8,
+    }
+    result = simulate_division(policy, outcome)
+    result["scenario"] = "Canonical §28 demo charge, year-2 outcome"
+    return result

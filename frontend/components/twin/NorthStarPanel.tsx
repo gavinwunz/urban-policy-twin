@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * North-Star view (SPEC §37 — *the* URBAN experience).
+ * North-Star view (SPEC §37 — *the* GOV SIM experience).
  *
  * A minister asks "What happens if we implement this?" and `POST /north-star`
  * answers with the fixed §37 narrative: baseline → historical analogues →

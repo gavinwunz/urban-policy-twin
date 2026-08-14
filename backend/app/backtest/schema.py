@@ -5,7 +5,7 @@ policy forward, and score the forecast against what actually occurred —
 forecast error, direction accuracy, interval calibration and event-timing error
 — producing a stored scorecard (SPEC §25).
 
-Because the world here is the synthetic city *Meridia*, the built-in case's
+Because the world here is the synthetic city *Auckland*, the built-in case's
 "actuals" are a clearly-labelled synthetic benchmark, NOT real observations. The
 harness itself is real and works on any supplied case with genuine outcomes.
 """

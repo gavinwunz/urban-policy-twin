@@ -39,8 +39,8 @@ _DATA_DIR = _REPO_ROOT / "data" / "city"
 
 # Datasets that pin the world state a run reads (SPEC §4/§32).
 _DATASET_FILES = [
-    ("city_grid", "Meridia synthetic city grid", "manifest.json", "generate_city.py"),
-    ("population", "Meridia synthetic population", "population.json", "generate_population.py"),
+    ("city_grid", "Auckland policy analysis grid", "manifest.json", "generate_city.py"),
+    ("population", "Auckland synthetic population", "population.json", "generate_population.py"),
 ]
 
 

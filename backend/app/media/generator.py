@@ -32,7 +32,7 @@ _SCENARIO_HORIZONS: tuple[tuple[str, float], ...] = (
 _OUTLET_LABELS = {
     MediaArchetype.public_broadcaster: "The National Broadcaster (SIMULATED)",
     MediaArchetype.business_press: "Business Daily (SIMULATED)",
-    MediaArchetype.local_news: "The Meridia Courier (SIMULATED)",
+    MediaArchetype.local_news: "The Auckland Courier (SIMULATED)",
     MediaArchetype.tabloid: "The Daily Pulse (SIMULATED)",
     MediaArchetype.environmental: "Clean City Review (SIMULATED)",
     MediaArchetype.industry: "Transport & Logistics Weekly (SIMULATED)",

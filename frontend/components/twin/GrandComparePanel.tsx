@@ -9,7 +9,7 @@
  *   • World A — baseline (no policy),
  *   • World B — the compiled policy (the intervention),
  *   • World C — the opposition amendment (auto-derived when none supplied),
- *   • World D — the URBAN-optimised best-balanced pick from the §22 optimiser.
+ *   • World D — the GOV SIM-optimised best-balanced pick from the §22 optimiser.
  *
  * The distinct value here isn't a new number — it's the *derivation* audit: the
  * panel shows exactly how World C and World D were composed (amendment source +
@@ -138,7 +138,7 @@ export default function GrandComparePanel() {
       <div className="dashboard-head">
         <h2>Grand counterfactual · A / B / C / D</h2>
         <span className="dashboard-sub">
-          Baseline vs policy vs opposition amendment vs URBAN-optimised (SPEC §21/§22)
+          Baseline vs policy vs opposition amendment vs GOV SIM-optimised (SPEC §21/§22)
         </span>
       </div>
 
@@ -207,7 +207,7 @@ export default function GrandComparePanel() {
             <p className="hint">
               Compile a policy above to compose your own four-way comparison — the
               baseline, your policy, the opposition&rsquo;s amendment, and the
-              URBAN-optimised alternative — or{" "}
+              GOV SIM-optimised alternative — or{" "}
               <em>Load example comparison</em> to read the canonical §28 demo
               quartet with no policy in the store.
             </p>

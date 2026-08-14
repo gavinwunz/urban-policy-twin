@@ -36,7 +36,7 @@ _DEMO_TEXT = (
     "Exempt emergency vehicles and disability permit holders. Reinvest 100% of net "
     "proceeds into buses."
 )
-#: The metric SPEC §26 itself uses to motivate Explainability — *"why does URBAN
+#: The metric SPEC §26 itself uses to motivate Explainability — *"why does GOV SIM
 #: estimate public transport demand rises?"*. A stable, always-present key.
 _DEMO_METRIC = "transit.peak_into_cbd_transit_trips"
 

@@ -145,8 +145,8 @@ def _zones_card(d: Path, manifest: dict) -> DatasetCard:
     )
     return DatasetCard(
         id="zones",
-        title="Meridia zone grid (population, jobs, land use)",
-        publisher="URBAN synthetic generator (data/generate_city.py)",
+        title="Auckland zone grid (population, jobs, land use)",
+        publisher="GOV SIM synthetic generator (data/generate_city.py)",
         source_url="data/generate_city.py",
         retrieved_at=None,
         geographic_scope=manifest.get("geographic_scope", ""),
@@ -199,8 +199,8 @@ def _roads_card(d: Path, manifest: dict) -> DatasetCard:
     )
     return DatasetCard(
         id="roads",
-        title="Meridia road network (capacity, free-flow speed, cordon flags)",
-        publisher="URBAN synthetic generator (data/generate_city.py)",
+        title="Auckland road network (capacity, free-flow speed, cordon flags)",
+        publisher="GOV SIM synthetic generator (data/generate_city.py)",
         source_url="data/generate_city.py",
         retrieved_at=None,
         geographic_scope=manifest.get("geographic_scope", ""),
@@ -244,8 +244,8 @@ def _od_card(d: Path, manifest: dict) -> DatasetCard:
     model = obj.get("model", "")
     return DatasetCard(
         id="od_pairs",
-        title="Meridia origin→destination commute flows",
-        publisher="URBAN synthetic generator (data/generate_city.py)",
+        title="Auckland origin→destination commute flows",
+        publisher="GOV SIM synthetic generator (data/generate_city.py)",
         source_url="data/generate_city.py",
         retrieved_at=None,
         geographic_scope=manifest.get("geographic_scope", ""),
@@ -306,11 +306,11 @@ def _population_card(d: Path) -> DatasetCard:
     vars_, miss = _variable_cards(recs, field_desc, units)
     return DatasetCard(
         id="population",
-        title="Meridia synthetic commuter micro-agents (SPEC §6)",
-        publisher="URBAN synthetic generator (data/generate_population.py)",
+        title="Auckland synthetic commuter micro-agents (SPEC §6)",
+        publisher="GOV SIM synthetic generator (data/generate_population.py)",
         source_url="data/generate_population.py",
         retrieved_at=None,
-        geographic_scope="Fictional city 'Meridia' (not a real place)",
+        geographic_scope="Fictional city 'Auckland' (not a real place)",
         spatial_resolution="individual agent (home/work zone)",
         units="mixed (see variables)",
         variables=vars_,
@@ -360,8 +360,8 @@ def _buildings_card(d: Path, manifest: dict) -> DatasetCard:
     )
     return DatasetCard(
         id="buildings",
-        title="Meridia building footprints + 10-year height pipeline",
-        publisher="URBAN synthetic generator (data/generate_buildings.py)",
+        title="Auckland building footprints + 10-year height pipeline",
+        publisher="GOV SIM synthetic generator (data/generate_buildings.py)",
         source_url="data/generate_buildings.py",
         retrieved_at=None,
         geographic_scope=manifest.get("geographic_scope", ""),
@@ -405,7 +405,7 @@ def _baseline_params_card() -> DatasetCard:
     return DatasetCard(
         id="baseline_params",
         title="Baseline mode-choice modelling assumptions",
-        publisher="URBAN engine (backend/app/baseline/params.py)",
+        publisher="GOV SIM engine (backend/app/baseline/params.py)",
         source_url="backend/app/baseline/params.py",
         retrieved_at=None,
         geographic_scope="model-wide (not geographic)",

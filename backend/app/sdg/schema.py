@@ -46,7 +46,7 @@ class SdgGoal(BaseModel):
 
     goal: int = Field(description="SDG number, e.g. 11.")
     title: str
-    tier: str = Field(description="'core' or 'secondary' URBAN alignment (SPEC §23).")
+    tier: str = Field(description="'core' or 'secondary' GOV SIM alignment (SPEC §23).")
     indicators: list[SdgIndicator] = Field(default_factory=list)
     improved_count: int = 0
     worsened_count: int = 0

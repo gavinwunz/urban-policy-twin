@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Fraunces, IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
+// Loaded second on purpose: the dashboard layer overrides the older page
+// styles it replaces (hero, section rhythm, map frame).
+import "./dashboard.css";
 
 // Type system (SPEC-adjacent to the palette below, see globals.css):
 // Fraunces carries the hero and section headings — a display serif with real
@@ -30,9 +33,11 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "URBAN — Policy Digital Twin",
+  title: "GOV SIM — Policy Simulation Environment",
   description:
-    "Simulate urban policy decisions in a digital twin. Every metric is tagged " +
+    "GOV SIM lets governments test, stress-test, debate, amend and explore " +
+    "policies before they are deployed in the real world — based on local " +
+    "datasets and ML prediction models. Every metric is tagged " +
     "Observed / Estimated / Simulated / Generated.",
 };
 

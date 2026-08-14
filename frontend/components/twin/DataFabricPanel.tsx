@@ -11,7 +11,7 @@
  *
  * This tab is policy-independent (it describes the data, not a run) and loads on
  * mount. It is itself Observed — it describes files on disk, it doesn't simulate.
- * Meridia is a synthetic city, so the datasets themselves are tagged
+ * The Auckland zone system is modelled, so the datasets themselves are tagged
  * Simulated/assumption-set and real-world sources are listed as the *schemas* the
  * data is shaped like, never claimed as live feeds (SPEC §4/§34). If the backend
  * is down we say so rather than inventing a catalogue.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""URBAN killer-demo runner — one command, the whole §29 narrative in the terminal.
+"""GOV SIM killer-demo runner — one command, the whole §29 narrative in the terminal.
 
 Runs the full engine pipeline (compile → simulate → public → parliament →
 amendment → media) through ``POST /run`` and prints a judge-friendly summary:
@@ -127,7 +127,7 @@ def run(argv: list[str]) -> int:
 
 
 def _render(data: dict) -> None:
-    rule("URBAN — policy digital twin · killer demo")
+    rule("GOV SIM — policy digital twin · killer demo")
     print(f"{bold('Policy id')}   {data['policy_id']}")
     print(f"{bold('Horizon')}     {data['horizon_label']}  ({_fmt(data['horizon_months'])} months)")
 

@@ -1,7 +1,7 @@
-# Shared demo dataset — Meridia synthetic city grid
+# Shared demo dataset — Auckland policy analysis grid
 
-**Provenance: `Synthetic`.** This is the common *input world state* for the URBAN
-digital twin demo. "Meridia" is a fictional city on a regular 9×9 grid — it is
+**Provenance: `Synthetic`.** This is the common *input world state* for the GOV SIM
+digital twin demo. "Auckland" is a fictional city on a regular 9×9 grid — it is
 **not a real place** and contains no real person or administrative record. Only
 the WGS84 lon/lat coordinates are real-shaped, so the frontend map
 (MapLibre/deck.gl) can render it.
@@ -90,7 +90,7 @@ simulation results.
 
 ### Data lineage (`sources.json`)
 
-Meridia is synthetic, but it is shaped like two real open data models, and the
+Auckland is synthetic, but it is shaped like two real open data models, and the
 UI cites both:
 
 - **3D geometry** — [3DCityDB Web Map Client](https://github.com/3dcitydb/3dcitydb-web-map)

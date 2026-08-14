@@ -3,7 +3,7 @@
 ``POST /stress-test`` re-runs a compiled policy across the SPEC §20 named shocks
 (recession, fuel-price spike, flood, heatwave, population growth, migration
 change, technology adoption, interest-rate shock) and reports where the policy's
-benefit holds, degrades, or fails — turning URBAN into the stress-testing
+benefit holds, degrades, or fails — turning GOV SIM into the stress-testing
 environment SPEC §20 asks for.
 
 ``GET /stress-test/catalogue`` lists the available shock toggles with their

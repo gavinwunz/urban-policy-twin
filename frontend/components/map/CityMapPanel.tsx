@@ -87,7 +87,7 @@ export default function CityMapPanel({ timeLabel }: CityMapPanelProps) {
     <section className="map-section card" data-tour="map">
       <div className="map-header">
         <div>
-          <h2>Meridia — 3D world</h2>
+          <h2>Auckland — 3D world</h2>
           <p className="map-sub">
             {geometry
               ? `${geometry.manifest.counts.zones} zones · ${geometry.manifest.counts.roads} links · CBD cordon`
@@ -140,7 +140,7 @@ export default function CityMapPanel({ timeLabel }: CityMapPanelProps) {
         {error ? (
           <MapPlaceholder label={`Map unavailable — ${error}`} />
         ) : !geometry ? (
-          <MapPlaceholder label="Loading Meridia…" />
+          <MapPlaceholder label="Loading Auckland…" />
         ) : (
           <CityMap
             geometry={geometry}

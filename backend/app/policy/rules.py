@@ -317,7 +317,7 @@ def parse_policy(text: str, jurisdiction: str | None = None) -> tuple[PolicyDSL,
 
     policy = PolicyDSL(
         id=_slug(itype),
-        jurisdiction=(jurisdiction or "meridia").lower(),
+        jurisdiction=(jurisdiction or "auckland").lower(),
         domain=domain,
         intervention=intervention,
         exemptions=exemptions,

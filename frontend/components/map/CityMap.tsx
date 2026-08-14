@@ -4,7 +4,7 @@
  * The 3D city map (SPEC §17/§27) — the visual centerpiece.
  *
  * MapLibre GL renders a tile-free dark base (no API key, works offline); a
- * deck.gl overlay draws the Meridia world on top:
+ * deck.gl overlay draws the Auckland world on top:
  *   - zones as an extruded choropleth (height + colour encode a chosen metric),
  *   - the road network as lines (cordon-crossing links highlighted),
  *   - the CBD cordon polygon (the congestion-charge / pedestrianisation boundary).

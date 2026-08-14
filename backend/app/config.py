@@ -14,13 +14,28 @@ class Settings(BaseSettings):
 
     model_config = SettingsConfigDict(
         env_file=".env",
-        env_prefix="URBAN_",
+        # Renamed from URBAN_ with the rebrand. pydantic-settings reads exactly
+        # one prefix, so an existing local .env must be renamed too — see
+        # .env.example.
+        env_prefix="GOVSIM_",
         extra="ignore",
     )
 
-    app_name: str = "URBAN Policy Digital Twin"
-    version: str = "0.1.0"
+    app_name: str = "GOV SIM"
+    tagline: str = (
+        "GOV SIM is a policy simulation environment that lets governments "
+        "test, stress-test, debate, amend and explore policies before they "
+        "are deployed in the real world."
+    )
+    version: str = "0.2.0"
     environment: str = "development"
+
+    # --- persistence ----------------------------------------------------
+    # A local mongod is the default. Every code path must degrade gracefully
+    # when it is not running (see app/db/mongo.py).
+    mongo_uri: str = "mongodb://127.0.0.1:27017"
+    mongo_db: str = "govsim"
+    mongo_timeout_ms: int = 800
 
     # Comma-separated list of allowed CORS origins for the frontend.
     cors_origins: str = "http://localhost:3000,http://127.0.0.1:3000"

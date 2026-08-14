@@ -1,6 +1,6 @@
 """Model registry / transparency manifest (SPEC §33).
 
-A self-describing catalogue of every model layer URBAN uses to turn a policy into
+A self-describing catalogue of every model layer GOV SIM uses to turn a policy into
 numbers, the documented assumptions that parameterise each one, the data sources
 they read, and the SPEC §34 anti-"AI-astrology" guardrails and how each is
 enforced. It is assembled by *introspecting the live parameter objects* (so the

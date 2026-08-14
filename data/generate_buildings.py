@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deterministic generator for the *prebuilt 3D city* of Meridia.
+"""Deterministic generator for the GOV SIM built-environment layer (Auckland).
 
 `generate_city.py` produces the analytical world state (zones, roads, OD matrix).
 This script produces the **visual** world state that the 3D scene renders:
@@ -39,8 +39,10 @@ without a single network round-trip. Nothing here is a simulation *result*:
 these are input assumptions about the built environment (SPEC §34), and the
 policy response that reads them is a documented mechanistic model, never an LLM.
 
-Everything is synthetic — Meridia is not a real place. See `sources.json` for
-the real-world datasets this synthetic city is *shaped like*.
+The footprints are modelled, not surveyed: they are anchored on Auckland's real
+coordinates so they register against the OpenStreetMap basemap, but the building
+layer itself is generated. See `sources.json` for the real-world datasets this
+layer and the demand model are shaped like.
 
 Run::
 
@@ -61,11 +63,12 @@ from pathlib import Path
 # Config — kept in sync with generate_city.py
 # ---------------------------------------------------------------------------
 
-CITY_NAME = "Meridia"
+CITY_NAME = "Auckland"
+CITY_REGION = "Auckland, New Zealand"
 GRID = 9
 CELL_KM = 0.75
-CENTER_LAT = 45.0
-CENTER_LON = 9.0
+CENTER_LAT = -36.8485
+CENTER_LON = 174.7633
 
 DEG_LAT_PER_KM = 1.0 / 111.32
 DEG_LON_PER_KM = 1.0 / (111.32 * math.cos(math.radians(CENTER_LAT)))
@@ -172,7 +175,7 @@ def river_polygon() -> dict:
     return {
         "type": "Feature",
         "id": "W000",
-        "properties": {"name": "River Meridia", "kind": "water"},
+        "properties": {"name": "Waitematā Harbour (schematic)", "kind": "water"},
         "geometry": {"type": "Polygon", "coordinates": [ring_coords]},
     }
 
@@ -416,13 +419,14 @@ def build_buildings(zones: list[dict], rng: random.Random) -> list[dict]:
 
 def sources_doc(counts: dict) -> dict:
     return {
-        "title": "Meridia — data lineage",
+        "title": "GOV SIM — data lineage",
         "note": (
-            "Meridia is a synthetic city. It is not a real place and contains no "
-            "real administrative record. The two entries below are the real-world "
-            "data models this synthetic city and its prediction model are shaped "
-            "like: an open 3D city model standard for the geometry, and a national "
-            "origin-destination commuting dataset for the travel demand."
+            "GOV SIM is anchored on Auckland, New Zealand — real coordinates, real "
+            "basemap geography. The zone system, building footprints and trip "
+            "matrix on top of it are modelled, not measured, and contain no real "
+            "administrative record. The entries below are the real datasets this "
+            "model is shaped like, plus the corpus the traffic model is actually "
+            "fitted on."
         ),
         "sources": [
             {
@@ -442,7 +446,7 @@ def sources_doc(counts: dict) -> dict:
                     "I3S",
                 ],
                 "how_used": (
-                    "Meridia's building layer follows the same semantic model a "
+                    "The building layer follows the same semantic model a "
                     "3DCityDB export uses at LOD1: one footprint polygon per "
                     "building with a measured height attribute, grouped by zone. "
                     "Swapping in a real city means replacing buildings.geojson "
@@ -465,9 +469,32 @@ def sources_doc(counts: dict) -> dict:
                 "how_used": (
                     "The shape of the demand model: home-zone → work-zone daily "
                     "commuter flows split by mode (car, public transport, walk). "
-                    "Meridia's od_pairs.json is a destination-constrained gravity "
+                    "od_pairs.json is a destination-constrained gravity "
                     "model fitted to the same schema, so a real WU03EW extract "
                     "drops straight into the same pipeline."
+                ),
+            },
+            {
+                "id": "metr-la",
+                "role": "traffic speed model — training corpus",
+                "name": "METR-LA",
+                "full_name": (
+                    "Loop-detector speeds, Los Angeles County freeway network"
+                ),
+                "publisher": "Jagadeesh et al. / DCRNN benchmark, via Hugging Face",
+                "country": "United States",
+                "url": "https://huggingface.co/datasets/witgaw/METR-LA",
+                "license": "Research use, per dataset card",
+                "formats": ["Parquet", "CSV sensor graph"],
+                "how_used": (
+                    "This one is not a shape — it is the corpus the traffic "
+                    "model is actually fitted on. 207 loop detectors at "
+                    "5-minute resolution, 1 Mar – 30 Jun 2012, with real sensor "
+                    "coordinates. GOV SIM trains nine classical regressors and "
+                    "an LSTM on it to predict link speed from a 12-step history, "
+                    "then transfers that speed-response relationship onto the "
+                    "Auckland network. Reported R² and MAE are measured on the "
+                    "held-out METR-LA test split, not asserted."
                 ),
             },
         ],
@@ -539,7 +566,7 @@ def main() -> None:
 
     buildings_fc = {
         "type": "FeatureCollection",
-        "name": "meridia_buildings",
+        "name": "auckland_buildings",
         "provenance": "Synthetic",
         "generated_by": "data/generate_buildings.py",
         "seed": args.seed,
@@ -561,7 +588,7 @@ def main() -> None:
     }
     water_fc = {
         "type": "FeatureCollection",
-        "name": "meridia_water",
+        "name": "auckland_water",
         "provenance": "Synthetic",
         "features": [water],
     }

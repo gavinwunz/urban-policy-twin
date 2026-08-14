@@ -12,7 +12,7 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <main>
-      <p className="eyebrow">URBAN — Policy Digital Twin</p>
+      <p className="eyebrow">GOV SIM — Policy Digital Twin</p>
       <h1>Page not found</h1>
       <p className="lede">
         There’s nothing at this address. The digital twin lives on the main

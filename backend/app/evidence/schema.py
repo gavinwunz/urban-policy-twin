@@ -58,7 +58,7 @@ class HistoricalAnalogue(BaseModel):
     """A real-world congestion-pricing scheme offered as a qualitative analogue.
 
     These are external reference facts (real schemes), NOT the source of any
-    simulated number — the model is calibrated on the synthetic Meridia dataset.
+    simulated number — the model is calibrated on the synthetic Auckland dataset.
     Provided per SPEC §26 ("historical analogues"), tagged Observed and flagged
     as illustrative context only.
     """

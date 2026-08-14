@@ -30,6 +30,15 @@ AREA_META: list[tuple[str, list[str], str]] = [
         "envelope, dataset provenance, overridable assumptions.",
     ),
     (
+        "Machine-learning layer",
+        ["§33", "§34"],
+        "The learned traffic-speed models underneath the projection: nine "
+        "classical regressors and an LSTM fitted on the loop-detector speed "
+        "corpus, their measured held-out scores, the observed sensor network, "
+        "and the MongoDB-backed run ledger. Every response carries its "
+        "provenance and runs on the local Auckland network.",
+    ),
+    (
         "Policy input",
         ["§3"],
         "Turn a natural-language policy into the compiled, auditable Policy DSL.",
@@ -115,6 +124,19 @@ ENDPOINTS: list[tuple] = [
     ("/reproduce", "System & transparency", ["§32"], "Per-run reproducibility envelope: content-addressed run_id over pinned inputs + datasets.", False, _O, None),
     ("/data-fabric", "System & transparency", ["§4"], "Dataset ingestion & provenance catalogue with harmonisation lineage (built live from the file bytes).", False, _O, None),
     ("/assumptions", "System & transparency", ["§34.10"], "The overridable model-assumption catalogue (read live from the running dataclasses).", False, _O, None),
+    # --- Machine-learning layer ---
+    ("/ml/models", "Machine-learning layer", ["§33"], "The bake-off leaderboard: nine classical regressors plus the LSTM, with R2/MAE/RMSE measured on the held-out test split.", True, _O, None),
+    ("/ml/forecast", "Machine-learning layer", ["§33"], "Forecast the next twelve 5-minute link speeds from an observed 12-step history (LSTM), cross-checked against the winning classical regressor.", True, _S, "/ml/forecast/example"),
+    ("/ml/forecast/example", "Machine-learning layer", ["§33"], "Keyless: a demo forecast for an arterial sliding into the AM peak.", False, _S, None),
+    ("/ml/anomaly", "Machine-learning layer", ["§33"], "Isolation-forest score for one traffic window — does it look like an incident rather than a peak?", True, _S, None),
+    ("/ml/anomaly/profile", "Machine-learning layer", ["§33"], "Keyless: corpus-wide anomaly rate and how it varies by hour of day.", False, _O, None),
+    ("/ml/congestion-clock", "Machine-learning layer", ["§33"], "Keyless: fitted speed over the hour x day-of-week grid — the 24x7 congestion surface.", False, _E, None),
+    ("/ml/sensors", "Machine-learning layer", ["§4", "§33"], "The real loop-detector network from MongoDB: locations and observed speed profiles.", False, _O, None),
+    ("/ml/runs", "Machine-learning layer", ["§32"], "The MongoDB-backed simulation run ledger — what was run, when, and against which policy.", False, _O, None),
+    ("/parliament/nz/history", "Governance agents", ["§11"], "Official New Zealand general-election results 2005-2023: party vote shares and seat counts (Observed).", False, _O, None),
+    ("/parliament/nz/chamber", "Governance agents", ["§11"], "The House as it currently stands: seats by party after the 2023 election.", False, _O, None),
+    ("/parliament/nz/division", "Governance agents", ["§11", "§34"], "Simulate a whipped roll-call division over the real 2023 House, party by party, from stance priors plus the simulated outcome.", True, _S, "/parliament/nz/division/example"),
+    ("/parliament/nz/division/example", "Governance agents", ["§11"], "Keyless: a division on the canonical demo charge.", False, _S, None),
     # --- Policy input ---
     ("/policy/compile", "Policy input", ["§3"], "Compile natural-language policy text into the structured Policy DSL (LLM prose or rule fallback).", False, _G, None),
     ("/scenarios", "Policy input", ["§3", "§28"], "The discoverable menu of canonical demo policies: NL prompt + live compiled DSL + ready-to-POST bodies for /simulate and the composed-answer endpoints.", False, _O, None),
@@ -126,7 +148,7 @@ ENDPOINTS: list[tuple] = [
     ("/simulate", "Core simulation & time machine", ["§7.5", "§9"], "World A, World B and Δ(B−A) per metric across the Time-Machine checkpoints (Simulated).", True, _S, None),
     ("/simulate/amend", "Core simulation & time machine", ["§11"], "Re-simulate an amended policy (the parliament amendment loop) and compare to the original.", True, _S, None),
     ("/compare", "Core simulation & time machine", ["§21"], "Compare the baseline against one or more caller amendments — never a metric without its baseline.", True, _S, None),
-    ("/compare/grand", "Core simulation & time machine", ["§21", "§22"], "The canonical A/B/C/D quartet (baseline / policy / opposition amendment / URBAN-optimised).", True, _S, None),
+    ("/compare/grand", "Core simulation & time machine", ["§21", "§22"], "The canonical A/B/C/D quartet (baseline / policy / opposition amendment / GOV SIM-optimised).", True, _S, None),
     ("/assumptions/rerun", "Core simulation & time machine", ["§34.10"], "Pin one or more assumptions to chosen values and re-run A/B/Δ (clamped + flagged if out of range).", True, _S, None),
     # --- Hybrid forecast layers ---
     ("/analogues", "Hybrid forecast layers", ["§7.1"], "Historical-analogue causal layer: difference-in-differences over comparable real schemes + transferability.", True, _E, None),
@@ -167,7 +189,7 @@ ENDPOINTS: list[tuple] = [
     ("/brief", "Composed answers & export", ["§27"], "The one-page printable Minister's Brief (Markdown memo) rendered from the North-Star answer.", True, None, None),
     # --- Keyless GET companions (canonical answers with no body) ---
     ("/analogues/cases", "Hybrid forecast layers", ["§7.1"], "The curated historical-analogue case database (illustrative published figures).", False, _O, None),
-    ("/backtest/example", "Uncertainty, sensitivity & backtesting", ["§25"], "Keyless: the built-in synthetic Meridia-2018 cordon backtest.", False, _S, None),
+    ("/backtest/example", "Uncertainty, sensitivity & backtesting", ["§25"], "Keyless: the built-in synthetic 2018 cordon backtest.", False, _S, None),
     ("/brief/example", "Composed answers & export", ["§27"], "Keyless: the Minister's Brief for the canonical §28 demo charge.", False, None, None),
     ("/business/sample", "Micro drill-downs", ["§17"], "Keyless: a policy-independent firm picker spanning sectors.", False, _O, None),
     ("/citizen/sample", "Micro drill-downs", ["§17"], "Keyless: a policy-independent household picker spanning income bands.", False, _O, None),

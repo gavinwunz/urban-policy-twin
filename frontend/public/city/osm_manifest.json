@@ -1,0 +1,62 @@
+{
+  "title": "Auckland \u2014 OpenStreetMap extract",
+  "city": "Auckland",
+  "region": "Auckland, New Zealand",
+  "provenance": "Observed",
+  "source": {
+    "name": "OpenStreetMap",
+    "via": "Overpass API",
+    "url": "https://www.openstreetmap.org/copyright",
+    "endpoint": "https://overpass-api.de/api/interpreter",
+    "license": "Open Database Licence (ODbL) 1.0",
+    "attribution": "\u00a9 OpenStreetMap contributors"
+  },
+  "fetched_at": "2026-08-14T01:42:19Z",
+  "elapsed_seconds": 39.5,
+  "center": {
+    "lat": -36.8485,
+    "lon": 174.7633
+  },
+  "radius_km": 2.6,
+  "bbox": {
+    "south": -36.87185609054977,
+    "west": 174.73411305987946,
+    "north": -36.82514390945023,
+    "east": 174.7924869401205
+  },
+  "counts": {
+    "roads": 7571,
+    "buildings": 16938,
+    "landuse": 1452,
+    "water": 126
+  },
+  "bytes": {
+    "osm_roads.geojson": 3542671,
+    "osm_buildings.geojson": 6849341,
+    "osm_landuse.geojson": 720867,
+    "osm_water.geojson": 157104
+  },
+  "height_sources": {
+    "height": 304,
+    "levels": 1099,
+    "default": 15535
+  },
+  "note": "Real surveyed geometry, fetched live from the Overpass API. Road names, classifications, lane counts and speed limits are as recorded by OpenStreetMap contributors. Building heights are surveyed where available and otherwise estimated \u2014 see hsrc on each feature.",
+  "frontend": {
+    "coord_decimal_places": 5,
+    "min_building_area_m2": 55,
+    "counts": {
+      "buildings": 5933,
+      "roads": 5960,
+      "landuse": 1251,
+      "water": 126
+    },
+    "bytes": {
+      "osm_buildings.geojson": 2013516,
+      "osm_roads.geojson": 1670388,
+      "osm_landuse.geojson": 546691,
+      "osm_water.geojson": 140325
+    },
+    "reduction_note": "A precision-reduced subset of the full extract, for load time. Nothing is reclassified or invented; both counts are recorded."
+  }
+}

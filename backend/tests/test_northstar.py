@@ -1,7 +1,7 @@
 """Tests for the North-Star answer ``POST /north-star`` (SPEC §37).
 
 §37 is the North-Star Experience: a minister asks "What happens if we implement
-this?" and URBAN answers with a fixed, ordered narrative. The endpoint's whole
+this?" and GOV SIM answers with a fixed, ordered narrative. The endpoint's whole
 value is *consistency* — every section must embed the same object the standalone
 endpoint returns, so the minister's answer can never disagree with the tabs
 behind it. These tests pin that contract, the fixed §37 structure, the

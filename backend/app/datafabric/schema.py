@@ -101,7 +101,7 @@ class DataFabric(BaseModel):
         default=(
             "Data Fabric: the dataset ingestion & provenance layer (SPEC §4). Every "
             "dataset carries the full §4 metadata record, built live from the file "
-            "bytes so it cannot drift from what the engine actually reads. Meridia is "
+            "bytes so it cannot drift from what the engine actually reads. Auckland is "
             "a synthetic city — no real administrative record is ingested — so "
             "datasets are tagged Simulated/Synthetic and real-world sources are listed "
             "as the schemas the data is shaped like, never claimed as live feeds."

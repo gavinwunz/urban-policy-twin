@@ -1,7 +1,7 @@
 /**
  * City geometry loader for the 3D map (SPEC §17/§27).
  *
- * The synthetic Meridia world state (zones / roads / CBD cordon) is bundled as
+ * The Auckland world state (zones / roads / CBD cordon) is bundled as
  * static GeoJSON under `public/city/` so the map renders even before the backend
  * exposes a geometry endpoint. If the backend later serves `/city/*.geojson`
  * (same filenames), point `NEXT_PUBLIC_CITY_BASE_URL` at it and the loader will

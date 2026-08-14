@@ -1,5 +1,5 @@
 {
-  "name": "meridia_od_pairs",
+  "name": "auckland_od_pairs",
   "units": "daily_person_trips",
   "model": "destination_constrained_gravity",
   "interpretation": "home->work commute flows; inflow to zone j ~= jobs_j",
@@ -12,29 +12,29 @@
     {
       "origin": "Z001",
       "destination": "Z000",
-      "daily_person_trips": 221,
+      "daily_person_trips": 220,
       "distance_km": 0.749,
       "dest_is_cbd": false
     },
     {
       "origin": "Z002",
       "destination": "Z000",
-      "daily_person_trips": 138,
-      "distance_km": 1.498,
+      "daily_person_trips": 137,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z003",
       "destination": "Z000",
       "daily_person_trips": 66,
-      "distance_km": 2.246,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z004",
       "destination": "Z000",
       "daily_person_trips": 44,
-      "distance_km": 2.995,
+      "distance_km": 2.998,
       "dest_is_cbd": false
     },
     {
@@ -48,49 +48,49 @@
       "origin": "Z010",
       "destination": "Z000",
       "daily_person_trips": 366,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
       "origin": "Z011",
       "destination": "Z000",
       "daily_person_trips": 124,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
       "origin": "Z012",
       "destination": "Z000",
       "daily_person_trips": 57,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z013",
       "destination": "Z000",
       "daily_person_trips": 38,
-      "distance_km": 3.088,
+      "distance_km": 3.09,
       "dest_is_cbd": false
     },
     {
       "origin": "Z014",
       "destination": "Z000",
       "daily_person_trips": 24,
-      "distance_km": 3.818,
+      "distance_km": 3.821,
       "dest_is_cbd": false
     },
     {
       "origin": "Z015",
       "destination": "Z000",
       "daily_person_trips": 19,
-      "distance_km": 4.555,
+      "distance_km": 4.558,
       "dest_is_cbd": false
     },
     {
       "origin": "Z016",
       "destination": "Z000",
       "daily_person_trips": 12,
-      "distance_km": 5.295,
+      "distance_km": 5.299,
       "dest_is_cbd": false
     },
     {
@@ -118,42 +118,42 @@
       "origin": "Z021",
       "destination": "Z000",
       "daily_person_trips": 35,
-      "distance_km": 2.7,
+      "distance_km": 2.702,
       "dest_is_cbd": false
     },
     {
       "origin": "Z022",
       "destination": "Z000",
       "daily_person_trips": 21,
-      "distance_km": 3.349,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
       "origin": "Z023",
       "destination": "Z000",
       "daily_person_trips": 15,
-      "distance_km": 4.033,
+      "distance_km": 4.035,
       "dest_is_cbd": false
     },
     {
       "origin": "Z024",
       "destination": "Z000",
       "daily_person_trips": 11,
-      "distance_km": 4.737,
+      "distance_km": 4.739,
       "dest_is_cbd": false
     },
     {
       "origin": "Z025",
       "destination": "Z000",
       "daily_person_trips": 13,
-      "distance_km": 5.452,
+      "distance_km": 5.455,
       "dest_is_cbd": false
     },
     {
       "origin": "Z026",
       "destination": "Z000",
       "daily_person_trips": 10,
-      "distance_km": 6.176,
+      "distance_km": 6.179,
       "dest_is_cbd": false
     },
     {
@@ -166,7 +166,7 @@
     {
       "origin": "Z028",
       "destination": "Z000",
-      "daily_person_trips": 80,
+      "daily_person_trips": 81,
       "distance_km": 2.369,
       "dest_is_cbd": false
     },
@@ -181,21 +181,21 @@
       "origin": "Z033",
       "destination": "Z000",
       "daily_person_trips": 9,
-      "distance_km": 5.024,
+      "distance_km": 5.026,
       "dest_is_cbd": false
     },
     {
       "origin": "Z034",
       "destination": "Z000",
       "daily_person_trips": 11,
-      "distance_km": 5.704,
+      "distance_km": 5.706,
       "dest_is_cbd": false
     },
     {
       "origin": "Z035",
       "destination": "Z000",
       "daily_person_trips": 10,
-      "distance_km": 6.399,
+      "distance_km": 6.402,
       "dest_is_cbd": false
     },
     {
@@ -223,21 +223,21 @@
       "origin": "Z042",
       "destination": "Z000",
       "daily_person_trips": 8,
-      "distance_km": 5.401,
+      "distance_km": 5.403,
       "dest_is_cbd": false
     },
     {
       "origin": "Z043",
       "destination": "Z000",
       "daily_person_trips": 9,
-      "distance_km": 6.039,
+      "distance_km": 6.041,
       "dest_is_cbd": false
     },
     {
       "origin": "Z044",
       "destination": "Z000",
       "daily_person_trips": 8,
-      "distance_km": 6.699,
+      "distance_km": 6.702,
       "dest_is_cbd": false
     },
     {
@@ -265,14 +265,14 @@
       "origin": "Z051",
       "destination": "Z000",
       "daily_person_trips": 8,
-      "distance_km": 5.85,
+      "distance_km": 5.852,
       "dest_is_cbd": false
     },
     {
       "origin": "Z052",
       "destination": "Z000",
       "daily_person_trips": 10,
-      "distance_km": 6.444,
+      "distance_km": 6.445,
       "dest_is_cbd": false
     },
     {
@@ -293,7 +293,7 @@
       "origin": "Z057",
       "destination": "Z000",
       "daily_person_trips": 10,
-      "distance_km": 5.025,
+      "distance_km": 5.026,
       "dest_is_cbd": false
     },
     {
@@ -307,7 +307,7 @@
       "origin": "Z060",
       "destination": "Z000",
       "daily_person_trips": 8,
-      "distance_km": 6.356,
+      "distance_km": 6.357,
       "dest_is_cbd": false
     },
     {
@@ -349,7 +349,7 @@
       "origin": "Z068",
       "destination": "Z000",
       "daily_person_trips": 9,
-      "distance_km": 6.444,
+      "distance_km": 6.445,
       "dest_is_cbd": false
     },
     {
@@ -391,21 +391,21 @@
       "origin": "Z003",
       "destination": "Z001",
       "daily_person_trips": 119,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z004",
       "destination": "Z001",
       "daily_person_trips": 62,
-      "distance_km": 2.246,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z009",
       "destination": "Z001",
       "daily_person_trips": 21,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -419,42 +419,42 @@
       "origin": "Z011",
       "destination": "Z001",
       "daily_person_trips": 247,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
       "origin": "Z012",
       "destination": "Z001",
       "daily_person_trips": 91,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
       "origin": "Z013",
       "destination": "Z001",
       "daily_person_trips": 51,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z014",
       "destination": "Z001",
       "daily_person_trips": 29,
-      "distance_km": 3.088,
+      "distance_km": 3.09,
       "dest_is_cbd": false
     },
     {
       "origin": "Z015",
       "destination": "Z001",
       "daily_person_trips": 22,
-      "distance_km": 3.818,
+      "distance_km": 3.821,
       "dest_is_cbd": false
     },
     {
       "origin": "Z016",
       "destination": "Z001",
       "daily_person_trips": 13,
-      "distance_km": 4.555,
+      "distance_km": 4.558,
       "dest_is_cbd": false
     },
     {
@@ -489,35 +489,35 @@
       "origin": "Z022",
       "destination": "Z001",
       "daily_person_trips": 26,
-      "distance_km": 2.7,
+      "distance_km": 2.702,
       "dest_is_cbd": false
     },
     {
       "origin": "Z023",
       "destination": "Z001",
       "daily_person_trips": 17,
-      "distance_km": 3.349,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
       "origin": "Z024",
       "destination": "Z001",
       "daily_person_trips": 12,
-      "distance_km": 4.033,
+      "distance_km": 4.035,
       "dest_is_cbd": false
     },
     {
       "origin": "Z025",
       "destination": "Z001",
       "daily_person_trips": 14,
-      "distance_km": 4.737,
+      "distance_km": 4.739,
       "dest_is_cbd": false
     },
     {
       "origin": "Z026",
       "destination": "Z001",
       "daily_person_trips": 11,
-      "distance_km": 5.452,
+      "distance_km": 5.455,
       "dest_is_cbd": false
     },
     {
@@ -545,21 +545,21 @@
       "origin": "Z033",
       "destination": "Z001",
       "daily_person_trips": 10,
-      "distance_km": 4.367,
+      "distance_km": 4.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z034",
       "destination": "Z001",
       "daily_person_trips": 11,
-      "distance_km": 5.024,
+      "distance_km": 5.026,
       "dest_is_cbd": false
     },
     {
       "origin": "Z035",
       "destination": "Z001",
       "daily_person_trips": 10,
-      "distance_km": 5.704,
+      "distance_km": 5.706,
       "dest_is_cbd": false
     },
     {
@@ -587,21 +587,21 @@
       "origin": "Z042",
       "destination": "Z001",
       "daily_person_trips": 8,
-      "distance_km": 4.796,
+      "distance_km": 4.797,
       "dest_is_cbd": false
     },
     {
       "origin": "Z043",
       "destination": "Z001",
       "daily_person_trips": 9,
-      "distance_km": 5.401,
+      "distance_km": 5.403,
       "dest_is_cbd": false
     },
     {
       "origin": "Z044",
       "destination": "Z001",
       "daily_person_trips": 8,
-      "distance_km": 6.039,
+      "distance_km": 6.041,
       "dest_is_cbd": false
     },
     {
@@ -629,14 +629,14 @@
       "origin": "Z051",
       "destination": "Z001",
       "daily_person_trips": 8,
-      "distance_km": 5.297,
+      "distance_km": 5.298,
       "dest_is_cbd": false
     },
     {
       "origin": "Z052",
       "destination": "Z001",
       "daily_person_trips": 10,
-      "distance_km": 5.85,
+      "distance_km": 5.852,
       "dest_is_cbd": false
     },
     {
@@ -664,7 +664,7 @@
       "origin": "Z058",
       "destination": "Z001",
       "daily_person_trips": 8,
-      "distance_km": 5.025,
+      "distance_km": 5.026,
       "dest_is_cbd": false
     },
     {
@@ -713,7 +713,7 @@
       "origin": "Z069",
       "destination": "Z001",
       "daily_person_trips": 9,
-      "distance_km": 6.444,
+      "distance_km": 6.445,
       "dest_is_cbd": false
     },
     {
@@ -727,7 +727,7 @@
       "origin": "Z000",
       "destination": "Z002",
       "daily_person_trips": 9,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -748,14 +748,14 @@
       "origin": "Z004",
       "destination": "Z002",
       "daily_person_trips": 36,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z010",
       "destination": "Z002",
       "daily_person_trips": 75,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -769,28 +769,28 @@
       "origin": "Z012",
       "destination": "Z002",
       "daily_person_trips": 58,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
       "origin": "Z013",
       "destination": "Z002",
       "daily_person_trips": 26,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
       "origin": "Z014",
       "destination": "Z002",
       "daily_person_trips": 13,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z015",
       "destination": "Z002",
       "daily_person_trips": 9,
-      "distance_km": 3.088,
+      "distance_km": 3.09,
       "dest_is_cbd": false
     },
     {
@@ -853,7 +853,7 @@
       "origin": "Z001",
       "destination": "Z003",
       "daily_person_trips": 12,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -874,14 +874,14 @@
       "origin": "Z010",
       "destination": "Z003",
       "daily_person_trips": 33,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
       "origin": "Z011",
       "destination": "Z003",
       "daily_person_trips": 69,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -895,28 +895,28 @@
       "origin": "Z013",
       "destination": "Z003",
       "daily_person_trips": 72,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
       "origin": "Z014",
       "destination": "Z003",
       "daily_person_trips": 27,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
       "origin": "Z015",
       "destination": "Z003",
       "daily_person_trips": 16,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z016",
       "destination": "Z003",
       "daily_person_trips": 8,
-      "distance_km": 3.088,
+      "distance_km": 3.09,
       "dest_is_cbd": false
     },
     {
@@ -958,21 +958,21 @@
       "origin": "Z024",
       "destination": "Z003",
       "daily_person_trips": 8,
-      "distance_km": 2.7,
+      "distance_km": 2.702,
       "dest_is_cbd": false
     },
     {
       "origin": "Z025",
       "destination": "Z003",
       "daily_person_trips": 8,
-      "distance_km": 3.349,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
       "origin": "Z027",
       "destination": "Z003",
       "daily_person_trips": 8,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": false
     },
     {
@@ -1000,7 +1000,7 @@
       "origin": "Z002",
       "destination": "Z004",
       "daily_person_trips": 36,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -1021,21 +1021,21 @@
       "origin": "Z010",
       "destination": "Z004",
       "daily_person_trips": 19,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z011",
       "destination": "Z004",
       "daily_person_trips": 33,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
       "origin": "Z012",
       "destination": "Z004",
       "daily_person_trips": 75,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -1049,28 +1049,28 @@
       "origin": "Z014",
       "destination": "Z004",
       "daily_person_trips": 81,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
       "origin": "Z015",
       "destination": "Z004",
       "daily_person_trips": 37,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
       "origin": "Z016",
       "destination": "Z004",
       "daily_person_trips": 15,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z019",
       "destination": "Z004",
       "daily_person_trips": 12,
-      "distance_km": 2.7,
+      "distance_km": 2.702,
       "dest_is_cbd": false
     },
     {
@@ -1112,21 +1112,21 @@
       "origin": "Z025",
       "destination": "Z004",
       "daily_person_trips": 14,
-      "distance_km": 2.7,
+      "distance_km": 2.702,
       "dest_is_cbd": false
     },
     {
       "origin": "Z026",
       "destination": "Z004",
       "daily_person_trips": 9,
-      "distance_km": 3.349,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
       "origin": "Z028",
       "destination": "Z004",
       "daily_person_trips": 12,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": false
     },
     {
@@ -1147,21 +1147,21 @@
       "origin": "Z034",
       "destination": "Z004",
       "daily_person_trips": 9,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": false
     },
     {
       "origin": "Z035",
       "destination": "Z004",
       "daily_person_trips": 8,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
       "origin": "Z037",
       "destination": "Z004",
       "daily_person_trips": 8,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
@@ -1175,7 +1175,7 @@
       "origin": "Z013",
       "destination": "Z005",
       "daily_person_trips": 13,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -1189,21 +1189,21 @@
       "origin": "Z015",
       "destination": "Z005",
       "daily_person_trips": 15,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
       "origin": "Z004",
       "destination": "Z006",
       "daily_person_trips": 8,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z014",
       "destination": "Z006",
       "daily_person_trips": 14,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -1217,7 +1217,7 @@
       "origin": "Z016",
       "destination": "Z006",
       "daily_person_trips": 13,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -1231,14 +1231,14 @@
       "origin": "Z014",
       "destination": "Z007",
       "daily_person_trips": 8,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
       "origin": "Z015",
       "destination": "Z007",
       "daily_person_trips": 23,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -1265,29 +1265,29 @@
     {
       "origin": "Z002",
       "destination": "Z008",
-      "daily_person_trips": 17,
-      "distance_km": 4.493,
+      "daily_person_trips": 16,
+      "distance_km": 4.497,
       "dest_is_cbd": false
     },
     {
       "origin": "Z003",
       "destination": "Z008",
       "daily_person_trips": 26,
-      "distance_km": 3.744,
+      "distance_km": 3.747,
       "dest_is_cbd": false
     },
     {
       "origin": "Z004",
       "destination": "Z008",
       "daily_person_trips": 47,
-      "distance_km": 2.995,
+      "distance_km": 2.998,
       "dest_is_cbd": false
     },
     {
       "origin": "Z006",
       "destination": "Z008",
       "daily_person_trips": 13,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -1301,55 +1301,55 @@
       "origin": "Z010",
       "destination": "Z008",
       "daily_person_trips": 16,
-      "distance_km": 5.295,
+      "distance_km": 5.299,
       "dest_is_cbd": false
     },
     {
       "origin": "Z011",
       "destination": "Z008",
       "daily_person_trips": 18,
-      "distance_km": 4.555,
+      "distance_km": 4.558,
       "dest_is_cbd": false
     },
     {
       "origin": "Z012",
       "destination": "Z008",
       "daily_person_trips": 24,
-      "distance_km": 3.818,
+      "distance_km": 3.821,
       "dest_is_cbd": false
     },
     {
       "origin": "Z013",
       "destination": "Z008",
       "daily_person_trips": 41,
-      "distance_km": 3.088,
+      "distance_km": 3.09,
       "dest_is_cbd": false
     },
     {
       "origin": "Z014",
       "destination": "Z008",
       "daily_person_trips": 66,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z015",
       "destination": "Z008",
       "daily_person_trips": 153,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
       "origin": "Z016",
       "destination": "Z008",
       "daily_person_trips": 316,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
       "origin": "Z017",
       "destination": "Z008",
-      "daily_person_trips": 227,
+      "daily_person_trips": 228,
       "distance_km": 0.749,
       "dest_is_cbd": false
     },
@@ -1357,35 +1357,35 @@
       "origin": "Z019",
       "destination": "Z008",
       "daily_person_trips": 13,
-      "distance_km": 5.452,
+      "distance_km": 5.455,
       "dest_is_cbd": false
     },
     {
       "origin": "Z020",
       "destination": "Z008",
       "daily_person_trips": 15,
-      "distance_km": 4.737,
+      "distance_km": 4.739,
       "dest_is_cbd": false
     },
     {
       "origin": "Z021",
       "destination": "Z008",
       "daily_person_trips": 17,
-      "distance_km": 4.033,
+      "distance_km": 4.035,
       "dest_is_cbd": false
     },
     {
       "origin": "Z022",
       "destination": "Z008",
       "daily_person_trips": 23,
-      "distance_km": 3.349,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
       "origin": "Z023",
       "destination": "Z008",
       "daily_person_trips": 35,
-      "distance_km": 2.7,
+      "distance_km": 2.702,
       "dest_is_cbd": false
     },
     {
@@ -1413,28 +1413,28 @@
       "origin": "Z027",
       "destination": "Z008",
       "daily_person_trips": 10,
-      "distance_km": 6.399,
+      "distance_km": 6.402,
       "dest_is_cbd": false
     },
     {
       "origin": "Z028",
       "destination": "Z008",
       "daily_person_trips": 15,
-      "distance_km": 5.704,
+      "distance_km": 5.706,
       "dest_is_cbd": false
     },
     {
       "origin": "Z029",
       "destination": "Z008",
       "daily_person_trips": 12,
-      "distance_km": 5.024,
+      "distance_km": 5.026,
       "dest_is_cbd": false
     },
     {
       "origin": "Z032",
       "destination": "Z008",
       "daily_person_trips": 9,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": false
     },
     {
@@ -1462,14 +1462,14 @@
       "origin": "Z037",
       "destination": "Z008",
       "daily_person_trips": 13,
-      "distance_km": 6.039,
+      "distance_km": 6.041,
       "dest_is_cbd": false
     },
     {
       "origin": "Z038",
       "destination": "Z008",
       "daily_person_trips": 9,
-      "distance_km": 5.401,
+      "distance_km": 5.403,
       "dest_is_cbd": false
     },
     {
@@ -1497,14 +1497,14 @@
       "origin": "Z045",
       "destination": "Z008",
       "daily_person_trips": 8,
-      "distance_km": 7.067,
+      "distance_km": 7.068,
       "dest_is_cbd": false
     },
     {
       "origin": "Z046",
       "destination": "Z008",
       "daily_person_trips": 9,
-      "distance_km": 6.444,
+      "distance_km": 6.445,
       "dest_is_cbd": false
     },
     {
@@ -1532,7 +1532,7 @@
       "origin": "Z055",
       "destination": "Z008",
       "daily_person_trips": 8,
-      "distance_km": 6.906,
+      "distance_km": 6.907,
       "dest_is_cbd": false
     },
     {
@@ -1553,7 +1553,7 @@
       "origin": "Z059",
       "destination": "Z008",
       "daily_person_trips": 9,
-      "distance_km": 5.025,
+      "distance_km": 5.026,
       "dest_is_cbd": false
     },
     {
@@ -1595,7 +1595,7 @@
       "origin": "Z066",
       "destination": "Z008",
       "daily_person_trips": 12,
-      "distance_km": 6.444,
+      "distance_km": 6.445,
       "dest_is_cbd": false
     },
     {
@@ -1672,7 +1672,7 @@
       "origin": "Z011",
       "destination": "Z009",
       "daily_person_trips": 10,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -1686,7 +1686,7 @@
       "origin": "Z019",
       "destination": "Z009",
       "daily_person_trips": 19,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -1707,7 +1707,7 @@
       "origin": "Z000",
       "destination": "Z010",
       "daily_person_trips": 15,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -1721,21 +1721,21 @@
       "origin": "Z002",
       "destination": "Z010",
       "daily_person_trips": 49,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
       "origin": "Z003",
       "destination": "Z010",
       "daily_person_trips": 21,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
       "origin": "Z004",
       "destination": "Z010",
       "daily_person_trips": 13,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -1756,21 +1756,21 @@
       "origin": "Z012",
       "destination": "Z010",
       "daily_person_trips": 25,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z013",
       "destination": "Z010",
       "daily_person_trips": 13,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z018",
       "destination": "Z010",
       "daily_person_trips": 16,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -1784,7 +1784,7 @@
       "origin": "Z020",
       "destination": "Z010",
       "daily_person_trips": 48,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -1798,7 +1798,7 @@
       "origin": "Z022",
       "destination": "Z010",
       "daily_person_trips": 8,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -1840,7 +1840,7 @@
       "origin": "Z001",
       "destination": "Z011",
       "daily_person_trips": 16,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -1854,14 +1854,14 @@
       "origin": "Z003",
       "destination": "Z011",
       "daily_person_trips": 42,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
       "origin": "Z004",
       "destination": "Z011",
       "daily_person_trips": 20,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
@@ -1882,21 +1882,21 @@
       "origin": "Z013",
       "destination": "Z011",
       "daily_person_trips": 23,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z014",
       "destination": "Z011",
       "daily_person_trips": 10,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z019",
       "destination": "Z011",
       "daily_person_trips": 44,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -1910,7 +1910,7 @@
       "origin": "Z021",
       "destination": "Z011",
       "daily_person_trips": 32,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -1952,7 +1952,7 @@
       "origin": "Z002",
       "destination": "Z012",
       "daily_person_trips": 41,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -1966,14 +1966,14 @@
       "origin": "Z004",
       "destination": "Z012",
       "daily_person_trips": 53,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
       "origin": "Z010",
       "destination": "Z012",
       "daily_person_trips": 28,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -1994,14 +1994,14 @@
       "origin": "Z014",
       "destination": "Z012",
       "daily_person_trips": 23,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z015",
       "destination": "Z012",
       "daily_person_trips": 12,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
@@ -2015,7 +2015,7 @@
       "origin": "Z020",
       "destination": "Z012",
       "daily_person_trips": 41,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -2029,7 +2029,7 @@
       "origin": "Z022",
       "destination": "Z012",
       "daily_person_trips": 32,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -2064,14 +2064,14 @@
       "origin": "Z002",
       "destination": "Z013",
       "daily_person_trips": 18,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
       "origin": "Z003",
       "destination": "Z013",
       "daily_person_trips": 49,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -2085,14 +2085,14 @@
       "origin": "Z010",
       "destination": "Z013",
       "daily_person_trips": 13,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z011",
       "destination": "Z013",
       "daily_person_trips": 25,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -2113,21 +2113,21 @@
       "origin": "Z015",
       "destination": "Z013",
       "daily_person_trips": 29,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z016",
       "destination": "Z013",
       "daily_person_trips": 11,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z019",
       "destination": "Z013",
       "daily_person_trips": 10,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -2141,7 +2141,7 @@
       "origin": "Z021",
       "destination": "Z013",
       "daily_person_trips": 37,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -2155,7 +2155,7 @@
       "origin": "Z023",
       "destination": "Z013",
       "daily_person_trips": 35,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -2169,7 +2169,7 @@
       "origin": "Z025",
       "destination": "Z013",
       "daily_person_trips": 11,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -2204,21 +2204,21 @@
       "origin": "Z002",
       "destination": "Z014",
       "daily_person_trips": 12,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z003",
       "destination": "Z014",
       "daily_person_trips": 26,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
       "origin": "Z004",
       "destination": "Z014",
       "daily_person_trips": 77,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -2232,21 +2232,21 @@
       "origin": "Z010",
       "destination": "Z014",
       "daily_person_trips": 10,
-      "distance_km": 2.996,
+      "distance_km": 2.997,
       "dest_is_cbd": false
     },
     {
       "origin": "Z011",
       "destination": "Z014",
       "daily_person_trips": 15,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z012",
       "destination": "Z014",
       "daily_person_trips": 31,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -2267,21 +2267,21 @@
       "origin": "Z016",
       "destination": "Z014",
       "daily_person_trips": 32,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z019",
       "destination": "Z014",
       "daily_person_trips": 8,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": false
     },
     {
       "origin": "Z020",
       "destination": "Z014",
       "daily_person_trips": 12,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -2295,7 +2295,7 @@
       "origin": "Z022",
       "destination": "Z014",
       "daily_person_trips": 47,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -2309,7 +2309,7 @@
       "origin": "Z024",
       "destination": "Z014",
       "daily_person_trips": 49,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -2323,14 +2323,14 @@
       "origin": "Z026",
       "destination": "Z014",
       "daily_person_trips": 16,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z028",
       "destination": "Z014",
       "daily_person_trips": 9,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
@@ -2386,7 +2386,7 @@
       "origin": "Z044",
       "destination": "Z014",
       "daily_person_trips": 8,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": false
     },
     {
@@ -2400,14 +2400,14 @@
       "origin": "Z003",
       "destination": "Z015",
       "daily_person_trips": 10,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z004",
       "destination": "Z015",
       "daily_person_trips": 25,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
@@ -2421,21 +2421,21 @@
       "origin": "Z008",
       "destination": "Z015",
       "daily_person_trips": 9,
-      "distance_km": 1.675,
+      "distance_km": 1.676,
       "dest_is_cbd": false
     },
     {
       "origin": "Z012",
       "destination": "Z015",
       "daily_person_trips": 11,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z013",
       "destination": "Z015",
       "daily_person_trips": 28,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -2456,14 +2456,14 @@
       "origin": "Z017",
       "destination": "Z015",
       "daily_person_trips": 9,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z021",
       "destination": "Z015",
       "daily_person_trips": 8,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -2477,7 +2477,7 @@
       "origin": "Z023",
       "destination": "Z015",
       "daily_person_trips": 37,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -2491,7 +2491,7 @@
       "origin": "Z025",
       "destination": "Z015",
       "daily_person_trips": 60,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -2554,7 +2554,7 @@
       "origin": "Z004",
       "destination": "Z016",
       "daily_person_trips": 14,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -2568,21 +2568,21 @@
       "origin": "Z008",
       "destination": "Z016",
       "daily_person_trips": 25,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
       "origin": "Z013",
       "destination": "Z016",
       "daily_person_trips": 14,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z014",
       "destination": "Z016",
       "daily_person_trips": 31,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -2603,7 +2603,7 @@
       "origin": "Z022",
       "destination": "Z016",
       "daily_person_trips": 9,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -2617,7 +2617,7 @@
       "origin": "Z024",
       "destination": "Z016",
       "daily_person_trips": 46,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -2631,7 +2631,7 @@
       "origin": "Z026",
       "destination": "Z016",
       "daily_person_trips": 72,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -2694,34 +2694,34 @@
       "origin": "Z002",
       "destination": "Z017",
       "daily_person_trips": 11,
-      "distance_km": 4.555,
+      "distance_km": 4.558,
       "dest_is_cbd": false
     },
     {
       "origin": "Z003",
       "destination": "Z017",
       "daily_person_trips": 16,
-      "distance_km": 3.818,
+      "distance_km": 3.821,
       "dest_is_cbd": false
     },
     {
       "origin": "Z004",
       "destination": "Z017",
       "daily_person_trips": 29,
-      "distance_km": 3.088,
+      "distance_km": 3.09,
       "dest_is_cbd": false
     },
     {
       "origin": "Z007",
       "destination": "Z017",
       "daily_person_trips": 19,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
       "origin": "Z008",
       "destination": "Z017",
-      "daily_person_trips": 174,
+      "daily_person_trips": 175,
       "distance_km": 0.749,
       "dest_is_cbd": false
     },
@@ -2729,42 +2729,42 @@
       "origin": "Z010",
       "destination": "Z017",
       "daily_person_trips": 11,
-      "distance_km": 5.242,
+      "distance_km": 5.245,
       "dest_is_cbd": false
     },
     {
       "origin": "Z011",
       "destination": "Z017",
       "daily_person_trips": 12,
-      "distance_km": 4.493,
+      "distance_km": 4.496,
       "dest_is_cbd": false
     },
     {
       "origin": "Z012",
       "destination": "Z017",
       "daily_person_trips": 16,
-      "distance_km": 3.744,
+      "distance_km": 3.747,
       "dest_is_cbd": false
     },
     {
       "origin": "Z013",
       "destination": "Z017",
       "daily_person_trips": 29,
-      "distance_km": 2.996,
+      "distance_km": 2.997,
       "dest_is_cbd": false
     },
     {
       "origin": "Z014",
       "destination": "Z017",
       "daily_person_trips": 49,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z015",
       "destination": "Z017",
       "daily_person_trips": 126,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -2778,35 +2778,35 @@
       "origin": "Z019",
       "destination": "Z017",
       "daily_person_trips": 9,
-      "distance_km": 5.296,
+      "distance_km": 5.298,
       "dest_is_cbd": false
     },
     {
       "origin": "Z020",
       "destination": "Z017",
       "daily_person_trips": 10,
-      "distance_km": 4.556,
+      "distance_km": 4.558,
       "dest_is_cbd": false
     },
     {
       "origin": "Z021",
       "destination": "Z017",
       "daily_person_trips": 12,
-      "distance_km": 3.819,
+      "distance_km": 3.821,
       "dest_is_cbd": false
     },
     {
       "origin": "Z022",
       "destination": "Z017",
       "daily_person_trips": 18,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": false
     },
     {
       "origin": "Z023",
       "destination": "Z017",
       "daily_person_trips": 30,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -2820,7 +2820,7 @@
       "origin": "Z025",
       "destination": "Z017",
       "daily_person_trips": 242,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -2834,14 +2834,14 @@
       "origin": "Z028",
       "destination": "Z017",
       "daily_person_trips": 11,
-      "distance_km": 5.453,
+      "distance_km": 5.455,
       "dest_is_cbd": false
     },
     {
       "origin": "Z029",
       "destination": "Z017",
       "daily_person_trips": 9,
-      "distance_km": 4.737,
+      "distance_km": 4.739,
       "dest_is_cbd": false
     },
     {
@@ -2876,7 +2876,7 @@
       "origin": "Z037",
       "destination": "Z017",
       "daily_person_trips": 10,
-      "distance_km": 5.705,
+      "distance_km": 5.706,
       "dest_is_cbd": false
     },
     {
@@ -2974,7 +2974,7 @@
       "origin": "Z068",
       "destination": "Z017",
       "daily_person_trips": 11,
-      "distance_km": 5.025,
+      "distance_km": 5.026,
       "dest_is_cbd": false
     },
     {
@@ -3037,14 +3037,14 @@
       "origin": "Z003",
       "destination": "Z018",
       "daily_person_trips": 23,
-      "distance_km": 2.7,
+      "distance_km": 2.702,
       "dest_is_cbd": false
     },
     {
       "origin": "Z004",
       "destination": "Z018",
       "daily_person_trips": 17,
-      "distance_km": 3.349,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
@@ -3058,7 +3058,7 @@
       "origin": "Z010",
       "destination": "Z018",
       "daily_person_trips": 182,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -3072,28 +3072,28 @@
       "origin": "Z012",
       "destination": "Z018",
       "daily_person_trips": 28,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z013",
       "destination": "Z018",
       "daily_person_trips": 19,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": false
     },
     {
       "origin": "Z014",
       "destination": "Z018",
       "daily_person_trips": 12,
-      "distance_km": 3.819,
+      "distance_km": 3.821,
       "dest_is_cbd": false
     },
     {
       "origin": "Z015",
       "destination": "Z018",
-      "daily_person_trips": 10,
-      "distance_km": 4.556,
+      "daily_person_trips": 9,
+      "distance_km": 4.558,
       "dest_is_cbd": false
     },
     {
@@ -3107,28 +3107,28 @@
       "origin": "Z020",
       "destination": "Z018",
       "daily_person_trips": 67,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z021",
       "destination": "Z018",
       "daily_person_trips": 25,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z022",
       "destination": "Z018",
       "daily_person_trips": 13,
-      "distance_km": 2.996,
+      "distance_km": 2.997,
       "dest_is_cbd": false
     },
     {
       "origin": "Z023",
       "destination": "Z018",
       "daily_person_trips": 8,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
@@ -3142,7 +3142,7 @@
       "origin": "Z028",
       "destination": "Z018",
       "daily_person_trips": 200,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -3267,7 +3267,7 @@
     {
       "origin": "Z001",
       "destination": "Z019",
-      "daily_person_trips": 8,
+      "daily_person_trips": 9,
       "distance_km": 1.498,
       "dest_is_cbd": false
     },
@@ -3289,7 +3289,7 @@
       "origin": "Z004",
       "destination": "Z019",
       "daily_person_trips": 8,
-      "distance_km": 2.7,
+      "distance_km": 2.702,
       "dest_is_cbd": false
     },
     {
@@ -3303,7 +3303,7 @@
       "origin": "Z011",
       "destination": "Z019",
       "daily_person_trips": 48,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -3317,7 +3317,7 @@
       "origin": "Z013",
       "destination": "Z019",
       "daily_person_trips": 10,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -3338,14 +3338,14 @@
       "origin": "Z021",
       "destination": "Z019",
       "daily_person_trips": 17,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z027",
       "destination": "Z019",
       "daily_person_trips": 50,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -3359,7 +3359,7 @@
       "origin": "Z029",
       "destination": "Z019",
       "daily_person_trips": 40,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -3429,7 +3429,7 @@
       "origin": "Z010",
       "destination": "Z020",
       "daily_person_trips": 157,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -3443,7 +3443,7 @@
       "origin": "Z012",
       "destination": "Z020",
       "daily_person_trips": 122,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -3457,28 +3457,28 @@
       "origin": "Z014",
       "destination": "Z020",
       "daily_person_trips": 26,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z015",
       "destination": "Z020",
       "daily_person_trips": 18,
-      "distance_km": 3.088,
+      "distance_km": 3.09,
       "dest_is_cbd": false
     },
     {
       "origin": "Z016",
       "destination": "Z020",
       "daily_person_trips": 10,
-      "distance_km": 3.819,
+      "distance_km": 3.821,
       "dest_is_cbd": false
     },
     {
       "origin": "Z018",
       "destination": "Z020",
       "daily_person_trips": 20,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -3491,7 +3491,7 @@
     {
       "origin": "Z021",
       "destination": "Z020",
-      "daily_person_trips": 194,
+      "daily_person_trips": 193,
       "distance_km": 0.749,
       "dest_is_cbd": false
     },
@@ -3499,35 +3499,35 @@
       "origin": "Z022",
       "destination": "Z020",
       "daily_person_trips": 46,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z023",
       "destination": "Z020",
       "daily_person_trips": 20,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z024",
       "destination": "Z020",
       "daily_person_trips": 12,
-      "distance_km": 2.996,
+      "distance_km": 2.997,
       "dest_is_cbd": false
     },
     {
       "origin": "Z025",
       "destination": "Z020",
       "daily_person_trips": 12,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
       "origin": "Z026",
       "destination": "Z020",
       "daily_person_trips": 8,
-      "distance_km": 4.494,
+      "distance_km": 4.496,
       "dest_is_cbd": false
     },
     {
@@ -3541,7 +3541,7 @@
       "origin": "Z028",
       "destination": "Z020",
       "daily_person_trips": 173,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -3555,7 +3555,7 @@
       "origin": "Z030",
       "destination": "Z020",
       "daily_person_trips": 26,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -3569,21 +3569,21 @@
       "origin": "Z033",
       "destination": "Z020",
       "daily_person_trips": 10,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": false
     },
     {
       "origin": "Z034",
       "destination": "Z020",
       "daily_person_trips": 10,
-      "distance_km": 3.819,
+      "distance_km": 3.821,
       "dest_is_cbd": false
     },
     {
       "origin": "Z035",
       "destination": "Z020",
       "daily_person_trips": 9,
-      "distance_km": 4.556,
+      "distance_km": 4.558,
       "dest_is_cbd": false
     },
     {
@@ -3618,14 +3618,14 @@
       "origin": "Z042",
       "destination": "Z020",
       "daily_person_trips": 9,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
       "origin": "Z043",
       "destination": "Z020",
       "daily_person_trips": 9,
-      "distance_km": 4.034,
+      "distance_km": 4.035,
       "dest_is_cbd": false
     },
     {
@@ -3786,7 +3786,7 @@
       "origin": "Z011",
       "destination": "Z021",
       "daily_person_trips": 178,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -3800,7 +3800,7 @@
       "origin": "Z013",
       "destination": "Z021",
       "daily_person_trips": 183,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -3814,28 +3814,28 @@
       "origin": "Z015",
       "destination": "Z021",
       "daily_person_trips": 40,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z016",
       "destination": "Z021",
       "daily_person_trips": 20,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": false
     },
     {
       "origin": "Z018",
       "destination": "Z021",
       "daily_person_trips": 12,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z019",
       "destination": "Z021",
       "daily_person_trips": 88,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -3856,28 +3856,28 @@
       "origin": "Z023",
       "destination": "Z021",
       "daily_person_trips": 61,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z024",
       "destination": "Z021",
       "daily_person_trips": 29,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z025",
       "destination": "Z021",
       "daily_person_trips": 24,
-      "distance_km": 2.996,
+      "distance_km": 2.997,
       "dest_is_cbd": false
     },
     {
       "origin": "Z026",
       "destination": "Z021",
       "daily_person_trips": 16,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
@@ -3898,7 +3898,7 @@
       "origin": "Z029",
       "destination": "Z021",
       "daily_person_trips": 147,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -3912,7 +3912,7 @@
       "origin": "Z031",
       "destination": "Z021",
       "daily_person_trips": 37,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -3933,14 +3933,14 @@
       "origin": "Z034",
       "destination": "Z021",
       "daily_person_trips": 21,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": false
     },
     {
       "origin": "Z035",
       "destination": "Z021",
       "daily_person_trips": 16,
-      "distance_km": 3.819,
+      "distance_km": 3.82,
       "dest_is_cbd": false
     },
     {
@@ -3989,14 +3989,14 @@
       "origin": "Z043",
       "destination": "Z021",
       "daily_person_trips": 17,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
       "origin": "Z044",
       "destination": "Z021",
       "daily_person_trips": 12,
-      "distance_km": 4.034,
+      "distance_km": 4.035,
       "dest_is_cbd": false
     },
     {
@@ -4093,7 +4093,7 @@
     {
       "origin": "Z061",
       "destination": "Z021",
-      "daily_person_trips": 10,
+      "daily_person_trips": 11,
       "distance_km": 4.238,
       "dest_is_cbd": false
     },
@@ -4164,7 +4164,7 @@
       "origin": "Z071",
       "destination": "Z021",
       "daily_person_trips": 9,
-      "distance_km": 5.298,
+      "distance_km": 5.297,
       "dest_is_cbd": false
     },
     {
@@ -4178,14 +4178,14 @@
       "origin": "Z078",
       "destination": "Z021",
       "daily_person_trips": 10,
-      "distance_km": 5.026,
+      "distance_km": 5.025,
       "dest_is_cbd": false
     },
     {
       "origin": "Z001",
       "destination": "Z022",
       "daily_person_trips": 8,
-      "distance_km": 2.7,
+      "distance_km": 2.702,
       "dest_is_cbd": false
     },
     {
@@ -4213,7 +4213,7 @@
       "origin": "Z010",
       "destination": "Z022",
       "daily_person_trips": 33,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -4227,7 +4227,7 @@
       "origin": "Z012",
       "destination": "Z022",
       "daily_person_trips": 130,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -4241,7 +4241,7 @@
       "origin": "Z014",
       "destination": "Z022",
       "daily_person_trips": 140,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -4255,21 +4255,21 @@
       "origin": "Z016",
       "destination": "Z022",
       "daily_person_trips": 27,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z019",
       "destination": "Z022",
       "daily_person_trips": 31,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z020",
       "destination": "Z022",
       "daily_person_trips": 62,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -4290,28 +4290,28 @@
       "origin": "Z024",
       "destination": "Z022",
       "daily_person_trips": 52,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z025",
       "destination": "Z022",
       "daily_person_trips": 34,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z026",
       "destination": "Z022",
       "daily_person_trips": 20,
-      "distance_km": 2.996,
+      "distance_km": 2.997,
       "dest_is_cbd": false
     },
     {
       "origin": "Z027",
       "destination": "Z022",
       "daily_person_trips": 17,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": false
     },
     {
@@ -4332,7 +4332,7 @@
       "origin": "Z030",
       "destination": "Z022",
       "daily_person_trips": 27,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -4346,7 +4346,7 @@
       "origin": "Z032",
       "destination": "Z022",
       "daily_person_trips": 35,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -4367,7 +4367,7 @@
       "origin": "Z035",
       "destination": "Z022",
       "daily_person_trips": 20,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": false
     },
     {
@@ -4423,7 +4423,7 @@
       "origin": "Z044",
       "destination": "Z022",
       "daily_person_trips": 14,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
@@ -4605,7 +4605,7 @@
       "origin": "Z002",
       "destination": "Z023",
       "daily_person_trips": 22,
-      "distance_km": 2.7,
+      "distance_km": 2.702,
       "dest_is_cbd": false
     },
     {
@@ -4626,21 +4626,21 @@
       "origin": "Z008",
       "destination": "Z023",
       "daily_person_trips": 10,
-      "distance_km": 2.7,
+      "distance_km": 2.702,
       "dest_is_cbd": false
     },
     {
       "origin": "Z010",
       "destination": "Z023",
       "daily_person_trips": 22,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": false
     },
     {
       "origin": "Z011",
       "destination": "Z023",
       "daily_person_trips": 32,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -4654,7 +4654,7 @@
       "origin": "Z013",
       "destination": "Z023",
       "daily_person_trips": 166,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -4668,7 +4668,7 @@
       "origin": "Z015",
       "destination": "Z023",
       "daily_person_trips": 184,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -4682,28 +4682,28 @@
       "origin": "Z017",
       "destination": "Z023",
       "daily_person_trips": 11,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
       "origin": "Z019",
       "destination": "Z023",
       "daily_person_trips": 20,
-      "distance_km": 2.996,
+      "distance_km": 2.997,
       "dest_is_cbd": false
     },
     {
       "origin": "Z020",
       "destination": "Z023",
       "daily_person_trips": 31,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z021",
       "destination": "Z023",
       "daily_person_trips": 59,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -4724,28 +4724,28 @@
       "origin": "Z025",
       "destination": "Z023",
       "daily_person_trips": 88,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z026",
       "destination": "Z023",
       "daily_person_trips": 41,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z027",
       "destination": "Z023",
       "daily_person_trips": 13,
-      "distance_km": 3.819,
+      "distance_km": 3.82,
       "dest_is_cbd": false
     },
     {
       "origin": "Z028",
       "destination": "Z023",
       "daily_person_trips": 25,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": false
     },
     {
@@ -4766,7 +4766,7 @@
       "origin": "Z031",
       "destination": "Z023",
       "daily_person_trips": 34,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -4780,7 +4780,7 @@
       "origin": "Z033",
       "destination": "Z023",
       "daily_person_trips": 107,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -4801,7 +4801,7 @@
       "origin": "Z037",
       "destination": "Z023",
       "daily_person_trips": 21,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
@@ -4955,7 +4955,7 @@
       "origin": "Z063",
       "destination": "Z023",
       "daily_person_trips": 8,
-      "distance_km": 5.298,
+      "distance_km": 5.297,
       "dest_is_cbd": false
     },
     {
@@ -5018,7 +5018,7 @@
       "origin": "Z074",
       "destination": "Z023",
       "daily_person_trips": 8,
-      "distance_km": 5.026,
+      "distance_km": 5.025,
       "dest_is_cbd": false
     },
     {
@@ -5032,21 +5032,21 @@
       "origin": "Z080",
       "destination": "Z023",
       "daily_person_trips": 8,
-      "distance_km": 5.026,
+      "distance_km": 5.025,
       "dest_is_cbd": false
     },
     {
       "origin": "Z002",
       "destination": "Z024",
       "daily_person_trips": 11,
-      "distance_km": 3.349,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
       "origin": "Z003",
       "destination": "Z024",
       "daily_person_trips": 19,
-      "distance_km": 2.7,
+      "distance_km": 2.702,
       "dest_is_cbd": false
     },
     {
@@ -5067,21 +5067,21 @@
       "origin": "Z010",
       "destination": "Z024",
       "daily_person_trips": 12,
-      "distance_km": 3.819,
+      "distance_km": 3.821,
       "dest_is_cbd": false
     },
     {
       "origin": "Z011",
       "destination": "Z024",
       "daily_person_trips": 15,
-      "distance_km": 3.088,
+      "distance_km": 3.09,
       "dest_is_cbd": false
     },
     {
       "origin": "Z012",
       "destination": "Z024",
       "daily_person_trips": 24,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -5095,7 +5095,7 @@
       "origin": "Z014",
       "destination": "Z024",
       "daily_person_trips": 128,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -5109,7 +5109,7 @@
       "origin": "Z016",
       "destination": "Z024",
       "daily_person_trips": 122,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -5123,28 +5123,28 @@
       "origin": "Z019",
       "destination": "Z024",
       "daily_person_trips": 10,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
       "origin": "Z020",
       "destination": "Z024",
       "daily_person_trips": 14,
-      "distance_km": 2.996,
+      "distance_km": 2.997,
       "dest_is_cbd": false
     },
     {
       "origin": "Z021",
       "destination": "Z024",
       "daily_person_trips": 21,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z022",
       "destination": "Z024",
-      "daily_person_trips": 45,
-      "distance_km": 1.498,
+      "daily_person_trips": 44,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -5165,21 +5165,21 @@
       "origin": "Z026",
       "destination": "Z024",
       "daily_person_trips": 74,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
       "origin": "Z028",
       "destination": "Z024",
       "daily_person_trips": 13,
-      "distance_km": 3.819,
+      "distance_km": 3.821,
       "dest_is_cbd": false
     },
     {
       "origin": "Z029",
       "destination": "Z024",
       "daily_person_trips": 13,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": false
     },
     {
@@ -5193,7 +5193,7 @@
       "origin": "Z032",
       "destination": "Z024",
       "daily_person_trips": 32,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -5207,7 +5207,7 @@
       "origin": "Z034",
       "destination": "Z024",
       "daily_person_trips": 130,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -5221,14 +5221,14 @@
       "origin": "Z037",
       "destination": "Z024",
       "daily_person_trips": 11,
-      "distance_km": 4.034,
+      "distance_km": 4.035,
       "dest_is_cbd": false
     },
     {
       "origin": "Z038",
       "destination": "Z024",
       "daily_person_trips": 9,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
@@ -5382,14 +5382,14 @@
       "origin": "Z004",
       "destination": "Z025",
       "daily_person_trips": 8,
-      "distance_km": 2.7,
+      "distance_km": 2.702,
       "dest_is_cbd": false
     },
     {
       "origin": "Z013",
       "destination": "Z025",
       "daily_person_trips": 9,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -5403,7 +5403,7 @@
       "origin": "Z015",
       "destination": "Z025",
       "daily_person_trips": 50,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -5417,14 +5417,14 @@
       "origin": "Z017",
       "destination": "Z025",
       "daily_person_trips": 15,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
       "origin": "Z023",
       "destination": "Z025",
       "daily_person_trips": 15,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -5445,7 +5445,7 @@
       "origin": "Z033",
       "destination": "Z025",
       "daily_person_trips": 29,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -5459,7 +5459,7 @@
       "origin": "Z035",
       "destination": "Z025",
       "daily_person_trips": 53,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -5501,7 +5501,7 @@
       "origin": "Z004",
       "destination": "Z026",
       "daily_person_trips": 9,
-      "distance_km": 3.349,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
@@ -5515,14 +5515,14 @@
       "origin": "Z013",
       "destination": "Z026",
       "daily_person_trips": 9,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": false
     },
     {
       "origin": "Z014",
       "destination": "Z026",
       "daily_person_trips": 15,
-      "distance_km": 2.368,
+      "distance_km": 2.37,
       "dest_is_cbd": false
     },
     {
@@ -5536,7 +5536,7 @@
       "origin": "Z016",
       "destination": "Z026",
       "daily_person_trips": 72,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -5550,14 +5550,14 @@
       "origin": "Z023",
       "destination": "Z026",
       "daily_person_trips": 12,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z024",
       "destination": "Z026",
       "daily_person_trips": 28,
-      "distance_km": 1.498,
+      "distance_km": 1.499,
       "dest_is_cbd": false
     },
     {
@@ -5578,7 +5578,7 @@
       "origin": "Z034",
       "destination": "Z026",
       "daily_person_trips": 77,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -5662,14 +5662,14 @@
       "origin": "Z003",
       "destination": "Z027",
       "daily_person_trips": 9,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": false
     },
     {
       "origin": "Z004",
       "destination": "Z027",
       "daily_person_trips": 8,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
@@ -5697,7 +5697,7 @@
       "origin": "Z013",
       "destination": "Z027",
       "daily_person_trips": 9,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
@@ -5711,7 +5711,7 @@
       "origin": "Z019",
       "destination": "Z027",
       "daily_person_trips": 86,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -5879,7 +5879,7 @@
       "origin": "Z018",
       "destination": "Z028",
       "daily_person_trips": 18,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -5893,7 +5893,7 @@
       "origin": "Z020",
       "destination": "Z028",
       "daily_person_trips": 52,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -6075,14 +6075,14 @@
       "origin": "Z015",
       "destination": "Z029",
       "daily_person_trips": 18,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
       "origin": "Z016",
       "destination": "Z029",
       "daily_person_trips": 10,
-      "distance_km": 4.034,
+      "distance_km": 4.035,
       "dest_is_cbd": false
     },
     {
@@ -6096,7 +6096,7 @@
       "origin": "Z019",
       "destination": "Z029",
       "daily_person_trips": 156,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -6110,7 +6110,7 @@
       "origin": "Z021",
       "destination": "Z029",
       "daily_person_trips": 115,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -6131,21 +6131,21 @@
       "origin": "Z024",
       "destination": "Z029",
       "daily_person_trips": 14,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": false
     },
     {
       "origin": "Z025",
       "destination": "Z029",
       "daily_person_trips": 13,
-      "distance_km": 3.819,
+      "distance_km": 3.821,
       "dest_is_cbd": false
     },
     {
       "origin": "Z026",
       "destination": "Z029",
       "daily_person_trips": 10,
-      "distance_km": 4.556,
+      "distance_km": 4.558,
       "dest_is_cbd": false
     },
     {
@@ -6158,7 +6158,7 @@
     {
       "origin": "Z028",
       "destination": "Z029",
-      "daily_person_trips": 410,
+      "daily_person_trips": 409,
       "distance_km": 0.749,
       "dest_is_cbd": false
     },
@@ -6180,28 +6180,28 @@
       "origin": "Z032",
       "destination": "Z029",
       "daily_person_trips": 9,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
       "origin": "Z033",
       "destination": "Z029",
       "daily_person_trips": 13,
-      "distance_km": 2.996,
+      "distance_km": 2.997,
       "dest_is_cbd": false
     },
     {
       "origin": "Z034",
       "destination": "Z029",
       "daily_person_trips": 13,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
       "origin": "Z035",
       "destination": "Z029",
       "daily_person_trips": 11,
-      "distance_km": 4.494,
+      "distance_km": 4.495,
       "dest_is_cbd": false
     },
     {
@@ -6229,7 +6229,7 @@
       "origin": "Z039",
       "destination": "Z029",
       "daily_person_trips": 40,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -6425,7 +6425,7 @@
       "origin": "Z071",
       "destination": "Z029",
       "daily_person_trips": 8,
-      "distance_km": 5.403,
+      "distance_km": 5.402,
       "dest_is_cbd": false
     },
     {
@@ -6446,7 +6446,7 @@
       "origin": "Z000",
       "destination": "Z030",
       "daily_person_trips": 12,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": true
     },
     {
@@ -6481,7 +6481,7 @@
       "origin": "Z008",
       "destination": "Z030",
       "daily_person_trips": 9,
-      "distance_km": 4.367,
+      "distance_km": 4.369,
       "dest_is_cbd": true
     },
     {
@@ -6530,14 +6530,14 @@
       "origin": "Z016",
       "destination": "Z030",
       "daily_person_trips": 38,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": true
     },
     {
       "origin": "Z017",
       "destination": "Z030",
       "daily_person_trips": 9,
-      "distance_km": 4.034,
+      "distance_km": 4.035,
       "dest_is_cbd": true
     },
     {
@@ -6558,7 +6558,7 @@
       "origin": "Z020",
       "destination": "Z030",
       "daily_person_trips": 352,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": true
     },
     {
@@ -6572,7 +6572,7 @@
       "origin": "Z022",
       "destination": "Z030",
       "daily_person_trips": 277,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": true
     },
     {
@@ -6593,21 +6593,21 @@
       "origin": "Z025",
       "destination": "Z030",
       "daily_person_trips": 52,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": true
     },
     {
       "origin": "Z026",
       "destination": "Z030",
       "daily_person_trips": 36,
-      "distance_km": 3.819,
+      "distance_km": 3.82,
       "dest_is_cbd": true
     },
     {
       "origin": "Z027",
       "destination": "Z030",
       "daily_person_trips": 93,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": true
     },
     {
@@ -6620,7 +6620,7 @@
     {
       "origin": "Z029",
       "destination": "Z030",
-      "daily_person_trips": 667,
+      "daily_person_trips": 666,
       "distance_km": 0.749,
       "dest_is_cbd": true
     },
@@ -6642,21 +6642,21 @@
       "origin": "Z033",
       "destination": "Z030",
       "daily_person_trips": 59,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": true
     },
     {
       "origin": "Z034",
       "destination": "Z030",
       "daily_person_trips": 51,
-      "distance_km": 2.996,
+      "distance_km": 2.997,
       "dest_is_cbd": true
     },
     {
       "origin": "Z035",
       "destination": "Z030",
       "daily_person_trips": 39,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": true
     },
     {
@@ -6677,7 +6677,7 @@
       "origin": "Z038",
       "destination": "Z030",
       "daily_person_trips": 283,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": true
     },
     {
@@ -6943,21 +6943,21 @@
       "origin": "Z080",
       "destination": "Z030",
       "daily_person_trips": 19,
-      "distance_km": 5.298,
+      "distance_km": 5.297,
       "dest_is_cbd": true
     },
     {
       "origin": "Z000",
       "destination": "Z031",
       "daily_person_trips": 9,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": true
     },
     {
       "origin": "Z001",
       "destination": "Z031",
       "daily_person_trips": 16,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": true
     },
     {
@@ -6985,7 +6985,7 @@
       "origin": "Z008",
       "destination": "Z031",
       "daily_person_trips": 13,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": true
     },
     {
@@ -7041,14 +7041,14 @@
       "origin": "Z017",
       "destination": "Z031",
       "daily_person_trips": 14,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": true
     },
     {
       "origin": "Z018",
       "destination": "Z031",
       "daily_person_trips": 14,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": true
     },
     {
@@ -7069,7 +7069,7 @@
       "origin": "Z021",
       "destination": "Z031",
       "daily_person_trips": 300,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": true
     },
     {
@@ -7083,7 +7083,7 @@
       "origin": "Z023",
       "destination": "Z031",
       "daily_person_trips": 284,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": true
     },
     {
@@ -7096,7 +7096,7 @@
     {
       "origin": "Z025",
       "destination": "Z031",
-      "daily_person_trips": 91,
+      "daily_person_trips": 90,
       "distance_km": 2.369,
       "dest_is_cbd": true
     },
@@ -7104,21 +7104,21 @@
       "origin": "Z026",
       "destination": "Z031",
       "daily_person_trips": 56,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": true
     },
     {
       "origin": "Z027",
       "destination": "Z031",
       "daily_person_trips": 54,
-      "distance_km": 2.996,
+      "distance_km": 2.997,
       "dest_is_cbd": true
     },
     {
       "origin": "Z028",
       "destination": "Z031",
       "daily_person_trips": 119,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": true
     },
     {
@@ -7153,14 +7153,14 @@
       "origin": "Z034",
       "destination": "Z031",
       "daily_person_trips": 92,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": true
     },
     {
       "origin": "Z035",
       "destination": "Z031",
       "daily_person_trips": 62,
-      "distance_km": 2.996,
+      "distance_km": 2.997,
       "dest_is_cbd": true
     },
     {
@@ -7447,14 +7447,14 @@
       "origin": "Z001",
       "destination": "Z032",
       "daily_person_trips": 10,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": true
     },
     {
       "origin": "Z002",
       "destination": "Z032",
       "daily_person_trips": 35,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": true
     },
     {
@@ -7475,14 +7475,14 @@
       "origin": "Z008",
       "destination": "Z032",
       "daily_person_trips": 16,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": true
     },
     {
       "origin": "Z010",
       "destination": "Z032",
       "daily_person_trips": 42,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": true
     },
     {
@@ -7538,14 +7538,14 @@
       "origin": "Z018",
       "destination": "Z032",
       "daily_person_trips": 8,
-      "distance_km": 3.819,
+      "distance_km": 3.82,
       "dest_is_cbd": true
     },
     {
       "origin": "Z019",
       "destination": "Z032",
       "daily_person_trips": 42,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": true
     },
     {
@@ -7566,13 +7566,13 @@
       "origin": "Z022",
       "destination": "Z032",
       "daily_person_trips": 247,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": true
     },
     {
       "origin": "Z023",
       "destination": "Z032",
-      "daily_person_trips": 492,
+      "daily_person_trips": 493,
       "distance_km": 0.749,
       "dest_is_cbd": true
     },
@@ -7580,7 +7580,7 @@
       "origin": "Z024",
       "destination": "Z032",
       "daily_person_trips": 261,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": true
     },
     {
@@ -7601,21 +7601,21 @@
       "origin": "Z027",
       "destination": "Z032",
       "daily_person_trips": 30,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": true
     },
     {
       "origin": "Z028",
       "destination": "Z032",
       "daily_person_trips": 58,
-      "distance_km": 2.996,
+      "distance_km": 2.997,
       "dest_is_cbd": true
     },
     {
       "origin": "Z029",
       "destination": "Z032",
       "daily_person_trips": 66,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": true
     },
     {
@@ -7650,7 +7650,7 @@
       "origin": "Z035",
       "destination": "Z032",
       "daily_person_trips": 96,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": true
     },
     {
@@ -7692,7 +7692,7 @@
       "origin": "Z042",
       "destination": "Z032",
       "daily_person_trips": 247,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": true
     },
     {
@@ -7880,7 +7880,7 @@
     {
       "origin": "Z069",
       "destination": "Z032",
-      "daily_person_trips": 54,
+      "daily_person_trips": 55,
       "distance_km": 3.089,
       "dest_is_cbd": true
     },
@@ -7923,14 +7923,14 @@
       "origin": "Z002",
       "destination": "Z033",
       "daily_person_trips": 12,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
       "origin": "Z003",
       "destination": "Z033",
       "daily_person_trips": 19,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": false
     },
     {
@@ -7951,14 +7951,14 @@
       "origin": "Z010",
       "destination": "Z033",
       "daily_person_trips": 14,
-      "distance_km": 4.034,
+      "distance_km": 4.035,
       "dest_is_cbd": false
     },
     {
       "origin": "Z011",
       "destination": "Z033",
       "daily_person_trips": 18,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
@@ -8007,20 +8007,20 @@
       "origin": "Z019",
       "destination": "Z033",
       "daily_person_trips": 13,
-      "distance_km": 3.819,
+      "distance_km": 3.821,
       "dest_is_cbd": false
     },
     {
       "origin": "Z020",
       "destination": "Z033",
       "daily_person_trips": 18,
-      "distance_km": 3.088,
+      "distance_km": 3.089,
       "dest_is_cbd": false
     },
     {
       "origin": "Z021",
       "destination": "Z033",
-      "daily_person_trips": 26,
+      "daily_person_trips": 25,
       "distance_km": 2.369,
       "dest_is_cbd": false
     },
@@ -8035,7 +8035,7 @@
       "origin": "Z023",
       "destination": "Z033",
       "daily_person_trips": 120,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -8049,7 +8049,7 @@
       "origin": "Z025",
       "destination": "Z033",
       "daily_person_trips": 192,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -8063,28 +8063,28 @@
       "origin": "Z027",
       "destination": "Z033",
       "daily_person_trips": 10,
-      "distance_km": 4.494,
+      "distance_km": 4.495,
       "dest_is_cbd": false
     },
     {
       "origin": "Z028",
       "destination": "Z033",
       "daily_person_trips": 18,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
       "origin": "Z029",
       "destination": "Z033",
       "daily_person_trips": 18,
-      "distance_km": 2.996,
+      "distance_km": 2.997,
       "dest_is_cbd": false
     },
     {
       "origin": "Z030",
       "destination": "Z033",
       "daily_person_trips": 8,
-      "distance_km": 2.247,
+      "distance_km": 2.248,
       "dest_is_cbd": false
     },
     {
@@ -8147,7 +8147,7 @@
       "origin": "Z041",
       "destination": "Z033",
       "daily_person_trips": 32,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -8287,7 +8287,7 @@
       "origin": "Z063",
       "destination": "Z033",
       "daily_person_trips": 8,
-      "distance_km": 5.403,
+      "distance_km": 5.402,
       "dest_is_cbd": false
     },
     {
@@ -8406,7 +8406,7 @@
       "origin": "Z024",
       "destination": "Z034",
       "daily_person_trips": 38,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -8420,7 +8420,7 @@
       "origin": "Z026",
       "destination": "Z034",
       "daily_person_trips": 59,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -8560,7 +8560,7 @@
       "origin": "Z025",
       "destination": "Z035",
       "daily_person_trips": 68,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -8679,14 +8679,14 @@
       "origin": "Z003",
       "destination": "Z036",
       "daily_person_trips": 11,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
       "origin": "Z004",
       "destination": "Z036",
       "daily_person_trips": 10,
-      "distance_km": 4.237,
+      "distance_km": 4.238,
       "dest_is_cbd": false
     },
     {
@@ -8707,21 +8707,21 @@
       "origin": "Z012",
       "destination": "Z036",
       "daily_person_trips": 15,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": false
     },
     {
       "origin": "Z013",
       "destination": "Z036",
       "daily_person_trips": 12,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
       "origin": "Z014",
       "destination": "Z036",
       "daily_person_trips": 8,
-      "distance_km": 4.368,
+      "distance_km": 4.369,
       "dest_is_cbd": false
     },
     {
@@ -8756,7 +8756,7 @@
       "origin": "Z022",
       "destination": "Z036",
       "daily_person_trips": 10,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
@@ -8854,7 +8854,7 @@
       "origin": "Z058",
       "destination": "Z036",
       "daily_person_trips": 11,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
@@ -8882,28 +8882,28 @@
       "origin": "Z066",
       "destination": "Z036",
       "daily_person_trips": 21,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z036",
       "daily_person_trips": 14,
-      "distance_km": 3.746,
+      "distance_km": 3.745,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z036",
       "daily_person_trips": 9,
-      "distance_km": 4.369,
+      "distance_km": 4.368,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z036",
       "daily_person_trips": 8,
-      "distance_km": 5.026,
+      "distance_km": 5.025,
       "dest_is_cbd": false
     },
     {
@@ -9078,7 +9078,7 @@
       "origin": "Z067",
       "destination": "Z037",
       "daily_person_trips": 8,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": false
     },
     {
@@ -9141,14 +9141,14 @@
       "origin": "Z014",
       "destination": "Z038",
       "daily_person_trips": 13,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": false
     },
     {
       "origin": "Z015",
       "destination": "Z038",
       "daily_person_trips": 11,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
@@ -9197,14 +9197,14 @@
       "origin": "Z024",
       "destination": "Z038",
       "daily_person_trips": 9,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
       "origin": "Z025",
       "destination": "Z038",
       "daily_person_trips": 9,
-      "distance_km": 4.034,
+      "distance_km": 4.035,
       "dest_is_cbd": false
     },
     {
@@ -9232,7 +9232,7 @@
       "origin": "Z030",
       "destination": "Z038",
       "daily_person_trips": 24,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -9400,14 +9400,14 @@
       "origin": "Z060",
       "destination": "Z038",
       "daily_person_trips": 11,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
       "origin": "Z061",
       "destination": "Z038",
       "daily_person_trips": 8,
-      "distance_km": 4.035,
+      "distance_km": 4.034,
       "dest_is_cbd": false
     },
     {
@@ -9449,7 +9449,7 @@
       "origin": "Z068",
       "destination": "Z038",
       "daily_person_trips": 15,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": false
     },
     {
@@ -9463,7 +9463,7 @@
       "origin": "Z070",
       "destination": "Z038",
       "daily_person_trips": 8,
-      "distance_km": 4.369,
+      "distance_km": 4.368,
       "dest_is_cbd": false
     },
     {
@@ -9484,7 +9484,7 @@
       "origin": "Z000",
       "destination": "Z039",
       "daily_person_trips": 8,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": true
     },
     {
@@ -9554,14 +9554,14 @@
       "origin": "Z015",
       "destination": "Z039",
       "daily_person_trips": 44,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": true
     },
     {
       "origin": "Z016",
       "destination": "Z039",
       "daily_person_trips": 26,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": true
     },
     {
@@ -9617,14 +9617,14 @@
       "origin": "Z025",
       "destination": "Z039",
       "daily_person_trips": 38,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": true
     },
     {
       "origin": "Z026",
       "destination": "Z039",
       "daily_person_trips": 28,
-      "distance_km": 4.034,
+      "distance_km": 4.035,
       "dest_is_cbd": true
     },
     {
@@ -9645,7 +9645,7 @@
       "origin": "Z029",
       "destination": "Z039",
       "daily_person_trips": 288,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": true
     },
     {
@@ -9862,21 +9862,21 @@
       "origin": "Z061",
       "destination": "Z039",
       "daily_person_trips": 33,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": true
     },
     {
       "origin": "Z062",
       "destination": "Z039",
       "daily_person_trips": 22,
-      "distance_km": 4.035,
+      "distance_km": 4.034,
       "dest_is_cbd": true
     },
     {
       "origin": "Z063",
       "destination": "Z039",
       "daily_person_trips": 47,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": true
     },
     {
@@ -9918,21 +9918,21 @@
       "origin": "Z069",
       "destination": "Z039",
       "daily_person_trips": 50,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": true
     },
     {
       "origin": "Z070",
       "destination": "Z039",
       "daily_person_trips": 32,
-      "distance_km": 3.746,
+      "distance_km": 3.745,
       "dest_is_cbd": true
     },
     {
       "origin": "Z071",
       "destination": "Z039",
       "daily_person_trips": 26,
-      "distance_km": 4.369,
+      "distance_km": 4.368,
       "dest_is_cbd": true
     },
     {
@@ -9967,21 +9967,21 @@
       "origin": "Z080",
       "destination": "Z039",
       "daily_person_trips": 20,
-      "distance_km": 4.798,
+      "distance_km": 4.796,
       "dest_is_cbd": true
     },
     {
       "origin": "Z000",
       "destination": "Z040",
-      "daily_person_trips": 9,
-      "distance_km": 4.237,
+      "daily_person_trips": 8,
+      "distance_km": 4.238,
       "dest_is_cbd": true
     },
     {
       "origin": "Z001",
       "destination": "Z040",
       "daily_person_trips": 14,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": true
     },
     {
@@ -10009,14 +10009,14 @@
       "origin": "Z008",
       "destination": "Z040",
       "daily_person_trips": 12,
-      "distance_km": 4.237,
+      "distance_km": 4.238,
       "dest_is_cbd": true
     },
     {
       "origin": "Z010",
       "destination": "Z040",
       "daily_person_trips": 66,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": true
     },
     {
@@ -10058,21 +10058,21 @@
       "origin": "Z016",
       "destination": "Z040",
       "daily_person_trips": 53,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": true
     },
     {
       "origin": "Z017",
       "destination": "Z040",
       "daily_person_trips": 14,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": true
     },
     {
       "origin": "Z018",
       "destination": "Z040",
       "daily_person_trips": 15,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": true
     },
     {
@@ -10128,7 +10128,7 @@
       "origin": "Z026",
       "destination": "Z040",
       "daily_person_trips": 58,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": true
     },
     {
@@ -10317,7 +10317,7 @@
       "origin": "Z054",
       "destination": "Z040",
       "daily_person_trips": 20,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": true
     },
     {
@@ -10373,21 +10373,21 @@
       "origin": "Z062",
       "destination": "Z040",
       "daily_person_trips": 45,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": true
     },
     {
       "origin": "Z063",
       "destination": "Z040",
       "daily_person_trips": 49,
-      "distance_km": 3.746,
+      "distance_km": 3.745,
       "dest_is_cbd": true
     },
     {
       "origin": "Z064",
       "destination": "Z040",
-      "daily_person_trips": 72,
-      "distance_km": 3.179,
+      "daily_person_trips": 73,
+      "distance_km": 3.178,
       "dest_is_cbd": true
     },
     {
@@ -10429,21 +10429,21 @@
       "origin": "Z070",
       "destination": "Z040",
       "daily_person_trips": 64,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": true
     },
     {
       "origin": "Z071",
       "destination": "Z040",
       "daily_person_trips": 51,
-      "distance_km": 3.746,
+      "distance_km": 3.745,
       "dest_is_cbd": true
     },
     {
       "origin": "Z072",
       "destination": "Z040",
       "daily_person_trips": 10,
-      "distance_km": 4.238,
+      "distance_km": 4.237,
       "dest_is_cbd": true
     },
     {
@@ -10471,21 +10471,21 @@
       "origin": "Z080",
       "destination": "Z040",
       "daily_person_trips": 37,
-      "distance_km": 4.238,
+      "distance_km": 4.237,
       "dest_is_cbd": true
     },
     {
       "origin": "Z001",
       "destination": "Z041",
       "daily_person_trips": 9,
-      "distance_km": 4.237,
+      "distance_km": 4.238,
       "dest_is_cbd": true
     },
     {
       "origin": "Z002",
       "destination": "Z041",
       "daily_person_trips": 29,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": true
     },
     {
@@ -10506,21 +10506,21 @@
       "origin": "Z008",
       "destination": "Z041",
       "daily_person_trips": 13,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": true
     },
     {
       "origin": "Z010",
       "destination": "Z041",
       "daily_person_trips": 39,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": true
     },
     {
       "origin": "Z011",
       "destination": "Z041",
       "daily_person_trips": 46,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": true
     },
     {
@@ -10562,21 +10562,21 @@
       "origin": "Z017",
       "destination": "Z041",
       "daily_person_trips": 16,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": true
     },
     {
       "origin": "Z018",
       "destination": "Z041",
       "daily_person_trips": 8,
-      "distance_km": 4.034,
+      "distance_km": 4.035,
       "dest_is_cbd": true
     },
     {
       "origin": "Z019",
       "destination": "Z041",
       "daily_person_trips": 41,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": true
     },
     {
@@ -10674,7 +10674,7 @@
       "origin": "Z033",
       "destination": "Z041",
       "daily_person_trips": 272,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": true
     },
     {
@@ -10814,14 +10814,14 @@
       "origin": "Z054",
       "destination": "Z041",
       "daily_person_trips": 11,
-      "distance_km": 4.035,
+      "distance_km": 4.034,
       "dest_is_cbd": true
     },
     {
       "origin": "Z055",
       "destination": "Z041",
       "daily_person_trips": 42,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": true
     },
     {
@@ -10877,21 +10877,21 @@
       "origin": "Z063",
       "destination": "Z041",
       "daily_person_trips": 29,
-      "distance_km": 4.369,
+      "distance_km": 4.368,
       "dest_is_cbd": true
     },
     {
       "origin": "Z064",
       "destination": "Z041",
       "daily_person_trips": 42,
-      "distance_km": 3.746,
+      "distance_km": 3.745,
       "dest_is_cbd": true
     },
     {
       "origin": "Z065",
       "destination": "Z041",
       "daily_person_trips": 54,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": true
     },
     {
@@ -10933,7 +10933,7 @@
       "origin": "Z071",
       "destination": "Z041",
       "daily_person_trips": 58,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": true
     },
     {
@@ -10968,14 +10968,14 @@
       "origin": "Z002",
       "destination": "Z042",
       "daily_person_trips": 10,
-      "distance_km": 4.237,
+      "distance_km": 4.238,
       "dest_is_cbd": false
     },
     {
       "origin": "Z003",
       "destination": "Z042",
       "daily_person_trips": 13,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
@@ -10989,21 +10989,21 @@
       "origin": "Z010",
       "destination": "Z042",
       "daily_person_trips": 12,
-      "distance_km": 4.368,
+      "distance_km": 4.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z011",
       "destination": "Z042",
       "daily_person_trips": 14,
-      "distance_km": 3.745,
+      "distance_km": 3.746,
       "dest_is_cbd": false
     },
     {
       "origin": "Z012",
       "destination": "Z042",
       "daily_person_trips": 18,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": false
     },
     {
@@ -11045,14 +11045,14 @@
       "origin": "Z019",
       "destination": "Z042",
       "daily_person_trips": 12,
-      "distance_km": 4.034,
+      "distance_km": 4.035,
       "dest_is_cbd": false
     },
     {
       "origin": "Z020",
       "destination": "Z042",
       "daily_person_trips": 15,
-      "distance_km": 3.35,
+      "distance_km": 3.351,
       "dest_is_cbd": false
     },
     {
@@ -11129,7 +11129,7 @@
       "origin": "Z032",
       "destination": "Z042",
       "daily_person_trips": 43,
-      "distance_km": 1.059,
+      "distance_km": 1.06,
       "dest_is_cbd": false
     },
     {
@@ -11262,14 +11262,14 @@
       "origin": "Z055",
       "destination": "Z042",
       "daily_person_trips": 12,
-      "distance_km": 4.035,
+      "distance_km": 4.034,
       "dest_is_cbd": false
     },
     {
       "origin": "Z056",
       "destination": "Z042",
       "daily_person_trips": 12,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
@@ -11318,14 +11318,14 @@
       "origin": "Z063",
       "destination": "Z042",
       "daily_person_trips": 9,
-      "distance_km": 5.026,
+      "distance_km": 5.025,
       "dest_is_cbd": false
     },
     {
       "origin": "Z064",
       "destination": "Z042",
       "daily_person_trips": 13,
-      "distance_km": 4.369,
+      "distance_km": 4.368,
       "dest_is_cbd": false
     },
     {
@@ -11339,7 +11339,7 @@
       "origin": "Z066",
       "destination": "Z042",
       "daily_person_trips": 25,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": false
     },
     {
@@ -11556,7 +11556,7 @@
       "origin": "Z014",
       "destination": "Z044",
       "daily_person_trips": 8,
-      "distance_km": 3.178,
+      "distance_km": 3.179,
       "dest_is_cbd": false
     },
     {
@@ -11675,7 +11675,7 @@
       "origin": "Z068",
       "destination": "Z044",
       "daily_person_trips": 8,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": false
     },
     {
@@ -11801,7 +11801,7 @@
       "origin": "Z055",
       "destination": "Z045",
       "daily_person_trips": 62,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -11843,7 +11843,7 @@
       "origin": "Z066",
       "destination": "Z045",
       "daily_person_trips": 12,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
@@ -11934,7 +11934,7 @@
       "origin": "Z054",
       "destination": "Z046",
       "daily_person_trips": 21,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -11948,7 +11948,7 @@
       "origin": "Z056",
       "destination": "Z046",
       "daily_person_trips": 35,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -11997,7 +11997,7 @@
       "origin": "Z067",
       "destination": "Z046",
       "daily_person_trips": 10,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
@@ -12242,14 +12242,14 @@
       "origin": "Z051",
       "destination": "Z047",
       "daily_person_trips": 12,
-      "distance_km": 2.997,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
       "origin": "Z052",
       "destination": "Z047",
       "daily_person_trips": 12,
-      "distance_km": 3.746,
+      "distance_km": 3.745,
       "dest_is_cbd": false
     },
     {
@@ -12263,7 +12263,7 @@
       "origin": "Z055",
       "destination": "Z047",
       "daily_person_trips": 127,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -12277,7 +12277,7 @@
       "origin": "Z057",
       "destination": "Z047",
       "daily_person_trips": 86,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -12305,7 +12305,7 @@
       "origin": "Z061",
       "destination": "Z047",
       "daily_person_trips": 9,
-      "distance_km": 3.821,
+      "distance_km": 3.82,
       "dest_is_cbd": false
     },
     {
@@ -12347,28 +12347,28 @@
       "origin": "Z068",
       "destination": "Z047",
       "daily_person_trips": 21,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z047",
       "daily_person_trips": 16,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
       "origin": "Z070",
       "destination": "Z047",
       "daily_person_trips": 10,
-      "distance_km": 4.035,
+      "distance_km": 4.034,
       "dest_is_cbd": false
     },
     {
       "origin": "Z071",
       "destination": "Z047",
       "daily_person_trips": 8,
-      "distance_km": 4.739,
+      "distance_km": 4.737,
       "dest_is_cbd": false
     },
     {
@@ -12382,7 +12382,7 @@
       "origin": "Z078",
       "destination": "Z047",
       "daily_person_trips": 12,
-      "distance_km": 3.746,
+      "distance_km": 3.745,
       "dest_is_cbd": false
     },
     {
@@ -12655,13 +12655,13 @@
       "origin": "Z045",
       "destination": "Z048",
       "daily_person_trips": 110,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": true
     },
     {
       "origin": "Z046",
       "destination": "Z048",
-      "daily_person_trips": 230,
+      "daily_person_trips": 231,
       "distance_km": 1.498,
       "dest_is_cbd": true
     },
@@ -12690,21 +12690,21 @@
       "origin": "Z051",
       "destination": "Z048",
       "daily_person_trips": 78,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": true
     },
     {
       "origin": "Z052",
       "destination": "Z048",
       "daily_person_trips": 69,
-      "distance_km": 2.997,
+      "distance_km": 2.996,
       "dest_is_cbd": true
     },
     {
       "origin": "Z053",
       "destination": "Z048",
       "daily_person_trips": 38,
-      "distance_km": 3.746,
+      "distance_km": 3.745,
       "dest_is_cbd": true
     },
     {
@@ -12725,7 +12725,7 @@
       "origin": "Z056",
       "destination": "Z048",
       "daily_person_trips": 300,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": true
     },
     {
@@ -12739,7 +12739,7 @@
       "origin": "Z058",
       "destination": "Z048",
       "daily_person_trips": 335,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": true
     },
     {
@@ -12760,21 +12760,21 @@
       "origin": "Z061",
       "destination": "Z048",
       "daily_person_trips": 50,
-      "distance_km": 3.089,
+      "distance_km": 3.088,
       "dest_is_cbd": true
     },
     {
       "origin": "Z062",
       "destination": "Z048",
       "daily_person_trips": 31,
-      "distance_km": 3.821,
+      "distance_km": 3.819,
       "dest_is_cbd": true
     },
     {
       "origin": "Z063",
       "destination": "Z048",
       "daily_person_trips": 84,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": true
     },
     {
@@ -12816,28 +12816,28 @@
       "origin": "Z069",
       "destination": "Z048",
       "daily_person_trips": 90,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": true
     },
     {
       "origin": "Z070",
       "destination": "Z048",
       "daily_person_trips": 51,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": true
     },
     {
       "origin": "Z071",
       "destination": "Z048",
       "daily_person_trips": 39,
-      "distance_km": 4.035,
+      "distance_km": 4.034,
       "dest_is_cbd": true
     },
     {
       "origin": "Z072",
       "destination": "Z048",
       "daily_person_trips": 16,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": true
     },
     {
@@ -12858,14 +12858,14 @@
       "origin": "Z078",
       "destination": "Z048",
       "daily_person_trips": 62,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": true
     },
     {
       "origin": "Z080",
       "destination": "Z048",
       "daily_person_trips": 31,
-      "distance_km": 4.369,
+      "distance_km": 4.368,
       "dest_is_cbd": true
     },
     {
@@ -13145,14 +13145,14 @@
       "origin": "Z045",
       "destination": "Z049",
       "daily_person_trips": 51,
-      "distance_km": 2.997,
+      "distance_km": 2.996,
       "dest_is_cbd": true
     },
     {
       "origin": "Z046",
       "destination": "Z049",
       "daily_person_trips": 85,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": true
     },
     {
@@ -13187,21 +13187,21 @@
       "origin": "Z052",
       "destination": "Z049",
       "daily_person_trips": 102,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": true
     },
     {
       "origin": "Z053",
       "destination": "Z049",
       "daily_person_trips": 49,
-      "distance_km": 2.997,
+      "distance_km": 2.996,
       "dest_is_cbd": true
     },
     {
       "origin": "Z054",
       "destination": "Z049",
       "daily_person_trips": 17,
-      "distance_km": 3.089,
+      "distance_km": 3.088,
       "dest_is_cbd": true
     },
     {
@@ -13222,13 +13222,13 @@
       "origin": "Z057",
       "destination": "Z049",
       "daily_person_trips": 258,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": true
     },
     {
       "origin": "Z058",
       "destination": "Z049",
-      "daily_person_trips": 554,
+      "daily_person_trips": 553,
       "distance_km": 0.749,
       "dest_is_cbd": true
     },
@@ -13236,7 +13236,7 @@
       "origin": "Z059",
       "destination": "Z049",
       "daily_person_trips": 232,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": true
     },
     {
@@ -13257,21 +13257,21 @@
       "origin": "Z062",
       "destination": "Z049",
       "daily_person_trips": 39,
-      "distance_km": 3.089,
+      "distance_km": 3.088,
       "dest_is_cbd": true
     },
     {
       "origin": "Z063",
       "destination": "Z049",
       "daily_person_trips": 45,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": true
     },
     {
       "origin": "Z064",
       "destination": "Z049",
       "daily_person_trips": 74,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": true
     },
     {
@@ -13313,21 +13313,21 @@
       "origin": "Z070",
       "destination": "Z049",
       "daily_person_trips": 65,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": true
     },
     {
       "origin": "Z071",
       "destination": "Z049",
       "daily_person_trips": 47,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": true
     },
     {
       "origin": "Z072",
       "destination": "Z049",
       "daily_person_trips": 10,
-      "distance_km": 3.746,
+      "distance_km": 3.745,
       "dest_is_cbd": true
     },
     {
@@ -13355,7 +13355,7 @@
       "origin": "Z080",
       "destination": "Z049",
       "daily_person_trips": 35,
-      "distance_km": 3.746,
+      "distance_km": 3.745,
       "dest_is_cbd": true
     },
     {
@@ -13621,21 +13621,21 @@
       "origin": "Z045",
       "destination": "Z050",
       "daily_person_trips": 29,
-      "distance_km": 3.746,
+      "distance_km": 3.745,
       "dest_is_cbd": true
     },
     {
       "origin": "Z046",
       "destination": "Z050",
       "daily_person_trips": 42,
-      "distance_km": 2.997,
+      "distance_km": 2.996,
       "dest_is_cbd": true
     },
     {
       "origin": "Z047",
       "destination": "Z050",
       "daily_person_trips": 49,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": true
     },
     {
@@ -13670,27 +13670,27 @@
       "origin": "Z053",
       "destination": "Z050",
       "daily_person_trips": 77,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": true
     },
     {
       "origin": "Z054",
       "destination": "Z050",
       "daily_person_trips": 10,
-      "distance_km": 3.821,
+      "distance_km": 3.819,
       "dest_is_cbd": true
     },
     {
       "origin": "Z055",
       "destination": "Z050",
       "daily_person_trips": 39,
-      "distance_km": 3.089,
+      "distance_km": 3.088,
       "dest_is_cbd": true
     },
     {
       "origin": "Z056",
       "destination": "Z050",
-      "daily_person_trips": 43,
+      "daily_person_trips": 44,
       "distance_km": 2.369,
       "dest_is_cbd": true
     },
@@ -13705,7 +13705,7 @@
       "origin": "Z058",
       "destination": "Z050",
       "daily_person_trips": 243,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": true
     },
     {
@@ -13719,7 +13719,7 @@
       "origin": "Z060",
       "destination": "Z050",
       "daily_person_trips": 295,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": true
     },
     {
@@ -13740,21 +13740,21 @@
       "origin": "Z063",
       "destination": "Z050",
       "daily_person_trips": 27,
-      "distance_km": 4.035,
+      "distance_km": 4.034,
       "dest_is_cbd": true
     },
     {
       "origin": "Z064",
       "destination": "Z050",
       "daily_person_trips": 42,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": true
     },
     {
       "origin": "Z065",
       "destination": "Z050",
       "daily_person_trips": 60,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": true
     },
     {
@@ -13795,15 +13795,15 @@
     {
       "origin": "Z071",
       "destination": "Z050",
-      "daily_person_trips": 63,
-      "distance_km": 2.702,
+      "daily_person_trips": 64,
+      "distance_km": 2.701,
       "dest_is_cbd": true
     },
     {
       "origin": "Z074",
       "destination": "Z050",
       "daily_person_trips": 42,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": true
     },
     {
@@ -13824,7 +13824,7 @@
       "origin": "Z080",
       "destination": "Z050",
       "daily_person_trips": 42,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": true
     },
     {
@@ -14048,14 +14048,14 @@
       "origin": "Z046",
       "destination": "Z051",
       "daily_person_trips": 12,
-      "distance_km": 3.746,
+      "distance_km": 3.745,
       "dest_is_cbd": false
     },
     {
       "origin": "Z047",
       "destination": "Z051",
       "daily_person_trips": 12,
-      "distance_km": 2.997,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
@@ -14075,7 +14075,7 @@
     {
       "origin": "Z052",
       "destination": "Z051",
-      "daily_person_trips": 350,
+      "daily_person_trips": 351,
       "distance_km": 0.749,
       "dest_is_cbd": false
     },
@@ -14090,7 +14090,7 @@
       "origin": "Z055",
       "destination": "Z051",
       "daily_person_trips": 11,
-      "distance_km": 3.821,
+      "distance_km": 3.82,
       "dest_is_cbd": false
     },
     {
@@ -14118,7 +14118,7 @@
       "origin": "Z059",
       "destination": "Z051",
       "daily_person_trips": 89,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -14132,7 +14132,7 @@
       "origin": "Z061",
       "destination": "Z051",
       "daily_person_trips": 135,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -14146,28 +14146,28 @@
       "origin": "Z063",
       "destination": "Z051",
       "daily_person_trips": 9,
-      "distance_km": 4.739,
+      "distance_km": 4.737,
       "dest_is_cbd": false
     },
     {
       "origin": "Z064",
       "destination": "Z051",
       "daily_person_trips": 13,
-      "distance_km": 4.035,
+      "distance_km": 4.034,
       "dest_is_cbd": false
     },
     {
       "origin": "Z065",
       "destination": "Z051",
       "daily_person_trips": 17,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z051",
       "daily_person_trips": 29,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
@@ -14180,7 +14180,7 @@
     {
       "origin": "Z068",
       "destination": "Z051",
-      "daily_person_trips": 63,
+      "daily_person_trips": 62,
       "distance_km": 1.675,
       "dest_is_cbd": false
     },
@@ -14209,7 +14209,7 @@
       "origin": "Z074",
       "destination": "Z051",
       "daily_person_trips": 13,
-      "distance_km": 3.746,
+      "distance_km": 3.745,
       "dest_is_cbd": false
     },
     {
@@ -14307,7 +14307,7 @@
       "origin": "Z060",
       "destination": "Z052",
       "daily_person_trips": 38,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -14321,14 +14321,14 @@
       "origin": "Z062",
       "destination": "Z052",
       "daily_person_trips": 38,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z052",
       "daily_person_trips": 8,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
@@ -14454,7 +14454,7 @@
       "origin": "Z061",
       "destination": "Z053",
       "daily_person_trips": 55,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -14468,7 +14468,7 @@
       "origin": "Z068",
       "destination": "Z053",
       "daily_person_trips": 10,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
@@ -14586,7 +14586,7 @@
     {
       "origin": "Z045",
       "destination": "Z054",
-      "daily_person_trips": 301,
+      "daily_person_trips": 300,
       "distance_km": 0.749,
       "dest_is_cbd": false
     },
@@ -14594,7 +14594,7 @@
       "origin": "Z046",
       "destination": "Z054",
       "daily_person_trips": 140,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -14615,21 +14615,21 @@
       "origin": "Z056",
       "destination": "Z054",
       "daily_person_trips": 45,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z057",
       "destination": "Z054",
       "daily_person_trips": 21,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z058",
       "destination": "Z054",
       "daily_person_trips": 13,
-      "distance_km": 2.997,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
@@ -14643,42 +14643,42 @@
       "origin": "Z064",
       "destination": "Z054",
       "daily_person_trips": 177,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z065",
       "destination": "Z054",
       "daily_person_trips": 65,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z054",
       "daily_person_trips": 35,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z054",
       "daily_person_trips": 19,
-      "distance_km": 3.09,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z054",
       "daily_person_trips": 11,
-      "distance_km": 3.821,
+      "distance_km": 3.819,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z054",
       "daily_person_trips": 10,
-      "distance_km": 4.558,
+      "distance_km": 4.556,
       "dest_is_cbd": false
     },
     {
@@ -14699,7 +14699,7 @@
       "origin": "Z078",
       "destination": "Z054",
       "daily_person_trips": 8,
-      "distance_km": 4.74,
+      "distance_km": 4.737,
       "dest_is_cbd": false
     },
     {
@@ -14741,7 +14741,7 @@
       "origin": "Z045",
       "destination": "Z055",
       "daily_person_trips": 66,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -14755,7 +14755,7 @@
       "origin": "Z047",
       "destination": "Z055",
       "daily_person_trips": 40,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -14768,7 +14768,7 @@
     {
       "origin": "Z056",
       "destination": "Z055",
-      "daily_person_trips": 79,
+      "daily_person_trips": 80,
       "distance_km": 0.749,
       "dest_is_cbd": false
     },
@@ -14776,21 +14776,21 @@
       "origin": "Z057",
       "destination": "Z055",
       "daily_person_trips": 21,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z058",
       "destination": "Z055",
       "daily_person_trips": 10,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z063",
       "destination": "Z055",
       "daily_person_trips": 73,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -14804,28 +14804,28 @@
       "origin": "Z065",
       "destination": "Z055",
       "daily_person_trips": 71,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z055",
       "daily_person_trips": 31,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z055",
       "daily_person_trips": 14,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z055",
       "daily_person_trips": 8,
-      "distance_km": 3.09,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
@@ -14986,14 +14986,14 @@
       "origin": "Z042",
       "destination": "Z056",
       "daily_person_trips": 9,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
       "origin": "Z043",
       "destination": "Z056",
       "daily_person_trips": 9,
-      "distance_km": 4.035,
+      "distance_km": 4.034,
       "dest_is_cbd": false
     },
     {
@@ -15007,7 +15007,7 @@
       "origin": "Z046",
       "destination": "Z056",
       "daily_person_trips": 139,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -15021,7 +15021,7 @@
       "origin": "Z048",
       "destination": "Z056",
       "daily_person_trips": 26,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -15042,21 +15042,21 @@
       "origin": "Z052",
       "destination": "Z056",
       "daily_person_trips": 13,
-      "distance_km": 3.821,
+      "distance_km": 3.82,
       "dest_is_cbd": false
     },
     {
       "origin": "Z053",
       "destination": "Z056",
       "daily_person_trips": 8,
-      "distance_km": 4.558,
+      "distance_km": 4.556,
       "dest_is_cbd": false
     },
     {
       "origin": "Z054",
       "destination": "Z056",
       "daily_person_trips": 27,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
@@ -15077,42 +15077,42 @@
       "origin": "Z058",
       "destination": "Z056",
       "daily_person_trips": 51,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z059",
       "destination": "Z056",
       "daily_person_trips": 19,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z060",
       "destination": "Z056",
       "daily_person_trips": 15,
-      "distance_km": 2.997,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
       "origin": "Z061",
       "destination": "Z056",
       "daily_person_trips": 10,
-      "distance_km": 3.747,
+      "distance_km": 3.745,
       "dest_is_cbd": false
     },
     {
       "origin": "Z063",
       "destination": "Z056",
       "daily_person_trips": 66,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z064",
       "destination": "Z056",
       "daily_person_trips": 176,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -15126,42 +15126,42 @@
       "origin": "Z066",
       "destination": "Z056",
       "daily_person_trips": 177,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z056",
-      "daily_person_trips": 65,
-      "distance_km": 1.676,
+      "daily_person_trips": 66,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z056",
       "daily_person_trips": 30,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z056",
       "daily_person_trips": 21,
-      "distance_km": 3.09,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
       "origin": "Z070",
       "destination": "Z056",
       "daily_person_trips": 12,
-      "distance_km": 3.821,
+      "distance_km": 3.819,
       "dest_is_cbd": false
     },
     {
       "origin": "Z071",
       "destination": "Z056",
       "daily_person_trips": 9,
-      "distance_km": 4.558,
+      "distance_km": 4.556,
       "dest_is_cbd": false
     },
     {
@@ -15189,14 +15189,14 @@
       "origin": "Z078",
       "destination": "Z056",
       "daily_person_trips": 17,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
       "origin": "Z080",
       "destination": "Z056",
       "daily_person_trips": 8,
-      "distance_km": 4.74,
+      "distance_km": 4.737,
       "dest_is_cbd": false
     },
     {
@@ -15378,14 +15378,14 @@
       "origin": "Z043",
       "destination": "Z057",
       "daily_person_trips": 13,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
       "origin": "Z044",
       "destination": "Z057",
       "daily_person_trips": 9,
-      "distance_km": 4.035,
+      "distance_km": 4.034,
       "dest_is_cbd": false
     },
     {
@@ -15406,7 +15406,7 @@
       "origin": "Z047",
       "destination": "Z057",
       "daily_person_trips": 90,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -15420,7 +15420,7 @@
       "origin": "Z049",
       "destination": "Z057",
       "daily_person_trips": 24,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -15441,28 +15441,28 @@
       "origin": "Z052",
       "destination": "Z057",
       "daily_person_trips": 19,
-      "distance_km": 3.089,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
       "origin": "Z053",
       "destination": "Z057",
       "daily_person_trips": 11,
-      "distance_km": 3.821,
+      "distance_km": 3.819,
       "dest_is_cbd": false
     },
     {
       "origin": "Z054",
       "destination": "Z057",
       "daily_person_trips": 12,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z055",
       "destination": "Z057",
       "daily_person_trips": 68,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
@@ -15483,49 +15483,49 @@
       "origin": "Z059",
       "destination": "Z057",
       "daily_person_trips": 42,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z060",
       "destination": "Z057",
       "daily_person_trips": 27,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z061",
       "destination": "Z057",
       "daily_person_trips": 16,
-      "distance_km": 2.997,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
       "origin": "Z062",
       "destination": "Z057",
       "daily_person_trips": 10,
-      "distance_km": 3.747,
+      "distance_km": 3.745,
       "dest_is_cbd": false
     },
     {
       "origin": "Z063",
       "destination": "Z057",
       "daily_person_trips": 33,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z064",
       "destination": "Z057",
       "daily_person_trips": 69,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z065",
       "destination": "Z057",
       "daily_person_trips": 159,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -15539,35 +15539,35 @@
       "origin": "Z067",
       "destination": "Z057",
       "daily_person_trips": 161,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z057",
       "daily_person_trips": 59,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z057",
       "daily_person_trips": 35,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z070",
       "destination": "Z057",
       "daily_person_trips": 18,
-      "distance_km": 3.09,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
       "origin": "Z071",
       "destination": "Z057",
       "daily_person_trips": 13,
-      "distance_km": 3.821,
+      "distance_km": 3.819,
       "dest_is_cbd": false
     },
     {
@@ -15587,15 +15587,15 @@
     {
       "origin": "Z078",
       "destination": "Z057",
-      "daily_person_trips": 25,
-      "distance_km": 2.702,
+      "daily_person_trips": 26,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
       "origin": "Z080",
       "destination": "Z057",
       "daily_person_trips": 11,
-      "distance_km": 4.036,
+      "distance_km": 4.033,
       "dest_is_cbd": false
     },
     {
@@ -15833,14 +15833,14 @@
       "origin": "Z044",
       "destination": "Z058",
       "daily_person_trips": 18,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
       "origin": "Z045",
       "destination": "Z058",
       "daily_person_trips": 23,
-      "distance_km": 3.089,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
@@ -15861,13 +15861,13 @@
       "origin": "Z048",
       "destination": "Z058",
       "daily_person_trips": 34,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z049",
       "destination": "Z058",
-      "daily_person_trips": 63,
+      "daily_person_trips": 62,
       "distance_km": 0.749,
       "dest_is_cbd": false
     },
@@ -15875,7 +15875,7 @@
       "origin": "Z050",
       "destination": "Z058",
       "daily_person_trips": 33,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -15896,28 +15896,28 @@
       "origin": "Z053",
       "destination": "Z058",
       "daily_person_trips": 22,
-      "distance_km": 3.089,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
       "origin": "Z054",
       "destination": "Z058",
       "daily_person_trips": 9,
-      "distance_km": 2.997,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
       "origin": "Z055",
       "destination": "Z058",
       "daily_person_trips": 40,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z056",
       "destination": "Z058",
       "daily_person_trips": 59,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
@@ -15938,49 +15938,49 @@
       "origin": "Z060",
       "destination": "Z058",
       "daily_person_trips": 80,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z061",
       "destination": "Z058",
       "daily_person_trips": 37,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z062",
       "destination": "Z058",
       "daily_person_trips": 20,
-      "distance_km": 2.997,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
       "origin": "Z063",
       "destination": "Z058",
       "daily_person_trips": 25,
-      "distance_km": 3.09,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
       "origin": "Z064",
       "destination": "Z058",
       "daily_person_trips": 46,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z065",
       "destination": "Z058",
       "daily_person_trips": 84,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z058",
       "daily_person_trips": 229,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -15994,28 +15994,28 @@
       "origin": "Z068",
       "destination": "Z058",
       "daily_person_trips": 193,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z058",
       "daily_person_trips": 91,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z070",
       "destination": "Z058",
       "daily_person_trips": 40,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z071",
       "destination": "Z058",
       "daily_person_trips": 26,
-      "distance_km": 3.09,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
@@ -16043,7 +16043,7 @@
       "origin": "Z080",
       "destination": "Z058",
       "daily_person_trips": 21,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
@@ -16218,7 +16218,7 @@
       "origin": "Z037",
       "destination": "Z059",
       "daily_person_trips": 22,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
@@ -16274,14 +16274,14 @@
       "origin": "Z045",
       "destination": "Z059",
       "daily_person_trips": 15,
-      "distance_km": 3.821,
+      "distance_km": 3.819,
       "dest_is_cbd": false
     },
     {
       "origin": "Z046",
       "destination": "Z059",
       "daily_person_trips": 21,
-      "distance_km": 3.089,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
@@ -16302,7 +16302,7 @@
       "origin": "Z049",
       "destination": "Z059",
       "daily_person_trips": 31,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -16316,7 +16316,7 @@
       "origin": "Z051",
       "destination": "Z059",
       "daily_person_trips": 136,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -16337,21 +16337,21 @@
       "origin": "Z055",
       "destination": "Z059",
       "daily_person_trips": 22,
-      "distance_km": 2.997,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
       "origin": "Z056",
       "destination": "Z059",
       "daily_person_trips": 26,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z057",
       "destination": "Z059",
       "daily_person_trips": 60,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
@@ -16372,49 +16372,49 @@
       "origin": "Z061",
       "destination": "Z059",
       "daily_person_trips": 83,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z062",
       "destination": "Z059",
       "daily_person_trips": 35,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z063",
       "destination": "Z059",
       "daily_person_trips": 16,
-      "distance_km": 3.821,
+      "distance_km": 3.819,
       "dest_is_cbd": false
     },
     {
       "origin": "Z064",
       "destination": "Z059",
       "daily_person_trips": 27,
-      "distance_km": 3.09,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
       "origin": "Z065",
       "destination": "Z059",
       "daily_person_trips": 41,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z059",
       "daily_person_trips": 91,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z059",
       "daily_person_trips": 210,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -16428,28 +16428,28 @@
       "origin": "Z069",
       "destination": "Z059",
       "daily_person_trips": 226,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z070",
       "destination": "Z059",
       "daily_person_trips": 79,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z071",
       "destination": "Z059",
       "daily_person_trips": 44,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z074",
       "destination": "Z059",
       "daily_person_trips": 31,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
@@ -16477,7 +16477,7 @@
       "origin": "Z080",
       "destination": "Z059",
       "daily_person_trips": 31,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
@@ -16491,7 +16491,7 @@
       "origin": "Z010",
       "destination": "Z060",
       "daily_person_trips": 8,
-      "distance_km": 5.297,
+      "distance_km": 5.298,
       "dest_is_cbd": false
     },
     {
@@ -16638,14 +16638,14 @@
       "origin": "Z037",
       "destination": "Z060",
       "daily_person_trips": 14,
-      "distance_km": 4.035,
+      "distance_km": 4.034,
       "dest_is_cbd": false
     },
     {
       "origin": "Z038",
       "destination": "Z060",
       "daily_person_trips": 11,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
@@ -16680,14 +16680,14 @@
       "origin": "Z045",
       "destination": "Z060",
       "daily_person_trips": 10,
-      "distance_km": 4.558,
+      "distance_km": 4.556,
       "dest_is_cbd": false
     },
     {
       "origin": "Z046",
       "destination": "Z060",
       "daily_person_trips": 13,
-      "distance_km": 3.821,
+      "distance_km": 3.82,
       "dest_is_cbd": false
     },
     {
@@ -16708,7 +16708,7 @@
       "origin": "Z050",
       "destination": "Z060",
       "daily_person_trips": 30,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -16722,7 +16722,7 @@
       "origin": "Z052",
       "destination": "Z060",
       "daily_person_trips": 196,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -16736,28 +16736,28 @@
       "origin": "Z055",
       "destination": "Z060",
       "daily_person_trips": 13,
-      "distance_km": 3.747,
+      "distance_km": 3.745,
       "dest_is_cbd": false
     },
     {
       "origin": "Z056",
       "destination": "Z060",
       "daily_person_trips": 13,
-      "distance_km": 2.997,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
       "origin": "Z057",
       "destination": "Z060",
       "daily_person_trips": 25,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z058",
       "destination": "Z060",
       "daily_person_trips": 59,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
@@ -16770,7 +16770,7 @@
     {
       "origin": "Z061",
       "destination": "Z060",
-      "daily_person_trips": 302,
+      "daily_person_trips": 303,
       "distance_km": 0.749,
       "dest_is_cbd": false
     },
@@ -16778,55 +16778,55 @@
       "origin": "Z062",
       "destination": "Z060",
       "daily_person_trips": 72,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z063",
       "destination": "Z060",
       "daily_person_trips": 11,
-      "distance_km": 4.558,
+      "distance_km": 4.556,
       "dest_is_cbd": false
     },
     {
       "origin": "Z064",
       "destination": "Z060",
       "daily_person_trips": 16,
-      "distance_km": 3.821,
+      "distance_km": 3.819,
       "dest_is_cbd": false
     },
     {
       "origin": "Z065",
       "destination": "Z060",
       "daily_person_trips": 22,
-      "distance_km": 3.09,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z060",
       "daily_person_trips": 41,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z060",
       "daily_person_trips": 77,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z060",
       "daily_person_trips": 175,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z060",
-      "daily_person_trips": 414,
+      "daily_person_trips": 413,
       "distance_km": 0.749,
       "dest_is_cbd": false
     },
@@ -16834,21 +16834,21 @@
       "origin": "Z070",
       "destination": "Z060",
       "daily_person_trips": 181,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z071",
       "destination": "Z060",
       "daily_person_trips": 81,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z074",
       "destination": "Z060",
       "daily_person_trips": 19,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
@@ -16904,7 +16904,7 @@
       "origin": "Z051",
       "destination": "Z061",
       "daily_person_trips": 36,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -16918,27 +16918,27 @@
       "origin": "Z053",
       "destination": "Z061",
       "daily_person_trips": 49,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z058",
       "destination": "Z061",
       "daily_person_trips": 8,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z059",
       "destination": "Z061",
       "daily_person_trips": 14,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z060",
       "destination": "Z061",
-      "daily_person_trips": 83,
+      "daily_person_trips": 84,
       "distance_km": 0.749,
       "dest_is_cbd": false
     },
@@ -16953,21 +16953,21 @@
       "origin": "Z067",
       "destination": "Z061",
       "daily_person_trips": 11,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z061",
       "daily_person_trips": 20,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z061",
       "daily_person_trips": 60,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -16981,7 +16981,7 @@
       "origin": "Z071",
       "destination": "Z061",
       "daily_person_trips": 58,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -17051,7 +17051,7 @@
       "origin": "Z052",
       "destination": "Z062",
       "daily_person_trips": 68,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -17065,14 +17065,14 @@
       "origin": "Z059",
       "destination": "Z062",
       "daily_person_trips": 8,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z060",
       "destination": "Z062",
       "daily_person_trips": 25,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
@@ -17086,28 +17086,28 @@
       "origin": "Z067",
       "destination": "Z062",
       "daily_person_trips": 8,
-      "distance_km": 3.09,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z062",
       "daily_person_trips": 12,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z062",
       "daily_person_trips": 29,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z070",
       "destination": "Z062",
       "daily_person_trips": 63,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -17191,21 +17191,21 @@
       "origin": "Z055",
       "destination": "Z063",
       "daily_person_trips": 83,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z056",
       "destination": "Z063",
       "daily_person_trips": 22,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z057",
       "destination": "Z063",
       "daily_person_trips": 11,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
@@ -17219,21 +17219,21 @@
       "origin": "Z065",
       "destination": "Z063",
       "daily_person_trips": 48,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z063",
-      "daily_person_trips": 23,
-      "distance_km": 2.248,
+      "daily_person_trips": 24,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z063",
       "daily_person_trips": 12,
-      "distance_km": 2.998,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
@@ -17247,7 +17247,7 @@
       "origin": "Z074",
       "destination": "Z063",
       "daily_person_trips": 38,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
@@ -17303,7 +17303,7 @@
       "origin": "Z054",
       "destination": "Z064",
       "daily_person_trips": 28,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -17317,21 +17317,21 @@
       "origin": "Z056",
       "destination": "Z064",
       "daily_person_trips": 47,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z057",
       "destination": "Z064",
       "daily_person_trips": 20,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z058",
       "destination": "Z064",
       "daily_person_trips": 10,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
@@ -17352,28 +17352,28 @@
       "origin": "Z066",
       "destination": "Z064",
       "daily_person_trips": 46,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z064",
       "daily_person_trips": 19,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z064",
       "daily_person_trips": 10,
-      "distance_km": 2.998,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
       "origin": "Z072",
       "destination": "Z064",
       "daily_person_trips": 23,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -17387,14 +17387,14 @@
       "origin": "Z074",
       "destination": "Z064",
       "daily_person_trips": 82,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z075",
       "destination": "Z064",
       "daily_person_trips": 8,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
@@ -17429,7 +17429,7 @@
       "origin": "Z055",
       "destination": "Z065",
       "daily_person_trips": 45,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -17443,21 +17443,21 @@
       "origin": "Z057",
       "destination": "Z065",
       "daily_person_trips": 31,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z058",
       "destination": "Z065",
       "daily_person_trips": 13,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z063",
       "destination": "Z065",
       "daily_person_trips": 27,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
@@ -17478,14 +17478,14 @@
       "origin": "Z067",
       "destination": "Z065",
       "daily_person_trips": 27,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z065",
       "daily_person_trips": 11,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
@@ -17499,7 +17499,7 @@
       "origin": "Z075",
       "destination": "Z065",
       "daily_person_trips": 12,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -17520,7 +17520,7 @@
       "origin": "Z045",
       "destination": "Z066",
       "daily_person_trips": 10,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
@@ -17541,14 +17541,14 @@
       "origin": "Z055",
       "destination": "Z066",
       "daily_person_trips": 23,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z056",
       "destination": "Z066",
       "daily_person_trips": 38,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -17562,35 +17562,35 @@
       "origin": "Z058",
       "destination": "Z066",
       "daily_person_trips": 42,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z059",
       "destination": "Z066",
       "daily_person_trips": 14,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z060",
       "destination": "Z066",
       "daily_person_trips": 10,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z063",
       "destination": "Z066",
       "daily_person_trips": 15,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z064",
       "destination": "Z066",
       "daily_person_trips": 37,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
@@ -17611,28 +17611,28 @@
       "origin": "Z068",
       "destination": "Z066",
       "daily_person_trips": 31,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z066",
       "daily_person_trips": 16,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z070",
       "destination": "Z066",
       "daily_person_trips": 8,
-      "distance_km": 2.998,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
       "origin": "Z074",
       "destination": "Z066",
       "daily_person_trips": 66,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -17646,7 +17646,7 @@
       "origin": "Z078",
       "destination": "Z066",
       "daily_person_trips": 14,
-      "distance_km": 2.37,
+      "distance_km": 2.368,
       "dest_is_cbd": false
     },
     {
@@ -17667,28 +17667,28 @@
       "origin": "Z052",
       "destination": "Z067",
       "daily_person_trips": 9,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
       "origin": "Z055",
       "destination": "Z067",
       "daily_person_trips": 9,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z056",
       "destination": "Z067",
       "daily_person_trips": 12,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z057",
       "destination": "Z067",
       "daily_person_trips": 32,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -17702,35 +17702,35 @@
       "origin": "Z059",
       "destination": "Z067",
       "daily_person_trips": 29,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z060",
       "destination": "Z067",
       "daily_person_trips": 17,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z061",
       "destination": "Z067",
       "daily_person_trips": 9,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z064",
       "destination": "Z067",
       "daily_person_trips": 13,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z065",
       "destination": "Z067",
       "daily_person_trips": 28,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
@@ -17751,35 +17751,35 @@
       "origin": "Z069",
       "destination": "Z067",
       "daily_person_trips": 30,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z070",
       "destination": "Z067",
       "daily_person_trips": 12,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z074",
       "destination": "Z067",
       "daily_person_trips": 22,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z075",
       "destination": "Z067",
       "daily_person_trips": 13,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z078",
       "destination": "Z067",
       "daily_person_trips": 23,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
@@ -17814,28 +17814,28 @@
       "origin": "Z053",
       "destination": "Z068",
       "daily_person_trips": 10,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
       "origin": "Z056",
       "destination": "Z068",
       "daily_person_trips": 8,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z057",
       "destination": "Z068",
       "daily_person_trips": 17,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z058",
       "destination": "Z068",
       "daily_person_trips": 46,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -17849,42 +17849,42 @@
       "origin": "Z060",
       "destination": "Z068",
       "daily_person_trips": 55,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z061",
       "destination": "Z068",
       "daily_person_trips": 23,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z062",
       "destination": "Z068",
       "daily_person_trips": 11,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z064",
       "destination": "Z068",
       "daily_person_trips": 10,
-      "distance_km": 2.998,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
       "origin": "Z065",
       "destination": "Z068",
       "daily_person_trips": 16,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z068",
       "daily_person_trips": 40,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
@@ -17905,21 +17905,21 @@
       "origin": "Z070",
       "destination": "Z068",
       "daily_person_trips": 35,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z071",
       "destination": "Z068",
       "daily_person_trips": 17,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z074",
       "destination": "Z068",
       "daily_person_trips": 14,
-      "distance_km": 2.37,
+      "distance_km": 2.368,
       "dest_is_cbd": false
     },
     {
@@ -17933,14 +17933,14 @@
       "origin": "Z078",
       "destination": "Z068",
       "daily_person_trips": 76,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z080",
       "destination": "Z068",
       "daily_person_trips": 14,
-      "distance_km": 2.37,
+      "distance_km": 2.368,
       "dest_is_cbd": false
     },
     {
@@ -17975,14 +17975,14 @@
       "origin": "Z058",
       "destination": "Z069",
       "daily_person_trips": 13,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z059",
       "destination": "Z069",
       "daily_person_trips": 26,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -17996,28 +17996,28 @@
       "origin": "Z061",
       "destination": "Z069",
       "daily_person_trips": 40,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z062",
       "destination": "Z069",
       "daily_person_trips": 15,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z069",
       "daily_person_trips": 12,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z069",
       "daily_person_trips": 25,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
@@ -18038,7 +18038,7 @@
       "origin": "Z071",
       "destination": "Z069",
       "daily_person_trips": 27,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
@@ -18052,7 +18052,7 @@
       "origin": "Z080",
       "destination": "Z069",
       "daily_person_trips": 20,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
@@ -18108,21 +18108,21 @@
       "origin": "Z058",
       "destination": "Z070",
       "daily_person_trips": 8,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z059",
       "destination": "Z070",
       "daily_person_trips": 14,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z060",
       "destination": "Z070",
       "daily_person_trips": 51,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -18136,28 +18136,28 @@
       "origin": "Z062",
       "destination": "Z070",
       "daily_person_trips": 51,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z070",
       "daily_person_trips": 9,
-      "distance_km": 2.998,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z070",
       "daily_person_trips": 15,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z070",
       "daily_person_trips": 31,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
@@ -18178,7 +18178,7 @@
       "origin": "Z078",
       "destination": "Z070",
       "daily_person_trips": 70,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -18192,7 +18192,7 @@
       "origin": "Z080",
       "destination": "Z070",
       "daily_person_trips": 66,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -18241,21 +18241,21 @@
       "origin": "Z059",
       "destination": "Z071",
       "daily_person_trips": 8,
-      "distance_km": 2.37,
+      "distance_km": 2.369,
       "dest_is_cbd": false
     },
     {
       "origin": "Z060",
       "destination": "Z071",
       "daily_person_trips": 22,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z061",
       "destination": "Z071",
       "daily_person_trips": 57,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -18269,21 +18269,21 @@
       "origin": "Z067",
       "destination": "Z071",
       "daily_person_trips": 9,
-      "distance_km": 2.998,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z071",
       "daily_person_trips": 15,
-      "distance_km": 2.248,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z071",
       "daily_person_trips": 39,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
@@ -18297,13 +18297,13 @@
       "origin": "Z078",
       "destination": "Z071",
       "daily_person_trips": 30,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z080",
       "destination": "Z071",
-      "daily_person_trips": 141,
+      "daily_person_trips": 140,
       "distance_km": 0.749,
       "dest_is_cbd": false
     },
@@ -18360,7 +18360,7 @@
       "origin": "Z021",
       "destination": "Z072",
       "daily_person_trips": 9,
-      "distance_km": 5.026,
+      "distance_km": 5.025,
       "dest_is_cbd": false
     },
     {
@@ -18388,14 +18388,14 @@
       "origin": "Z034",
       "destination": "Z072",
       "daily_person_trips": 8,
-      "distance_km": 6.445,
+      "distance_km": 6.444,
       "dest_is_cbd": false
     },
     {
       "origin": "Z035",
       "destination": "Z072",
       "daily_person_trips": 8,
-      "distance_km": 7.068,
+      "distance_km": 7.067,
       "dest_is_cbd": false
     },
     {
@@ -18423,7 +18423,7 @@
       "origin": "Z043",
       "destination": "Z072",
       "daily_person_trips": 8,
-      "distance_km": 6.041,
+      "distance_km": 6.039,
       "dest_is_cbd": false
     },
     {
@@ -18451,21 +18451,21 @@
       "origin": "Z051",
       "destination": "Z072",
       "daily_person_trips": 10,
-      "distance_km": 5.027,
+      "distance_km": 5.025,
       "dest_is_cbd": false
     },
     {
       "origin": "Z052",
       "destination": "Z072",
       "daily_person_trips": 12,
-      "distance_km": 5.707,
+      "distance_km": 5.704,
       "dest_is_cbd": false
     },
     {
       "origin": "Z053",
       "destination": "Z072",
       "daily_person_trips": 8,
-      "distance_km": 6.402,
+      "distance_km": 6.4,
       "dest_is_cbd": false
     },
     {
@@ -18493,41 +18493,41 @@
       "origin": "Z057",
       "destination": "Z072",
       "daily_person_trips": 30,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
       "origin": "Z058",
       "destination": "Z072",
       "daily_person_trips": 21,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
       "origin": "Z059",
       "destination": "Z072",
       "daily_person_trips": 12,
-      "distance_km": 4.036,
+      "distance_km": 4.033,
       "dest_is_cbd": false
     },
     {
       "origin": "Z060",
       "destination": "Z072",
       "daily_person_trips": 13,
-      "distance_km": 4.74,
+      "distance_km": 4.737,
       "dest_is_cbd": false
     },
     {
       "origin": "Z061",
       "destination": "Z072",
       "daily_person_trips": 10,
-      "distance_km": 5.456,
+      "distance_km": 5.453,
       "dest_is_cbd": false
     },
     {
       "origin": "Z063",
       "destination": "Z072",
-      "daily_person_trips": 679,
+      "daily_person_trips": 678,
       "distance_km": 0.749,
       "dest_is_cbd": false
     },
@@ -18535,91 +18535,91 @@
       "origin": "Z064",
       "destination": "Z072",
       "daily_person_trips": 360,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z065",
       "destination": "Z072",
-      "daily_person_trips": 132,
-      "distance_km": 1.676,
+      "daily_person_trips": 133,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z072",
       "daily_person_trips": 72,
-      "distance_km": 2.37,
+      "distance_km": 2.368,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z072",
       "daily_person_trips": 39,
-      "distance_km": 3.09,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z072",
       "daily_person_trips": 23,
-      "distance_km": 3.821,
+      "distance_km": 3.819,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z072",
-      "daily_person_trips": 19,
-      "distance_km": 4.559,
+      "daily_person_trips": 20,
+      "distance_km": 4.556,
       "dest_is_cbd": false
     },
     {
       "origin": "Z070",
       "destination": "Z072",
       "daily_person_trips": 13,
-      "distance_km": 5.299,
+      "distance_km": 5.296,
       "dest_is_cbd": false
     },
     {
       "origin": "Z071",
       "destination": "Z072",
       "daily_person_trips": 11,
-      "distance_km": 6.042,
+      "distance_km": 6.038,
       "dest_is_cbd": false
     },
     {
       "origin": "Z073",
       "destination": "Z072",
       "daily_person_trips": 41,
-      "distance_km": 0.75,
+      "distance_km": 0.749,
       "dest_is_cbd": false
     },
     {
       "origin": "Z074",
       "destination": "Z072",
       "daily_person_trips": 163,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z075",
       "destination": "Z072",
       "daily_person_trips": 17,
-      "distance_km": 2.249,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z078",
       "destination": "Z072",
       "daily_person_trips": 19,
-      "distance_km": 4.497,
+      "distance_km": 4.493,
       "dest_is_cbd": false
     },
     {
       "origin": "Z080",
       "destination": "Z072",
       "daily_person_trips": 10,
-      "distance_km": 5.996,
+      "distance_km": 5.991,
       "dest_is_cbd": false
     },
     {
@@ -18633,7 +18633,7 @@
       "origin": "Z063",
       "destination": "Z073",
       "daily_person_trips": 18,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -18647,28 +18647,28 @@
       "origin": "Z065",
       "destination": "Z073",
       "daily_person_trips": 18,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z073",
       "daily_person_trips": 8,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z072",
       "destination": "Z073",
       "daily_person_trips": 10,
-      "distance_km": 0.75,
+      "distance_km": 0.749,
       "dest_is_cbd": false
     },
     {
       "origin": "Z074",
       "destination": "Z073",
       "daily_person_trips": 35,
-      "distance_km": 0.75,
+      "distance_km": 0.749,
       "dest_is_cbd": false
     },
     {
@@ -18731,14 +18731,14 @@
       "origin": "Z063",
       "destination": "Z074",
       "daily_person_trips": 35,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z064",
       "destination": "Z074",
       "daily_person_trips": 93,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -18752,56 +18752,56 @@
       "origin": "Z066",
       "destination": "Z074",
       "daily_person_trips": 93,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z074",
       "daily_person_trips": 34,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z074",
       "daily_person_trips": 16,
-      "distance_km": 2.37,
+      "distance_km": 2.368,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z074",
       "daily_person_trips": 11,
-      "distance_km": 3.09,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
       "origin": "Z072",
       "destination": "Z074",
       "daily_person_trips": 12,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z073",
       "destination": "Z074",
       "daily_person_trips": 10,
-      "distance_km": 0.75,
+      "distance_km": 0.749,
       "dest_is_cbd": false
     },
     {
       "origin": "Z075",
       "destination": "Z074",
       "daily_person_trips": 39,
-      "distance_km": 0.75,
+      "distance_km": 0.749,
       "dest_is_cbd": false
     },
     {
       "origin": "Z078",
       "destination": "Z074",
       "daily_person_trips": 11,
-      "distance_km": 2.998,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
@@ -18857,7 +18857,7 @@
       "origin": "Z035",
       "destination": "Z075",
       "daily_person_trips": 8,
-      "distance_km": 5.298,
+      "distance_km": 5.297,
       "dest_is_cbd": false
     },
     {
@@ -18885,21 +18885,21 @@
       "origin": "Z043",
       "destination": "Z075",
       "daily_person_trips": 10,
-      "distance_km": 4.238,
+      "distance_km": 4.237,
       "dest_is_cbd": false
     },
     {
       "origin": "Z044",
       "destination": "Z075",
       "daily_person_trips": 8,
-      "distance_km": 4.798,
+      "distance_km": 4.796,
       "dest_is_cbd": false
     },
     {
       "origin": "Z045",
       "destination": "Z075",
       "daily_person_trips": 21,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": false
     },
     {
@@ -18920,28 +18920,28 @@
       "origin": "Z051",
       "destination": "Z075",
       "daily_person_trips": 15,
-      "distance_km": 3.179,
+      "distance_km": 3.178,
       "dest_is_cbd": false
     },
     {
       "origin": "Z052",
       "destination": "Z075",
       "daily_person_trips": 17,
-      "distance_km": 3.746,
+      "distance_km": 3.745,
       "dest_is_cbd": false
     },
     {
       "origin": "Z053",
       "destination": "Z075",
       "daily_person_trips": 11,
-      "distance_km": 4.369,
+      "distance_km": 4.368,
       "dest_is_cbd": false
     },
     {
       "origin": "Z054",
       "destination": "Z075",
       "daily_person_trips": 10,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
@@ -18961,7 +18961,7 @@
     {
       "origin": "Z057",
       "destination": "Z075",
-      "daily_person_trips": 60,
+      "daily_person_trips": 59,
       "distance_km": 1.498,
       "dest_is_cbd": false
     },
@@ -18983,42 +18983,42 @@
       "origin": "Z060",
       "destination": "Z075",
       "daily_person_trips": 24,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
       "origin": "Z061",
       "destination": "Z075",
       "daily_person_trips": 16,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
       "origin": "Z062",
       "destination": "Z075",
       "daily_person_trips": 11,
-      "distance_km": 4.036,
+      "distance_km": 4.033,
       "dest_is_cbd": false
     },
     {
       "origin": "Z063",
       "destination": "Z075",
       "daily_person_trips": 42,
-      "distance_km": 2.37,
+      "distance_km": 2.368,
       "dest_is_cbd": false
     },
     {
       "origin": "Z064",
       "destination": "Z075",
       "daily_person_trips": 89,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z065",
       "destination": "Z075",
       "daily_person_trips": 204,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -19032,84 +19032,84 @@
       "origin": "Z067",
       "destination": "Z075",
       "daily_person_trips": 206,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z075",
       "daily_person_trips": 75,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z075",
       "daily_person_trips": 44,
-      "distance_km": 2.37,
+      "distance_km": 2.368,
       "dest_is_cbd": false
     },
     {
       "origin": "Z070",
       "destination": "Z075",
       "daily_person_trips": 23,
-      "distance_km": 3.09,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
       "origin": "Z071",
       "destination": "Z075",
       "daily_person_trips": 17,
-      "distance_km": 3.821,
+      "distance_km": 3.819,
       "dest_is_cbd": false
     },
     {
       "origin": "Z072",
       "destination": "Z075",
       "daily_person_trips": 12,
-      "distance_km": 2.249,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z074",
       "destination": "Z075",
       "daily_person_trips": 401,
-      "distance_km": 0.75,
+      "distance_km": 0.749,
       "dest_is_cbd": false
     },
     {
       "origin": "Z076",
       "destination": "Z075",
       "daily_person_trips": 24,
-      "distance_km": 0.75,
+      "distance_km": 0.749,
       "dest_is_cbd": false
     },
     {
       "origin": "Z077",
       "destination": "Z075",
       "daily_person_trips": 8,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z078",
       "destination": "Z075",
       "daily_person_trips": 47,
-      "distance_km": 2.249,
+      "distance_km": 2.247,
       "dest_is_cbd": false
     },
     {
       "origin": "Z080",
       "destination": "Z075",
       "daily_person_trips": 16,
-      "distance_km": 3.748,
+      "distance_km": 3.744,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z076",
       "daily_person_trips": 16,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -19123,28 +19123,28 @@
       "origin": "Z068",
       "destination": "Z076",
       "daily_person_trips": 14,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z078",
       "destination": "Z076",
       "daily_person_trips": 8,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z077",
       "daily_person_trips": 8,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z077",
       "daily_person_trips": 18,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -19158,14 +19158,14 @@
       "origin": "Z069",
       "destination": "Z077",
       "daily_person_trips": 19,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z078",
       "destination": "Z077",
       "daily_person_trips": 37,
-      "distance_km": 0.75,
+      "distance_km": 0.749,
       "dest_is_cbd": false
     },
     {
@@ -19207,7 +19207,7 @@
       "origin": "Z057",
       "destination": "Z078",
       "daily_person_trips": 9,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
@@ -19249,35 +19249,35 @@
       "origin": "Z064",
       "destination": "Z078",
       "daily_person_trips": 8,
-      "distance_km": 3.821,
+      "distance_km": 3.819,
       "dest_is_cbd": false
     },
     {
       "origin": "Z065",
       "destination": "Z078",
       "daily_person_trips": 12,
-      "distance_km": 3.09,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
       "origin": "Z066",
       "destination": "Z078",
       "daily_person_trips": 21,
-      "distance_km": 2.37,
+      "distance_km": 2.368,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z078",
       "daily_person_trips": 40,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z078",
       "daily_person_trips": 91,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -19291,49 +19291,49 @@
       "origin": "Z070",
       "destination": "Z078",
       "daily_person_trips": 94,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z071",
       "destination": "Z078",
       "daily_person_trips": 42,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z074",
       "destination": "Z078",
       "daily_person_trips": 12,
-      "distance_km": 2.998,
+      "distance_km": 2.996,
       "dest_is_cbd": false
     },
     {
       "origin": "Z077",
       "destination": "Z078",
       "daily_person_trips": 16,
-      "distance_km": 0.75,
+      "distance_km": 0.749,
       "dest_is_cbd": false
     },
     {
       "origin": "Z079",
       "destination": "Z078",
       "daily_person_trips": 15,
-      "distance_km": 0.75,
+      "distance_km": 0.749,
       "dest_is_cbd": false
     },
     {
       "origin": "Z080",
       "destination": "Z078",
       "daily_person_trips": 48,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z079",
       "daily_person_trips": 13,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -19347,21 +19347,21 @@
       "origin": "Z071",
       "destination": "Z079",
       "daily_person_trips": 12,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
       "origin": "Z078",
       "destination": "Z079",
       "daily_person_trips": 24,
-      "distance_km": 0.75,
+      "distance_km": 0.749,
       "dest_is_cbd": false
     },
     {
       "origin": "Z080",
       "destination": "Z079",
       "daily_person_trips": 23,
-      "distance_km": 0.75,
+      "distance_km": 0.749,
       "dest_is_cbd": false
     },
     {
@@ -19424,14 +19424,14 @@
       "origin": "Z058",
       "destination": "Z080",
       "daily_person_trips": 9,
-      "distance_km": 3.351,
+      "distance_km": 3.35,
       "dest_is_cbd": false
     },
     {
       "origin": "Z059",
       "destination": "Z080",
       "daily_person_trips": 11,
-      "distance_km": 2.702,
+      "distance_km": 2.701,
       "dest_is_cbd": false
     },
     {
@@ -19459,35 +19459,35 @@
       "origin": "Z066",
       "destination": "Z080",
       "daily_person_trips": 11,
-      "distance_km": 3.821,
+      "distance_km": 3.819,
       "dest_is_cbd": false
     },
     {
       "origin": "Z067",
       "destination": "Z080",
       "daily_person_trips": 16,
-      "distance_km": 3.09,
+      "distance_km": 3.088,
       "dest_is_cbd": false
     },
     {
       "origin": "Z068",
       "destination": "Z080",
       "daily_person_trips": 25,
-      "distance_km": 2.37,
+      "distance_km": 2.368,
       "dest_is_cbd": false
     },
     {
       "origin": "Z069",
       "destination": "Z080",
       "daily_person_trips": 60,
-      "distance_km": 1.676,
+      "distance_km": 1.675,
       "dest_is_cbd": false
     },
     {
       "origin": "Z070",
       "destination": "Z080",
       "daily_person_trips": 130,
-      "distance_km": 1.06,
+      "distance_km": 1.059,
       "dest_is_cbd": false
     },
     {
@@ -19501,14 +19501,14 @@
       "origin": "Z078",
       "destination": "Z080",
       "daily_person_trips": 71,
-      "distance_km": 1.499,
+      "distance_km": 1.498,
       "dest_is_cbd": false
     },
     {
       "origin": "Z079",
       "destination": "Z080",
       "daily_person_trips": 20,
-      "distance_km": 0.75,
+      "distance_km": 0.749,
       "dest_is_cbd": false
     }
   ]

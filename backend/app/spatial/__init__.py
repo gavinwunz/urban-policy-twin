@@ -1,7 +1,7 @@
 """Spatial traffic-assignment layer (SPEC §7.7).
 
 Models geography explicitly: a peak-hour static traffic assignment (MSA
-user-equilibrium with a BPR volume-delay function) over the real Meridia road
+user-equilibrium with a BPR volume-delay function) over the Auckland road
 grid, driven by the same deterministic agent-based mode-choice demand as
 ``/simulate``. Produces congested link flows, cordon inflow, network vehicle-
 hours, gravity job accessibility and a per-zone road-CO₂ dispersion proxy —

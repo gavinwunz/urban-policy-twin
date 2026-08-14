@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""URBAN robustness runner — the decision-under-uncertainty pick in the terminal.
+"""GOV SIM robustness runner — the decision-under-uncertainty pick in the terminal.
 
 The stress-test asks *"does **this** policy hold under the shocks?"*. This asks the
 question one level up, the one a minister actually faces: given several candidate
@@ -149,7 +149,7 @@ def run(argv: list[str]) -> int:
 
 
 def _render(data: dict) -> None:
-    rule("URBAN — robustness / regret ranking (SPEC §20/§21/§22)")
+    rule("GOV SIM — robustness / regret ranking (SPEC §20/§21/§22)")
     print(f"{bold('Objective')}   {data['objective_label']}  ({data['objective_direction']} is good)")
     print(f"{bold('Horizon')}     {data['horizon_label']}  ({data['horizon_months']:g} months)")
     print(f"{bold('States')}      baseline + {len(data['states']) - 1} shocks")

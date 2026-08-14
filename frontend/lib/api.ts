@@ -1,5 +1,5 @@
 /**
- * Tiny typed client for the URBAN backend.
+ * Tiny typed client for the GOV SIM backend.
  *
  * The base URL comes from `NEXT_PUBLIC_API_BASE_URL` so the same build can point
  * at local dev or a deployed backend. All values returned by the twin are tagged
@@ -30,7 +30,7 @@ export async function getHealth(signal?: AbortSignal): Promise<Health> {
   }
   const body = (await res.json()) as Partial<Health>;
   // Guard against a *different* service answering on the same host/port: a bare
-  // 200 with the wrong shape must not read as a healthy URBAN backend (SPEC §34
+  // 200 with the wrong shape must not read as a healthy GOV SIM backend (SPEC §34
   // honesty). Require the fields we actually render.
   if (
     typeof body?.status !== "string" ||
@@ -38,7 +38,7 @@ export async function getHealth(signal?: AbortSignal): Promise<Health> {
     typeof body?.version !== "string"
   ) {
     throw new Error(
-      "Reachable, but the response isn’t the URBAN /health payload — is another service on this port?",
+      "Reachable, but the response isn’t the GOV SIM /health payload — is another service on this port?",
     );
   }
   return body as Health;
@@ -736,7 +736,7 @@ export interface SdgIndicator {
 export interface SdgGoal {
   goal: number;
   title: string;
-  /** `"core"` or `"secondary"` URBAN alignment (SPEC §23). */
+  /** `"core"` or `"secondary"` GOV SIM alignment (SPEC §23). */
   tier: string;
   indicators: SdgIndicator[];
   improved_count: number;
@@ -1567,7 +1567,7 @@ export async function runCompare(
 /**
  * Grand counterfactual (SPEC §21/§22): the canonical four-way comparison —
  * World A (baseline) vs B (the compiled policy) vs C (opposition amendment,
- * auto-derived when none is supplied) vs D (the URBAN-optimised best-balanced
+ * auto-derived when none is supplied) vs D (the GOV SIM-optimised best-balanced
  * pick). Same deterministic payload as `/compare` plus a `derivation` audit
  * block explaining how C/D were composed. The baseline is always present; every
  * number is Simulated, no LLM on the numeric path (SPEC §34). Throws on error.
@@ -1598,7 +1598,7 @@ export async function runGrandCompare(
 
 /**
  * Compose the SPEC §21 four-world grand comparison (A baseline / B policy /
- * C opposition amendment / D URBAN-optimised) for the canonical §28 demo
+ * C opposition amendment / D GOV SIM-optimised) for the canonical §28 demo
  * congestion charge (`GET /compare/example`). A body-less GET so a judge landing
  * on the Grand-counterfactual tab cold can read the whole quartet with no
  * compiled policy in the store. It runs the *identical* `compare_grand` service
@@ -1740,7 +1740,7 @@ export interface DataSourceCard {
   used_by: string[];
 }
 
-/** One SPEC §34 anti-'AI-astrology' guardrail and how URBAN enforces it. */
+/** One SPEC §34 anti-'AI-astrology' guardrail and how GOV SIM enforces it. */
 export interface GuardrailCheck {
   id: string;
   rule: string;

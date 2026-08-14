@@ -50,6 +50,10 @@
 
 html {
   scroll-behavior: smooth;
+  /* The hero breaks out to 100vw; on platforms with a classic (space-taking)
+     scrollbar that is a few pixels wider than the layout viewport. Clip rather
+     than let it become a horizontal scrollbar. */
+  overflow-x: clip;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -64,7 +64,7 @@ class HistoricalCase(BaseModel):
     context_similarity: float = Field(
         ge=0.0,
         le=1.0,
-        description="Documented similarity of the scheme's city context to Meridia (0..1, Estimated).",
+        description="Documented similarity of the scheme's city context to Auckland (0..1, Estimated).",
     )
     mode_shift_note: str = Field(default="", description="Where displaced trips went, if reported.")
     source_note: str = Field(

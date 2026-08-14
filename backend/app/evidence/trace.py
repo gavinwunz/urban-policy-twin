@@ -80,7 +80,7 @@ _ANALOGUES: list[HistoricalAnalogue] = [
 ]
 
 _CITATIONS: list[str] = [
-    "data/city/manifest.json — Synthetic 'Meridia' input world state (not real records).",
+    "data/city/manifest.json — Modelled Auckland input world state (not real administrative records).",
     "backend/app/baseline/model.py — deterministic agent-based mode-choice baseline (World A).",
     "backend/app/simulation/model.py — World-B mode re-choice under policy levers.",
     "backend/app/simulation/timeline.py — staged adaptation ramp + horizon-widening band.",
@@ -195,13 +195,13 @@ def _build_chain(
     steps: list[TraceStep] = [
         TraceStep(
             stage="input-data",
-            label="Synthetic city dataset (Meridia)",
+            label="Auckland analysis grid (modelled)",
             detail="Commuter population, origin/destination cohorts and baseline mode "
             "split — the World-A no-intervention reference.",
             tag=MetricTag.simulated,
             value=round(point.world_a, 3),
             unit=unit,
-            refs=["dataset:meridia"],
+            refs=["dataset:auckland"],
         )
     ]
     steps.extend(_mechanism_step(r, metric_key) for r in rules)

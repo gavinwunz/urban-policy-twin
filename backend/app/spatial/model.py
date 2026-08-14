@@ -8,7 +8,7 @@ The pipeline is:
    :func:`choose_mode_policy`). Each commuter who *still chooses to drive*
    contributes their home→work trip to a peak-hour origin→destination vehicle
    table (persons → vehicles via occupancy and a peak-hour concentration).
-2. **Assignment** — load that demand onto the real Meridia road grid and solve an
+2. **Assignment** — load that demand onto the Auckland road network and solve an
    approximate static user equilibrium (MSA + BPR), so drivers re-route around
    congestion. This is the spatial effect the aggregate ABM cannot see.
 3. **Read-out** — congested link flows / speeds, cordon inflow, network vehicle-

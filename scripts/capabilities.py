@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""URBAN capability map — the whole engine's HTTP surface in the terminal.
+"""GOV SIM capability map — the whole engine's HTTP surface in the terminal.
 
 Where ``audit.py`` proves the §34 guardrails hold across every route, this simply
 *shows a judge what the routes are*: it drives ``GET /capabilities`` in-process
@@ -105,7 +105,7 @@ def run(argv: list[str]) -> int:
         return 0
 
     counts = m["counts"]
-    print(bold("URBAN — engine capability map"))
+    print(bold("GOV SIM — engine capability map"))
     print(
         dim(
             f"v{m['app_version']} · {counts['routes']} routes · {counts['areas']} areas · "

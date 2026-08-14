@@ -28,12 +28,12 @@ export default function Error({
   useEffect(() => {
     // Surface to the browser console for anyone inspecting a broken demo.
     // eslint-disable-next-line no-console
-    console.error("URBAN UI render error:", error);
+    console.error("GOV SIM UI render error:", error);
   }, [error]);
 
   return (
     <main>
-      <p className="eyebrow">URBAN — Policy Digital Twin</p>
+      <p className="eyebrow">GOV SIM — Policy Digital Twin</p>
       <h1>Something in the interface crashed</h1>
       <p className="lede">
         A part of the twin failed to render. Nothing here is a real result — no

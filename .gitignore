@@ -34,3 +34,15 @@ data/generated/
 .devlock/
 .lock-engine/
 .lock-ui/
+
+# METR-LA corpus (~222 MB) — fetched by scripts/fetch_metr_la.sh, not vendored.
+data/metr_la/
+
+# Trained model artifacts — produced by `python -m app.ml.train`, not vendored.
+backend/app/ml/artifacts/
+
+# Raw OpenStreetMap extract + Overpass cache. Re-fetch with
+# `python data/fetch_osm_auckland.py`; the compacted browser copies under
+# frontend/public/city/ are what the app actually loads.
+data/.osm_cache/
+data/city/osm_*.geojson

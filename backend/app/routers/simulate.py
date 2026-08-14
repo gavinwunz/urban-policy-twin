@@ -17,9 +17,14 @@ from __future__ import annotations
 
 from typing import Optional
 
+import hashlib
+import json
+import time
+
 from fastapi import APIRouter
 from pydantic import BaseModel, Field
 
+from ..db import mongo
 from ..baseline.model import compute_baseline
 from ..baseline.schema import BaselineMetrics, BaselineTimeSeries, MetricTag
 from ..baseline.timeseries import build_timeseries
@@ -105,6 +110,7 @@ def simulate(req: SimulateRequest) -> SimulateResponse:
     Shocks (when present) are applied to both worlds so the delta still isolates
     the intervention. All outputs are Simulated (SPEC §34).
     """
+    started = time.perf_counter()
     params, trend = apply_shocks(req.shocks)
 
     # World A (baseline) under the shocked context.
@@ -126,7 +132,7 @@ def simulate(req: SimulateRequest) -> SimulateResponse:
     delta = build_delta(base_ts, b_ts)
     ledger = build_event_ledger(req.policy, base, delta)
 
-    return SimulateResponse(
+    response = SimulateResponse(
         policy_id=req.policy.id,
         world_a=WorldAResult(snapshot=base, timeseries=base_ts),
         world_b=WorldBResult(snapshot=b_full, timeseries=b_ts),
@@ -135,6 +141,42 @@ def simulate(req: SimulateRequest) -> SimulateResponse:
         shocks_applied=(req.shocks.model_dump() if req.shocks else {}),
         seed=req.seed,
     )
+
+    # Append to the run ledger. This is what makes a result citable after the
+    # fact: the policy that produced it, the shocks applied, the headline deltas
+    # and a content hash over the inputs, so an identical re-run is recognisable
+    # as one. Best-effort — a Mongo outage must never fail a simulation.
+    dsl = req.policy.model_dump(mode="json")
+    run_hash = hashlib.sha256(
+        json.dumps(
+            {"policy": dsl, "shocks": response.shocks_applied},
+            sort_keys=True,
+            separators=(",", ":"),
+        ).encode()
+    ).hexdigest()[:16]
+    mongo.record_run(
+        {
+            "run_hash": run_hash,
+            "policy_id": req.policy.id,
+            "policy_name": getattr(req.policy, "name", None),
+            "shocks": response.shocks_applied,
+            "seed": req.seed,
+            "elapsed_ms": round((time.perf_counter() - started) * 1000, 1),
+            # The last checkpoint of each series is the ten-year effect, which
+            # is the number anyone citing this run will actually quote.
+            "headline": {
+                d.key: {
+                    "label": d.label,
+                    "unit": d.unit,
+                    "delta": d.points[-1].delta,
+                    "delta_pct": d.points[-1].delta_pct,
+                }
+                for d in delta.series[:10]
+                if getattr(d, "points", None)
+            },
+        }
+    )
+    return response
 
 
 @router.post(

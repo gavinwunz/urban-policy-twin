@@ -105,7 +105,7 @@ export const TOUR_STEPS: TourStep[] = [
     selector: '[data-tour="map"]',
     title: "2 · The city, in 3D",
     body:
-      "Meridia is the synthetic world the policy acts on — zones, roads and the " +
+      "Auckland is the world the policy acts on — zones, roads and the " +
       "CBD cordon. This is a world input, tagged Synthetic; it is not a result. " +
       "Toggle the Traffic / Transit / Support overlays to see the map light up.",
   },

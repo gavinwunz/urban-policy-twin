@@ -3,7 +3,7 @@
 /**
  * Where the model comes from.
  *
- * Meridia is synthetic, and saying so is not enough — a policy tool has to show
+ * The zone system is modelled, and saying so is not enough — a policy tool has to show
  * which real data models it is shaped like, so that swapping in a real city is
  * an obvious operation rather than a rewrite. Two lineages are cited, loaded
  * from `public/city/sources.json`:

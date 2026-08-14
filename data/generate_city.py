@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
-"""Deterministic generator for the URBAN demo city grid.
+"""Deterministic generator for the GOV SIM analysis grid.
 
-Produces the *shared synthetic dataset* consumed by later milestones (baseline
-digital twin, synthetic population, policy simulation, 3D map). Everything here
-is **synthetic** — a fictional city ("Meridia") on a regular grid. No real
-place, person, or administrative record is represented. The geometry uses valid
-WGS84 lon/lat only so the frontend map (MapLibre/deck.gl) can render it.
+Produces the *shared dataset* consumed by the baseline digital twin, the
+synthetic population, the policy simulation and the 3D map.
+
+Geography: the grid is anchored on the real centre of **Auckland, New Zealand**
+(-36.8485, 174.7633), so it lines up with the OpenStreetMap basemap the frontend
+draws underneath it. The zone system itself is a synthetic regular grid — the
+same kind of abstraction a real transport model uses in place of raw parcels —
+and the population, jobs and trip figures in it are modelled, not measured. No
+real person or administrative record is represented.
 
 Guardrail note (SPEC §34): this is *input world state*, not a simulation result.
 Every record is tagged ``provenance: "Synthetic"`` in the manifest. Nothing here
@@ -38,12 +42,14 @@ from pathlib import Path
 # City configuration
 # ---------------------------------------------------------------------------
 
-CITY_NAME = "Meridia"
+CITY_NAME = "Auckland"
+CITY_REGION = "Auckland, New Zealand"
 GRID = 9  # GRID x GRID zones
 CELL_KM = 0.75  # size of one zone cell, km
-# Fictional anchor (city centre). Valid WGS84; not a real municipality.
-CENTER_LAT = 45.0
-CENTER_LON = 9.0
+# Real anchor: Auckland CBD (Queen Street / Britomart). The analysis grid is
+# centred here so it registers against the OpenStreetMap basemap.
+CENTER_LAT = -36.8485
+CENTER_LON = 174.7633
 
 # Category assignment by Chebyshev ring distance from the centre cell.
 #   ring 0-1 -> CBD (central 3x3), 2 -> inner, 3 -> residential, 4 -> outer
@@ -193,7 +199,7 @@ def zones_to_geojson(zones: list[dict]) -> dict:
         )
     return {
         "type": "FeatureCollection",
-        "name": "meridia_zones",
+        "name": "auckland_zones",
         "features": features,
     }
 
@@ -271,7 +277,7 @@ def roads_to_geojson(roads: list[dict]) -> dict:
         )
     return {
         "type": "FeatureCollection",
-        "name": "meridia_roads",
+        "name": "auckland_roads",
         "features": features,
     }
 
@@ -386,7 +392,7 @@ def generate(out_dir: Path, seed: int) -> dict:
     _write_json(
         out_dir / "od_pairs.json",
         {
-            "name": "meridia_od_pairs",
+            "name": "auckland_od_pairs",
             "units": "daily_person_trips",
             "model": "destination_constrained_gravity",
             "interpretation": "home->work commute flows; inflow to zone j ~= jobs_j",
@@ -406,19 +412,25 @@ def generate(out_dir: Path, seed: int) -> dict:
     cordon_trips = sum(p["daily_person_trips"] for p in od_pairs if p["dest_is_cbd"])
 
     manifest = {
-        "title": f"{CITY_NAME} synthetic city grid",
+        "title": f"{CITY_NAME} policy analysis grid",
+        "city": CITY_NAME,
+        "region": CITY_REGION,
         "provenance": "Synthetic",
         "generated_by": "data/generate_city.py",
         "seed": seed,
-        "geographic_scope": f"Fictional city '{CITY_NAME}' (not a real place)",
+        "geographic_scope": (
+            f"{CITY_REGION} — real coordinates, modelled zone system"
+        ),
         "spatial_resolution": f"{CELL_KM} km grid cells",
         "crs": "EPSG:4326 (WGS84 lon/lat)",
-        "license": "CC0 (synthetic demo data)",
+        "license": "CC0 (generated demo data)",
         "notes": (
-            "Input world state for the URBAN digital twin demo. Not a simulation "
-            "result and not derived from any real administrative record. Numeric "
-            "effects are produced later by the simulation engine, never by an LLM "
-            "(SPEC §34)."
+            "Input world state for GOV SIM. The grid is anchored on Auckland's "
+            "real centre so it registers against the OpenStreetMap basemap, but "
+            "the zone system, population, jobs and trip figures are modelled — "
+            "not measured, and not drawn from any administrative record. Numeric "
+            "effects are produced later by the simulation engine, never by an "
+            "LLM (SPEC §34)."
         ),
         "grid": {"rows": GRID, "cols": GRID, "cell_km": CELL_KM},
         "center": {"lat": CENTER_LAT, "lon": CENTER_LON},
@@ -447,7 +459,7 @@ def generate(out_dir: Path, seed: int) -> dict:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate the URBAN demo city grid.")
+    parser = argparse.ArgumentParser(description="Generate the GOV SIM demo city grid.")
     parser.add_argument("--seed", type=int, default=42, help="RNG seed (default 42).")
     parser.add_argument(
         "--out",

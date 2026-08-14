@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""URBAN guardrail audit — prove the WHOLE engine isn't "AI astrology", one command.
+"""GOV SIM guardrail audit — prove the WHOLE engine isn't "AI astrology", one command.
 
 ``demo.py`` audits the ``/run`` payload and ``north_star.py`` audits the §37
 answer — each checks the SPEC §34 guardrails on *one* composed response. This
@@ -346,7 +346,7 @@ _CHECK_LABELS = {
 
 
 def _render(report: dict) -> None:
-    rule("URBAN — whole-surface §34 guardrail audit")
+    rule("GOV SIM — whole-surface §34 guardrail audit")
     print(f"{bold('Policy id')}   {report.get('policy_id')}")
     print(f"{bold('Surface')}     {report['route_count']} routes exercised "
           f"({dim('compiler=' + str(report.get('compiler_provenance')))})")

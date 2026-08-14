@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""URBAN North-Star runner — the §37 minister's answer in the terminal.
+"""GOV SIM North-Star runner — the §37 minister's answer in the terminal.
 
-SPEC §37 ("North-Star Experience") is the interaction URBAN is built for: a
-minister asks *"What happens if we implement this?"* and URBAN answers with a
+SPEC §37 ("North-Star Experience") is the interaction GOV SIM is built for: a
+minister asks *"What happens if we implement this?"* and GOV SIM answers with a
 fixed 15-line narrative — baseline, historical analogues, mechanisms, median
 outcome, uncertainty, who benefits, who loses, most-likely failure, the
 opposition's strongest argument, opinion evolution, media narratives, three
@@ -118,7 +118,7 @@ def run(argv: list[str]) -> int:
 
 
 def _render(data: dict) -> None:
-    rule("URBAN — North-Star answer (SPEC §37)")
+    rule("GOV SIM — North-Star answer (SPEC §37)")
     print(f"{bold('Question')}    “{data.get('question','')}”")
     print(f"{bold('Policy id')}   {data['policy_id']}")
     print(f"{bold('Horizon')}     {data['horizon_label']}  ({data['horizon_months']:g} months)")

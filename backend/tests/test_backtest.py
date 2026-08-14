@@ -83,7 +83,7 @@ def test_direction_accuracy_detects_wrong_sign() -> None:
 def test_endpoints() -> None:
     ex = client.get("/backtest/example")
     assert ex.status_code == 200, ex.text
-    assert ex.json()["id"] == "meridia_2018_cordon"
+    assert ex.json()["id"] == "auckland_2018_cordon"
 
     r = client.post("/backtest", json={})
     assert r.status_code == 200, r.text

@@ -408,7 +408,7 @@ def _models() -> list[ModelCard]:
             layer="Spatial Layer (SPEC §7.7)",
             method=(
                 "Loads the car demand from the deterministic mode-choice model onto "
-                "the real Meridia road grid and solves an approximate static user "
+                "the Auckland road network and solves an approximate static user "
                 "equilibrium (Method of Successive Averages over all-or-nothing "
                 "assignments, BPR volume-delay). Reads out congested link flows, "
                 "cordon inflow, network vehicle-hours, gravity job accessibility by "

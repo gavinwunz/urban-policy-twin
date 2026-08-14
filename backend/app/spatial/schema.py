@@ -94,7 +94,7 @@ class SpatialReport(BaseModel):
     note: str = Field(
         default=(
             "Peak-hour static traffic assignment (MSA user-equilibrium, BPR "
-            "volume-delay) over the real Meridia road grid. Car demand comes from "
+            "volume-delay) over the Auckland road network. Car demand comes from "
             "the same deterministic agent-based mode-choice model as /simulate — "
             "only the agents who still choose to drive are loaded onto the "
             "network. No LLM produces any number (SPEC §34)."

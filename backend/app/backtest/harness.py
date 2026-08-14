@@ -72,24 +72,24 @@ def _sign(x: float, tol: float = 1e-6) -> int:
 
 
 def example_case() -> HistoricalCase:
-    """A built-in synthetic benchmark case (Meridia 2018 cordon charge).
+    """A built-in synthetic benchmark case (Auckland 2018 cordon charge).
 
     The 'actuals' are a synthetic, illustrative benchmark near the model's own
     forecast — NOT real observations — so the scaffold produces a meaningful,
     non-trivial scorecard end-to-end. Clearly labelled Simulated.
     """
     policy = PolicyDSL(
-        id="meridia_2018_cordon",
+        id="auckland_2018_cordon",
         intervention=Intervention(
             type=InterventionType.road_pricing, amount=10.0, currency="local"
         ),
         revenue_allocation=RevenueAllocation(public_transport=0.6, general_fund=0.4),
     )
     return HistoricalCase(
-        id="meridia_2018_cordon",
-        name="Meridia 2018 central cordon charge (synthetic benchmark)",
+        id="auckland_2018_cordon",
+        name="Auckland 2018 central cordon charge (synthetic benchmark)",
         description=(
-            "Illustrative historical replay on the synthetic Meridia dataset: a 10/day "
+            "Illustrative historical replay on the synthetic Auckland dataset: a 10/day "
             "central cordon charge with 60% of revenue reinvested in transit. Actuals are "
             "a synthetic benchmark, not real records."
         ),
@@ -114,7 +114,7 @@ def example_case() -> HistoricalCase:
         ],
         actuals_provenance=MetricTag.simulated,
         actuals_note=(
-            "Synthetic illustrative benchmark on the Meridia dataset — NOT real "
+            "Synthetic illustrative benchmark on the Auckland dataset — NOT real "
             "observations. Replace with real outcomes for a genuine backtest."
         ),
     )

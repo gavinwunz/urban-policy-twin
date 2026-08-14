@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "name": "meridia_roads",
+  "name": "auckland_roads",
   "features": [
     {
       "type": "Feature",
@@ -11,7 +11,7 @@
         "to_zone": "Z001",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7488,
+        "length_km": 0.7494,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -21,12 +21,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            45.026949
+            174.729623,
+            -36.821551
           ],
           [
-            8.971416,
-            45.026949
+            174.738042,
+            -36.821551
           ]
         ]
       }
@@ -50,12 +50,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            45.026949
+            174.729623,
+            -36.821551
           ],
           [
-            8.961888,
-            45.020212
+            174.729623,
+            -36.828288
           ]
         ]
       }
@@ -69,7 +69,7 @@
         "to_zone": "Z002",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7488,
+        "length_km": 0.7494,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -79,12 +79,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            45.026949
+            174.738042,
+            -36.821551
           ],
           [
-            8.980944,
-            45.026949
+            174.746461,
+            -36.821551
           ]
         ]
       }
@@ -108,12 +108,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            45.026949
+            174.738042,
+            -36.821551
           ],
           [
-            8.971416,
-            45.020212
+            174.738042,
+            -36.828288
           ]
         ]
       }
@@ -127,7 +127,7 @@
         "to_zone": "Z003",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7488,
+        "length_km": 0.7495,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -137,12 +137,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            45.026949
+            174.746461,
+            -36.821551
           ],
           [
-            8.990472,
-            45.026949
+            174.754881,
+            -36.821551
           ]
         ]
       }
@@ -166,12 +166,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            45.026949
+            174.746461,
+            -36.821551
           ],
           [
-            8.980944,
-            45.020212
+            174.746461,
+            -36.828288
           ]
         ]
       }
@@ -185,7 +185,7 @@
         "to_zone": "Z004",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7488,
+        "length_km": 0.7494,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -195,12 +195,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            45.026949
+            174.754881,
+            -36.821551
           ],
           [
-            9.0,
-            45.026949
+            174.7633,
+            -36.821551
           ]
         ]
       }
@@ -224,12 +224,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            45.026949
+            174.754881,
+            -36.821551
           ],
           [
-            8.990472,
-            45.020212
+            174.754881,
+            -36.828288
           ]
         ]
       }
@@ -243,7 +243,7 @@
         "to_zone": "Z005",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7488,
+        "length_km": 0.7494,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -253,12 +253,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            45.026949
+            174.7633,
+            -36.821551
           ],
           [
-            9.009528,
-            45.026949
+            174.771719,
+            -36.821551
           ]
         ]
       }
@@ -282,12 +282,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            45.026949
+            174.7633,
+            -36.821551
           ],
           [
-            9.0,
-            45.020212
+            174.7633,
+            -36.828288
           ]
         ]
       }
@@ -301,7 +301,7 @@
         "to_zone": "Z006",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7488,
+        "length_km": 0.7495,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -311,12 +311,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            45.026949
+            174.771719,
+            -36.821551
           ],
           [
-            9.019056,
-            45.026949
+            174.780139,
+            -36.821551
           ]
         ]
       }
@@ -340,12 +340,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            45.026949
+            174.771719,
+            -36.821551
           ],
           [
-            9.009528,
-            45.020212
+            174.771719,
+            -36.828288
           ]
         ]
       }
@@ -359,7 +359,7 @@
         "to_zone": "Z007",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7488,
+        "length_km": 0.7494,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -369,12 +369,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            45.026949
+            174.780139,
+            -36.821551
           ],
           [
-            9.028584,
-            45.026949
+            174.788558,
+            -36.821551
           ]
         ]
       }
@@ -398,12 +398,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            45.026949
+            174.780139,
+            -36.821551
           ],
           [
-            9.019056,
-            45.020212
+            174.780139,
+            -36.828288
           ]
         ]
       }
@@ -417,7 +417,7 @@
         "to_zone": "Z008",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7488,
+        "length_km": 0.7494,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -427,12 +427,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            45.026949
+            174.788558,
+            -36.821551
           ],
           [
-            9.038112,
-            45.026949
+            174.796977,
+            -36.821551
           ]
         ]
       }
@@ -456,12 +456,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            45.026949
+            174.788558,
+            -36.821551
           ],
           [
-            9.028584,
-            45.020212
+            174.788558,
+            -36.828288
           ]
         ]
       }
@@ -485,12 +485,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.038112,
-            45.026949
+            174.796977,
+            -36.821551
           ],
           [
-            9.038112,
-            45.020212
+            174.796977,
+            -36.828288
           ]
         ]
       }
@@ -504,7 +504,7 @@
         "to_zone": "Z010",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7489,
+        "length_km": 0.7493,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -514,12 +514,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            45.020212
+            174.729623,
+            -36.828288
           ],
           [
-            8.971416,
-            45.020212
+            174.738042,
+            -36.828288
           ]
         ]
       }
@@ -543,12 +543,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            45.020212
+            174.729623,
+            -36.828288
           ],
           [
-            8.961888,
-            45.013475
+            174.729623,
+            -36.835025
           ]
         ]
       }
@@ -562,7 +562,7 @@
         "to_zone": "Z011",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7489,
+        "length_km": 0.7493,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -572,12 +572,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            45.020212
+            174.738042,
+            -36.828288
           ],
           [
-            8.980944,
-            45.020212
+            174.746461,
+            -36.828288
           ]
         ]
       }
@@ -601,12 +601,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            45.020212
+            174.738042,
+            -36.828288
           ],
           [
-            8.971416,
-            45.013475
+            174.738042,
+            -36.835025
           ]
         ]
       }
@@ -620,7 +620,7 @@
         "to_zone": "Z012",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7489,
+        "length_km": 0.7494,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -630,12 +630,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            45.020212
+            174.746461,
+            -36.828288
           ],
           [
-            8.990472,
-            45.020212
+            174.754881,
+            -36.828288
           ]
         ]
       }
@@ -659,12 +659,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            45.020212
+            174.746461,
+            -36.828288
           ],
           [
-            8.980944,
-            45.013475
+            174.746461,
+            -36.835025
           ]
         ]
       }
@@ -678,7 +678,7 @@
         "to_zone": "Z013",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7489,
+        "length_km": 0.7493,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -688,12 +688,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            45.020212
+            174.754881,
+            -36.828288
           ],
           [
-            9.0,
-            45.020212
+            174.7633,
+            -36.828288
           ]
         ]
       }
@@ -717,12 +717,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            45.020212
+            174.754881,
+            -36.828288
           ],
           [
-            8.990472,
-            45.013475
+            174.754881,
+            -36.835025
           ]
         ]
       }
@@ -736,7 +736,7 @@
         "to_zone": "Z014",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7489,
+        "length_km": 0.7493,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -746,12 +746,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            45.020212
+            174.7633,
+            -36.828288
           ],
           [
-            9.009528,
-            45.020212
+            174.771719,
+            -36.828288
           ]
         ]
       }
@@ -775,12 +775,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            45.020212
+            174.7633,
+            -36.828288
           ],
           [
-            9.0,
-            45.013475
+            174.7633,
+            -36.835025
           ]
         ]
       }
@@ -794,7 +794,7 @@
         "to_zone": "Z015",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7489,
+        "length_km": 0.7494,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -804,12 +804,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            45.020212
+            174.771719,
+            -36.828288
           ],
           [
-            9.019056,
-            45.020212
+            174.780139,
+            -36.828288
           ]
         ]
       }
@@ -833,12 +833,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            45.020212
+            174.771719,
+            -36.828288
           ],
           [
-            9.009528,
-            45.013475
+            174.771719,
+            -36.835025
           ]
         ]
       }
@@ -852,7 +852,7 @@
         "to_zone": "Z016",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7489,
+        "length_km": 0.7493,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -862,12 +862,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            45.020212
+            174.780139,
+            -36.828288
           ],
           [
-            9.028584,
-            45.020212
+            174.788558,
+            -36.828288
           ]
         ]
       }
@@ -891,12 +891,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            45.020212
+            174.780139,
+            -36.828288
           ],
           [
-            9.019056,
-            45.013475
+            174.780139,
+            -36.835025
           ]
         ]
       }
@@ -910,7 +910,7 @@
         "to_zone": "Z017",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7489,
+        "length_km": 0.7493,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -920,12 +920,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            45.020212
+            174.788558,
+            -36.828288
           ],
           [
-            9.038112,
-            45.020212
+            174.796977,
+            -36.828288
           ]
         ]
       }
@@ -949,12 +949,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            45.020212
+            174.788558,
+            -36.828288
           ],
           [
-            9.028584,
-            45.013475
+            174.788558,
+            -36.835025
           ]
         ]
       }
@@ -978,12 +978,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.038112,
-            45.020212
+            174.796977,
+            -36.828288
           ],
           [
-            9.038112,
-            45.013475
+            174.796977,
+            -36.835025
           ]
         ]
       }
@@ -997,7 +997,7 @@
         "to_zone": "Z019",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.749,
+        "length_km": 0.7493,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -1007,12 +1007,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            45.013475
+            174.729623,
+            -36.835025
           ],
           [
-            8.971416,
-            45.013475
+            174.738042,
+            -36.835025
           ]
         ]
       }
@@ -1036,12 +1036,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            45.013475
+            174.729623,
+            -36.835025
           ],
           [
-            8.961888,
-            45.006737
+            174.729623,
+            -36.841763
           ]
         ]
       }
@@ -1055,7 +1055,7 @@
         "to_zone": "Z020",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.749,
+        "length_km": 0.7493,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -1065,12 +1065,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            45.013475
+            174.738042,
+            -36.835025
           ],
           [
-            8.980944,
-            45.013475
+            174.746461,
+            -36.835025
           ]
         ]
       }
@@ -1094,12 +1094,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            45.013475
+            174.738042,
+            -36.835025
           ],
           [
-            8.971416,
-            45.006737
+            174.738042,
+            -36.841763
           ]
         ]
       }
@@ -1113,7 +1113,7 @@
         "to_zone": "Z021",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.749,
+        "length_km": 0.7494,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -1123,12 +1123,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            45.013475
+            174.746461,
+            -36.835025
           ],
           [
-            8.990472,
-            45.013475
+            174.754881,
+            -36.835025
           ]
         ]
       }
@@ -1152,12 +1152,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            45.013475
+            174.746461,
+            -36.835025
           ],
           [
-            8.980944,
-            45.006737
+            174.746461,
+            -36.841763
           ]
         ]
       }
@@ -1171,7 +1171,7 @@
         "to_zone": "Z022",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.749,
+        "length_km": 0.7493,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -1181,12 +1181,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            45.013475
+            174.754881,
+            -36.835025
           ],
           [
-            9.0,
-            45.013475
+            174.7633,
+            -36.835025
           ]
         ]
       }
@@ -1210,12 +1210,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            45.013475
+            174.754881,
+            -36.835025
           ],
           [
-            8.990472,
-            45.006737
+            174.754881,
+            -36.841763
           ]
         ]
       }
@@ -1229,7 +1229,7 @@
         "to_zone": "Z023",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.749,
+        "length_km": 0.7493,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -1239,12 +1239,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            45.013475
+            174.7633,
+            -36.835025
           ],
           [
-            9.009528,
-            45.013475
+            174.771719,
+            -36.835025
           ]
         ]
       }
@@ -1268,12 +1268,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            45.013475
+            174.7633,
+            -36.835025
           ],
           [
-            9.0,
-            45.006737
+            174.7633,
+            -36.841763
           ]
         ]
       }
@@ -1287,7 +1287,7 @@
         "to_zone": "Z024",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.749,
+        "length_km": 0.7494,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -1297,12 +1297,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            45.013475
+            174.771719,
+            -36.835025
           ],
           [
-            9.019056,
-            45.013475
+            174.780139,
+            -36.835025
           ]
         ]
       }
@@ -1326,12 +1326,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            45.013475
+            174.771719,
+            -36.835025
           ],
           [
-            9.009528,
-            45.006737
+            174.771719,
+            -36.841763
           ]
         ]
       }
@@ -1345,7 +1345,7 @@
         "to_zone": "Z025",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.749,
+        "length_km": 0.7493,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -1355,12 +1355,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            45.013475
+            174.780139,
+            -36.835025
           ],
           [
-            9.028584,
-            45.013475
+            174.788558,
+            -36.835025
           ]
         ]
       }
@@ -1384,12 +1384,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            45.013475
+            174.780139,
+            -36.835025
           ],
           [
-            9.019056,
-            45.006737
+            174.780139,
+            -36.841763
           ]
         ]
       }
@@ -1403,7 +1403,7 @@
         "to_zone": "Z026",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.749,
+        "length_km": 0.7493,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -1413,12 +1413,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            45.013475
+            174.788558,
+            -36.835025
           ],
           [
-            9.038112,
-            45.013475
+            174.796977,
+            -36.835025
           ]
         ]
       }
@@ -1442,12 +1442,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            45.013475
+            174.788558,
+            -36.835025
           ],
           [
-            9.028584,
-            45.006737
+            174.788558,
+            -36.841763
           ]
         ]
       }
@@ -1471,12 +1471,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.038112,
-            45.013475
+            174.796977,
+            -36.835025
           ],
           [
-            9.038112,
-            45.006737
+            174.796977,
+            -36.841763
           ]
         ]
       }
@@ -1490,7 +1490,7 @@
         "to_zone": "Z028",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7491,
+        "length_km": 0.7492,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -1500,12 +1500,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            45.006737
+            174.729623,
+            -36.841763
           ],
           [
-            8.971416,
-            45.006737
+            174.738042,
+            -36.841763
           ]
         ]
       }
@@ -1529,12 +1529,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            45.006737
+            174.729623,
+            -36.841763
           ],
           [
-            8.961888,
-            45.0
+            174.729623,
+            -36.8485
           ]
         ]
       }
@@ -1548,7 +1548,7 @@
         "to_zone": "Z029",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7491,
+        "length_km": 0.7492,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -1558,12 +1558,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            45.006737
+            174.738042,
+            -36.841763
           ],
           [
-            8.980944,
-            45.006737
+            174.746461,
+            -36.841763
           ]
         ]
       }
@@ -1587,12 +1587,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            45.006737
+            174.738042,
+            -36.841763
           ],
           [
-            8.971416,
-            45.0
+            174.738042,
+            -36.8485
           ]
         ]
       }
@@ -1606,7 +1606,7 @@
         "to_zone": "Z030",
         "road_class": "arterial",
         "lanes": 2,
-        "length_km": 0.7491,
+        "length_km": 0.7493,
         "capacity_veh_per_hr": 1800,
         "free_flow_speed_kmh": 40,
         "crosses_cordon": true,
@@ -1616,12 +1616,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            45.006737
+            174.746461,
+            -36.841763
           ],
           [
-            8.990472,
-            45.006737
+            174.754881,
+            -36.841763
           ]
         ]
       }
@@ -1645,12 +1645,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            45.006737
+            174.746461,
+            -36.841763
           ],
           [
-            8.980944,
-            45.0
+            174.746461,
+            -36.8485
           ]
         ]
       }
@@ -1664,7 +1664,7 @@
         "to_zone": "Z031",
         "road_class": "arterial",
         "lanes": 2,
-        "length_km": 0.7491,
+        "length_km": 0.7492,
         "capacity_veh_per_hr": 1800,
         "free_flow_speed_kmh": 40,
         "crosses_cordon": false,
@@ -1674,12 +1674,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            45.006737
+            174.754881,
+            -36.841763
           ],
           [
-            9.0,
-            45.006737
+            174.7633,
+            -36.841763
           ]
         ]
       }
@@ -1703,12 +1703,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            45.006737
+            174.754881,
+            -36.841763
           ],
           [
-            8.990472,
-            45.0
+            174.754881,
+            -36.8485
           ]
         ]
       }
@@ -1722,7 +1722,7 @@
         "to_zone": "Z032",
         "road_class": "arterial",
         "lanes": 2,
-        "length_km": 0.7491,
+        "length_km": 0.7492,
         "capacity_veh_per_hr": 1800,
         "free_flow_speed_kmh": 40,
         "crosses_cordon": false,
@@ -1732,12 +1732,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            45.006737
+            174.7633,
+            -36.841763
           ],
           [
-            9.009528,
-            45.006737
+            174.771719,
+            -36.841763
           ]
         ]
       }
@@ -1761,12 +1761,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            45.006737
+            174.7633,
+            -36.841763
           ],
           [
-            9.0,
-            45.0
+            174.7633,
+            -36.8485
           ]
         ]
       }
@@ -1780,7 +1780,7 @@
         "to_zone": "Z033",
         "road_class": "arterial",
         "lanes": 2,
-        "length_km": 0.7491,
+        "length_km": 0.7493,
         "capacity_veh_per_hr": 1800,
         "free_flow_speed_kmh": 40,
         "crosses_cordon": true,
@@ -1790,12 +1790,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            45.006737
+            174.771719,
+            -36.841763
           ],
           [
-            9.019056,
-            45.006737
+            174.780139,
+            -36.841763
           ]
         ]
       }
@@ -1819,12 +1819,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            45.006737
+            174.771719,
+            -36.841763
           ],
           [
-            9.009528,
-            45.0
+            174.771719,
+            -36.8485
           ]
         ]
       }
@@ -1838,7 +1838,7 @@
         "to_zone": "Z034",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7491,
+        "length_km": 0.7492,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -1848,12 +1848,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            45.006737
+            174.780139,
+            -36.841763
           ],
           [
-            9.028584,
-            45.006737
+            174.788558,
+            -36.841763
           ]
         ]
       }
@@ -1877,12 +1877,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            45.006737
+            174.780139,
+            -36.841763
           ],
           [
-            9.019056,
-            45.0
+            174.780139,
+            -36.8485
           ]
         ]
       }
@@ -1896,7 +1896,7 @@
         "to_zone": "Z035",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7491,
+        "length_km": 0.7492,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -1906,12 +1906,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            45.006737
+            174.788558,
+            -36.841763
           ],
           [
-            9.038112,
-            45.006737
+            174.796977,
+            -36.841763
           ]
         ]
       }
@@ -1935,12 +1935,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            45.006737
+            174.788558,
+            -36.841763
           ],
           [
-            9.028584,
-            45.0
+            174.788558,
+            -36.8485
           ]
         ]
       }
@@ -1964,12 +1964,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.038112,
-            45.006737
+            174.796977,
+            -36.841763
           ],
           [
-            9.038112,
-            45.0
+            174.796977,
+            -36.8485
           ]
         ]
       }
@@ -1983,7 +1983,7 @@
         "to_zone": "Z037",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7492,
+        "length_km": 0.7491,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -1993,12 +1993,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            45.0
+            174.729623,
+            -36.8485
           ],
           [
-            8.971416,
-            45.0
+            174.738042,
+            -36.8485
           ]
         ]
       }
@@ -2022,12 +2022,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            45.0
+            174.729623,
+            -36.8485
           ],
           [
-            8.961888,
-            44.993263
+            174.729623,
+            -36.855237
           ]
         ]
       }
@@ -2041,7 +2041,7 @@
         "to_zone": "Z038",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7492,
+        "length_km": 0.7491,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -2051,12 +2051,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            45.0
+            174.738042,
+            -36.8485
           ],
           [
-            8.980944,
-            45.0
+            174.746461,
+            -36.8485
           ]
         ]
       }
@@ -2080,12 +2080,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            45.0
+            174.738042,
+            -36.8485
           ],
           [
-            8.971416,
-            44.993263
+            174.738042,
+            -36.855237
           ]
         ]
       }
@@ -2109,12 +2109,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            45.0
+            174.746461,
+            -36.8485
           ],
           [
-            8.990472,
-            45.0
+            174.754881,
+            -36.8485
           ]
         ]
       }
@@ -2138,12 +2138,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            45.0
+            174.746461,
+            -36.8485
           ],
           [
-            8.980944,
-            44.993263
+            174.746461,
+            -36.855237
           ]
         ]
       }
@@ -2157,7 +2157,7 @@
         "to_zone": "Z040",
         "road_class": "arterial",
         "lanes": 2,
-        "length_km": 0.7492,
+        "length_km": 0.7491,
         "capacity_veh_per_hr": 1800,
         "free_flow_speed_kmh": 40,
         "crosses_cordon": false,
@@ -2167,12 +2167,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            45.0
+            174.754881,
+            -36.8485
           ],
           [
-            9.0,
-            45.0
+            174.7633,
+            -36.8485
           ]
         ]
       }
@@ -2196,12 +2196,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            45.0
+            174.754881,
+            -36.8485
           ],
           [
-            8.990472,
-            44.993263
+            174.754881,
+            -36.855237
           ]
         ]
       }
@@ -2215,7 +2215,7 @@
         "to_zone": "Z041",
         "road_class": "arterial",
         "lanes": 2,
-        "length_km": 0.7492,
+        "length_km": 0.7491,
         "capacity_veh_per_hr": 1800,
         "free_flow_speed_kmh": 40,
         "crosses_cordon": false,
@@ -2225,12 +2225,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            45.0
+            174.7633,
+            -36.8485
           ],
           [
-            9.009528,
-            45.0
+            174.771719,
+            -36.8485
           ]
         ]
       }
@@ -2254,12 +2254,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            45.0
+            174.7633,
+            -36.8485
           ],
           [
-            9.0,
-            44.993263
+            174.7633,
+            -36.855237
           ]
         ]
       }
@@ -2283,12 +2283,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            45.0
+            174.771719,
+            -36.8485
           ],
           [
-            9.019056,
-            45.0
+            174.780139,
+            -36.8485
           ]
         ]
       }
@@ -2312,12 +2312,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            45.0
+            174.771719,
+            -36.8485
           ],
           [
-            9.009528,
-            44.993263
+            174.771719,
+            -36.855237
           ]
         ]
       }
@@ -2331,7 +2331,7 @@
         "to_zone": "Z043",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7492,
+        "length_km": 0.7491,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -2341,12 +2341,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            45.0
+            174.780139,
+            -36.8485
           ],
           [
-            9.028584,
-            45.0
+            174.788558,
+            -36.8485
           ]
         ]
       }
@@ -2370,12 +2370,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            45.0
+            174.780139,
+            -36.8485
           ],
           [
-            9.019056,
-            44.993263
+            174.780139,
+            -36.855237
           ]
         ]
       }
@@ -2389,7 +2389,7 @@
         "to_zone": "Z044",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7492,
+        "length_km": 0.7491,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -2399,12 +2399,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            45.0
+            174.788558,
+            -36.8485
           ],
           [
-            9.038112,
-            45.0
+            174.796977,
+            -36.8485
           ]
         ]
       }
@@ -2428,12 +2428,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            45.0
+            174.788558,
+            -36.8485
           ],
           [
-            9.028584,
-            44.993263
+            174.788558,
+            -36.855237
           ]
         ]
       }
@@ -2457,12 +2457,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.038112,
-            45.0
+            174.796977,
+            -36.8485
           ],
           [
-            9.038112,
-            44.993263
+            174.796977,
+            -36.855237
           ]
         ]
       }
@@ -2476,7 +2476,7 @@
         "to_zone": "Z046",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7492,
+        "length_km": 0.7491,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -2486,12 +2486,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            44.993263
+            174.729623,
+            -36.855237
           ],
           [
-            8.971416,
-            44.993263
+            174.738042,
+            -36.855237
           ]
         ]
       }
@@ -2515,12 +2515,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            44.993263
+            174.729623,
+            -36.855237
           ],
           [
-            8.961888,
-            44.986525
+            174.729623,
+            -36.861975
           ]
         ]
       }
@@ -2534,7 +2534,7 @@
         "to_zone": "Z047",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7492,
+        "length_km": 0.7491,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -2544,12 +2544,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            44.993263
+            174.738042,
+            -36.855237
           ],
           [
-            8.980944,
-            44.993263
+            174.746461,
+            -36.855237
           ]
         ]
       }
@@ -2573,12 +2573,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            44.993263
+            174.738042,
+            -36.855237
           ],
           [
-            8.971416,
-            44.986525
+            174.738042,
+            -36.861975
           ]
         ]
       }
@@ -2602,12 +2602,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            44.993263
+            174.746461,
+            -36.855237
           ],
           [
-            8.990472,
-            44.993263
+            174.754881,
+            -36.855237
           ]
         ]
       }
@@ -2631,12 +2631,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            44.993263
+            174.746461,
+            -36.855237
           ],
           [
-            8.980944,
-            44.986525
+            174.746461,
+            -36.861975
           ]
         ]
       }
@@ -2650,7 +2650,7 @@
         "to_zone": "Z049",
         "road_class": "arterial",
         "lanes": 2,
-        "length_km": 0.7492,
+        "length_km": 0.7491,
         "capacity_veh_per_hr": 1800,
         "free_flow_speed_kmh": 40,
         "crosses_cordon": false,
@@ -2660,12 +2660,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            44.993263
+            174.754881,
+            -36.855237
           ],
           [
-            9.0,
-            44.993263
+            174.7633,
+            -36.855237
           ]
         ]
       }
@@ -2689,12 +2689,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            44.993263
+            174.754881,
+            -36.855237
           ],
           [
-            8.990472,
-            44.986525
+            174.754881,
+            -36.861975
           ]
         ]
       }
@@ -2708,7 +2708,7 @@
         "to_zone": "Z050",
         "road_class": "arterial",
         "lanes": 2,
-        "length_km": 0.7492,
+        "length_km": 0.7491,
         "capacity_veh_per_hr": 1800,
         "free_flow_speed_kmh": 40,
         "crosses_cordon": false,
@@ -2718,12 +2718,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            44.993263
+            174.7633,
+            -36.855237
           ],
           [
-            9.009528,
-            44.993263
+            174.771719,
+            -36.855237
           ]
         ]
       }
@@ -2747,12 +2747,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            44.993263
+            174.7633,
+            -36.855237
           ],
           [
-            9.0,
-            44.986525
+            174.7633,
+            -36.861975
           ]
         ]
       }
@@ -2776,12 +2776,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            44.993263
+            174.771719,
+            -36.855237
           ],
           [
-            9.019056,
-            44.993263
+            174.780139,
+            -36.855237
           ]
         ]
       }
@@ -2805,12 +2805,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            44.993263
+            174.771719,
+            -36.855237
           ],
           [
-            9.009528,
-            44.986525
+            174.771719,
+            -36.861975
           ]
         ]
       }
@@ -2824,7 +2824,7 @@
         "to_zone": "Z052",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7492,
+        "length_km": 0.7491,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -2834,12 +2834,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            44.993263
+            174.780139,
+            -36.855237
           ],
           [
-            9.028584,
-            44.993263
+            174.788558,
+            -36.855237
           ]
         ]
       }
@@ -2863,12 +2863,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            44.993263
+            174.780139,
+            -36.855237
           ],
           [
-            9.019056,
-            44.986525
+            174.780139,
+            -36.861975
           ]
         ]
       }
@@ -2882,7 +2882,7 @@
         "to_zone": "Z053",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7492,
+        "length_km": 0.7491,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -2892,12 +2892,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            44.993263
+            174.788558,
+            -36.855237
           ],
           [
-            9.038112,
-            44.993263
+            174.796977,
+            -36.855237
           ]
         ]
       }
@@ -2921,12 +2921,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            44.993263
+            174.788558,
+            -36.855237
           ],
           [
-            9.028584,
-            44.986525
+            174.788558,
+            -36.861975
           ]
         ]
       }
@@ -2950,12 +2950,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.038112,
-            44.993263
+            174.796977,
+            -36.855237
           ],
           [
-            9.038112,
-            44.986525
+            174.796977,
+            -36.861975
           ]
         ]
       }
@@ -2969,7 +2969,7 @@
         "to_zone": "Z055",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7493,
+        "length_km": 0.749,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -2979,12 +2979,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            44.986525
+            174.729623,
+            -36.861975
           ],
           [
-            8.971416,
-            44.986525
+            174.738042,
+            -36.861975
           ]
         ]
       }
@@ -3008,12 +3008,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            44.986525
+            174.729623,
+            -36.861975
           ],
           [
-            8.961888,
-            44.979788
+            174.729623,
+            -36.868712
           ]
         ]
       }
@@ -3027,7 +3027,7 @@
         "to_zone": "Z056",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7493,
+        "length_km": 0.749,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3037,12 +3037,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            44.986525
+            174.738042,
+            -36.861975
           ],
           [
-            8.980944,
-            44.986525
+            174.746461,
+            -36.861975
           ]
         ]
       }
@@ -3066,12 +3066,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            44.986525
+            174.738042,
+            -36.861975
           ],
           [
-            8.971416,
-            44.979788
+            174.738042,
+            -36.868712
           ]
         ]
       }
@@ -3085,7 +3085,7 @@
         "to_zone": "Z057",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7493,
+        "length_km": 0.7491,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3095,12 +3095,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            44.986525
+            174.746461,
+            -36.861975
           ],
           [
-            8.990472,
-            44.986525
+            174.754881,
+            -36.861975
           ]
         ]
       }
@@ -3124,12 +3124,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            44.986525
+            174.746461,
+            -36.861975
           ],
           [
-            8.980944,
-            44.979788
+            174.746461,
+            -36.868712
           ]
         ]
       }
@@ -3143,7 +3143,7 @@
         "to_zone": "Z058",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7493,
+        "length_km": 0.749,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3153,12 +3153,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            44.986525
+            174.754881,
+            -36.861975
           ],
           [
-            9.0,
-            44.986525
+            174.7633,
+            -36.861975
           ]
         ]
       }
@@ -3182,12 +3182,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            44.986525
+            174.754881,
+            -36.861975
           ],
           [
-            8.990472,
-            44.979788
+            174.754881,
+            -36.868712
           ]
         ]
       }
@@ -3201,7 +3201,7 @@
         "to_zone": "Z059",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7493,
+        "length_km": 0.749,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3211,12 +3211,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            44.986525
+            174.7633,
+            -36.861975
           ],
           [
-            9.009528,
-            44.986525
+            174.771719,
+            -36.861975
           ]
         ]
       }
@@ -3240,12 +3240,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            44.986525
+            174.7633,
+            -36.861975
           ],
           [
-            9.0,
-            44.979788
+            174.7633,
+            -36.868712
           ]
         ]
       }
@@ -3259,7 +3259,7 @@
         "to_zone": "Z060",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7493,
+        "length_km": 0.7491,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3269,12 +3269,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            44.986525
+            174.771719,
+            -36.861975
           ],
           [
-            9.019056,
-            44.986525
+            174.780139,
+            -36.861975
           ]
         ]
       }
@@ -3298,12 +3298,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            44.986525
+            174.771719,
+            -36.861975
           ],
           [
-            9.009528,
-            44.979788
+            174.771719,
+            -36.868712
           ]
         ]
       }
@@ -3317,7 +3317,7 @@
         "to_zone": "Z061",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7493,
+        "length_km": 0.749,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3327,12 +3327,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            44.986525
+            174.780139,
+            -36.861975
           ],
           [
-            9.028584,
-            44.986525
+            174.788558,
+            -36.861975
           ]
         ]
       }
@@ -3356,12 +3356,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            44.986525
+            174.780139,
+            -36.861975
           ],
           [
-            9.019056,
-            44.979788
+            174.780139,
+            -36.868712
           ]
         ]
       }
@@ -3375,7 +3375,7 @@
         "to_zone": "Z062",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7493,
+        "length_km": 0.749,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3385,12 +3385,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            44.986525
+            174.788558,
+            -36.861975
           ],
           [
-            9.038112,
-            44.986525
+            174.796977,
+            -36.861975
           ]
         ]
       }
@@ -3414,12 +3414,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            44.986525
+            174.788558,
+            -36.861975
           ],
           [
-            9.028584,
-            44.979788
+            174.788558,
+            -36.868712
           ]
         ]
       }
@@ -3443,12 +3443,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.038112,
-            44.986525
+            174.796977,
+            -36.861975
           ],
           [
-            9.038112,
-            44.979788
+            174.796977,
+            -36.868712
           ]
         ]
       }
@@ -3462,7 +3462,7 @@
         "to_zone": "Z064",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7494,
+        "length_km": 0.7489,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3472,12 +3472,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            44.979788
+            174.729623,
+            -36.868712
           ],
           [
-            8.971416,
-            44.979788
+            174.738042,
+            -36.868712
           ]
         ]
       }
@@ -3501,12 +3501,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            44.979788
+            174.729623,
+            -36.868712
           ],
           [
-            8.961888,
-            44.973051
+            174.729623,
+            -36.875449
           ]
         ]
       }
@@ -3520,7 +3520,7 @@
         "to_zone": "Z065",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7494,
+        "length_km": 0.7489,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3530,12 +3530,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            44.979788
+            174.738042,
+            -36.868712
           ],
           [
-            8.980944,
-            44.979788
+            174.746461,
+            -36.868712
           ]
         ]
       }
@@ -3559,12 +3559,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            44.979788
+            174.738042,
+            -36.868712
           ],
           [
-            8.971416,
-            44.973051
+            174.738042,
+            -36.875449
           ]
         ]
       }
@@ -3578,7 +3578,7 @@
         "to_zone": "Z066",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7494,
+        "length_km": 0.749,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3588,12 +3588,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            44.979788
+            174.746461,
+            -36.868712
           ],
           [
-            8.990472,
-            44.979788
+            174.754881,
+            -36.868712
           ]
         ]
       }
@@ -3617,12 +3617,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            44.979788
+            174.746461,
+            -36.868712
           ],
           [
-            8.980944,
-            44.973051
+            174.746461,
+            -36.875449
           ]
         ]
       }
@@ -3636,7 +3636,7 @@
         "to_zone": "Z067",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7494,
+        "length_km": 0.7489,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3646,12 +3646,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            44.979788
+            174.754881,
+            -36.868712
           ],
           [
-            9.0,
-            44.979788
+            174.7633,
+            -36.868712
           ]
         ]
       }
@@ -3675,12 +3675,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            44.979788
+            174.754881,
+            -36.868712
           ],
           [
-            8.990472,
-            44.973051
+            174.754881,
+            -36.875449
           ]
         ]
       }
@@ -3694,7 +3694,7 @@
         "to_zone": "Z068",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7494,
+        "length_km": 0.7489,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3704,12 +3704,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            44.979788
+            174.7633,
+            -36.868712
           ],
           [
-            9.009528,
-            44.979788
+            174.771719,
+            -36.868712
           ]
         ]
       }
@@ -3733,12 +3733,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            44.979788
+            174.7633,
+            -36.868712
           ],
           [
-            9.0,
-            44.973051
+            174.7633,
+            -36.875449
           ]
         ]
       }
@@ -3752,7 +3752,7 @@
         "to_zone": "Z069",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7494,
+        "length_km": 0.749,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3762,12 +3762,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            44.979788
+            174.771719,
+            -36.868712
           ],
           [
-            9.019056,
-            44.979788
+            174.780139,
+            -36.868712
           ]
         ]
       }
@@ -3791,12 +3791,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            44.979788
+            174.771719,
+            -36.868712
           ],
           [
-            9.009528,
-            44.973051
+            174.771719,
+            -36.875449
           ]
         ]
       }
@@ -3810,7 +3810,7 @@
         "to_zone": "Z070",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7494,
+        "length_km": 0.7489,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3820,12 +3820,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            44.979788
+            174.780139,
+            -36.868712
           ],
           [
-            9.028584,
-            44.979788
+            174.788558,
+            -36.868712
           ]
         ]
       }
@@ -3849,12 +3849,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            44.979788
+            174.780139,
+            -36.868712
           ],
           [
-            9.019056,
-            44.973051
+            174.780139,
+            -36.875449
           ]
         ]
       }
@@ -3868,7 +3868,7 @@
         "to_zone": "Z071",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7494,
+        "length_km": 0.7489,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3878,12 +3878,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            44.979788
+            174.788558,
+            -36.868712
           ],
           [
-            9.038112,
-            44.979788
+            174.796977,
+            -36.868712
           ]
         ]
       }
@@ -3907,12 +3907,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            44.979788
+            174.788558,
+            -36.868712
           ],
           [
-            9.028584,
-            44.973051
+            174.788558,
+            -36.875449
           ]
         ]
       }
@@ -3936,12 +3936,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.038112,
-            44.979788
+            174.796977,
+            -36.868712
           ],
           [
-            9.038112,
-            44.973051
+            174.796977,
+            -36.875449
           ]
         ]
       }
@@ -3955,7 +3955,7 @@
         "to_zone": "Z073",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7495,
+        "length_km": 0.7489,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3965,12 +3965,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.961888,
-            44.973051
+            174.729623,
+            -36.875449
           ],
           [
-            8.971416,
-            44.973051
+            174.738042,
+            -36.875449
           ]
         ]
       }
@@ -3984,7 +3984,7 @@
         "to_zone": "Z074",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7495,
+        "length_km": 0.7489,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -3994,12 +3994,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.971416,
-            44.973051
+            174.738042,
+            -36.875449
           ],
           [
-            8.980944,
-            44.973051
+            174.746461,
+            -36.875449
           ]
         ]
       }
@@ -4013,7 +4013,7 @@
         "to_zone": "Z075",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7495,
+        "length_km": 0.749,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -4023,12 +4023,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.980944,
-            44.973051
+            174.746461,
+            -36.875449
           ],
           [
-            8.990472,
-            44.973051
+            174.754881,
+            -36.875449
           ]
         ]
       }
@@ -4042,7 +4042,7 @@
         "to_zone": "Z076",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7495,
+        "length_km": 0.7489,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -4052,12 +4052,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            8.990472,
-            44.973051
+            174.754881,
+            -36.875449
           ],
           [
-            9.0,
-            44.973051
+            174.7633,
+            -36.875449
           ]
         ]
       }
@@ -4071,7 +4071,7 @@
         "to_zone": "Z077",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7495,
+        "length_km": 0.7489,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -4081,12 +4081,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.0,
-            44.973051
+            174.7633,
+            -36.875449
           ],
           [
-            9.009528,
-            44.973051
+            174.771719,
+            -36.875449
           ]
         ]
       }
@@ -4100,7 +4100,7 @@
         "to_zone": "Z078",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7495,
+        "length_km": 0.749,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -4110,12 +4110,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.009528,
-            44.973051
+            174.771719,
+            -36.875449
           ],
           [
-            9.019056,
-            44.973051
+            174.780139,
+            -36.875449
           ]
         ]
       }
@@ -4129,7 +4129,7 @@
         "to_zone": "Z079",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7495,
+        "length_km": 0.7489,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -4139,12 +4139,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.019056,
-            44.973051
+            174.780139,
+            -36.875449
           ],
           [
-            9.028584,
-            44.973051
+            174.788558,
+            -36.875449
           ]
         ]
       }
@@ -4158,7 +4158,7 @@
         "to_zone": "Z080",
         "road_class": "local",
         "lanes": 1,
-        "length_km": 0.7495,
+        "length_km": 0.7489,
         "capacity_veh_per_hr": 900,
         "free_flow_speed_kmh": 50,
         "crosses_cordon": false,
@@ -4168,12 +4168,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            9.028584,
-            44.973051
+            174.788558,
+            -36.875449
           ],
           [
-            9.038112,
-            44.973051
+            174.796977,
+            -36.875449
           ]
         ]
       }

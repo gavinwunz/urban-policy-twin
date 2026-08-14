@@ -338,7 +338,7 @@ export function deltaPct(value: number, reference: number): number | null {
  */
 export const SPONSOR = {
   name: "Amara Voss",
-  title: "Deputy Mayor for Transport, Meridia",
+  title: "Deputy Mayor for Transport, Auckland",
 } as const;
 
 export interface PoliticianStatement {

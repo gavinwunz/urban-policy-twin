@@ -75,7 +75,7 @@ class DataSourceCard(BaseModel):
 
 
 class GuardrailCheck(BaseModel):
-    """One SPEC §34 anti-'AI-astrology' guardrail and how URBAN enforces it."""
+    """One SPEC §34 anti-'AI-astrology' guardrail and how GOV SIM enforces it."""
 
     id: str
     rule: str = Field(description="The guardrail as stated in SPEC §34.")

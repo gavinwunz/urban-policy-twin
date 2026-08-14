@@ -1,6 +1,6 @@
 """Map simulation + opinion outcomes onto SDG targets (SPEC §23).
 
-The core URBAN alignment is **SDG 11** (sustainable cities / transport) and
+The core GOV SIM alignment is **SDG 11** (sustainable cities / transport) and
 **SDG 16** (effective, transparent, evidence-informed institutions); the
 secondary alignment is **SDG 10** (reduced inequalities) and **SDG 13** (climate
 action). We map each to measurable indicators / transparent proxies rather than
@@ -174,7 +174,7 @@ def build_sdg_report(
     )
     t_years = horizon.t_years
 
-    sim_src = "URBAN deterministic mode-choice simulation (World A vs World B)"
+    sim_src = "GOV SIM deterministic mode-choice simulation (World A vs World B)"
 
     def pt(key: str):
         s = by_key.get(key)
@@ -283,7 +283,7 @@ def build_sdg_report(
             0.0,
             excess,
             "lower",
-            "URBAN cohort-opinion generalized-cost burden model (income decile × "
+            "GOV SIM cohort-opinion generalized-cost burden model (income decile × "
             "geography × mode)",
             round(0.6 * _horizon_decay(t_years), 3),
             MetricTag.estimated,
@@ -296,7 +296,7 @@ def build_sdg_report(
 
     # ---- SDG 16 — Strong, evidence-informed Institutions (CORE) ---------------
     # Transparent *process* proxies measured from the run's own audit artifacts —
-    # not transport outcomes. This is what URBAN itself contributes to SDG 16.
+    # not transport outcomes. This is what GOV SIM itself contributes to SDG 16.
     sdg16: list[SdgIndicator] = []
     headline_metrics = list(base.metrics) + list(b_full.metrics)
     n_metrics = len(headline_metrics)
@@ -316,7 +316,7 @@ def build_sdg_report(
             0.0,  # conventional opaque process publishes no model provenance
             round(completeness, 2),
             "higher",
-            "URBAN provenance tags on the run's headline metrics (audit artifact)",
+            "GOV SIM provenance tags on the run's headline metrics (audit artifact)",
             round(0.9 * _horizon_decay(t_years), 3),
             MetricTag.estimated,
             note="Governance-process proxy, not a transport outcome: fraction of "
@@ -339,7 +339,7 @@ def build_sdg_report(
             0.0,
             float(n_events),
             "higher",
-            "URBAN event ledger (each entry carries cause / affected / confidence / "
+            "GOV SIM event ledger (each entry carries cause / affected / confidence / "
             "downstream)",
             round(0.9 * _horizon_decay(t_years), 3),
             MetricTag.estimated,

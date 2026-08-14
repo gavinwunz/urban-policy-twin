@@ -1,7 +1,7 @@
 """Spatial traffic-assignment endpoint (SPEC §7.7).
 
 ``POST /spatial`` takes a compiled Policy DSL and returns a peak-hour static
-traffic assignment over the real Meridia road grid: congested link flows, cordon
+traffic assignment over the Auckland road network: congested link flows, cordon
 inflow, network vehicle-hours, gravity job accessibility and a per-zone road-CO₂
 dispersion proxy — each as World A (baseline) vs World B (policy).
 

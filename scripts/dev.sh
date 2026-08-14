@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# URBAN dev runner — boots the backend (FastAPI/uvicorn) and the frontend
+# GOV SIM dev runner — boots the backend (FastAPI/uvicorn) and the frontend
 # (Next.js) together for local development, with one-line setup on first run.
 #
 # Usage:
@@ -88,6 +88,18 @@ run_backend() {
 run_frontend() {
   log "starting frontend on http://localhost:$FRONTEND_PORT"
   cd "$ROOT/frontend"
+
+  # `next build` and `next dev` share the .next directory but write different
+  # chunk names: a production build leaves hashed files (main-app-<hash>.js)
+  # where dev expects unhashed ones, so dev then serves HTML referencing chunks
+  # that 404. React never hydrates and every client component is stuck on its
+  # server-rendered placeholder — a blank page with no console error to explain
+  # it. BUILD_ID only exists in a production build, so it is the tell.
+  if [ -f .next/BUILD_ID ]; then
+    warn "clearing .next — it holds a production build, which breaks next dev"
+    rm -rf .next
+  fi
+
   # Point the browser client at the backend unless the caller already set it.
   export NEXT_PUBLIC_API_BASE_URL="${NEXT_PUBLIC_API_BASE_URL:-http://localhost:$BACKEND_PORT}"
   exec npm run dev -- --port "$FRONTEND_PORT"

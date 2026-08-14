@@ -4,7 +4,7 @@
  * Spatial traffic-assignment view (SPEC §7.7): where the policy's traffic
  * actually goes on the road grid — built by `POST /spatial` from a peak-hour
  * static user-equilibrium assignment (MSA + BPR volume-delay) over the real
- * Meridia network. Car demand is the subset of the same deterministic
+ * Auckland network. Car demand is the subset of the same deterministic
  * mode-choice agents (`/simulate`) who still choose to drive.
  *
  * Honesty story (SPEC §7.7/§34): every number here is Simulated by a
@@ -83,7 +83,7 @@ export default function SpatialPanel() {
         <div className="waiting">
           <span className="tag muted">No policy yet</span>
           <p>
-            Compile a policy above to load its driving demand onto the real Meridia
+            Compile a policy above to load its driving demand onto the Auckland
             road network — congested link flows, cordon inflow, bottlenecks, job
             accessibility and a road-CO₂ dispersion proxy, each as baseline vs policy.
           </p>

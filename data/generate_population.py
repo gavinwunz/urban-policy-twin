@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deterministic generator for the URBAN synthetic commuter population (SPEC §6).
+"""Deterministic generator for the GOV SIM synthetic commuter population (SPEC §6).
 
 Reads the shared city dataset (``data/city/zones.geojson`` + ``od_pairs.json``)
 and draws a calibrated set of **numerical micro-agents** — the bottom tier of the
@@ -286,7 +286,7 @@ def _summary(agents: list[dict]) -> dict:
 
 def _assemble(agents: list[dict], target: int, seed: int) -> dict:
     return {
-        "name": "meridia_synthetic_population",
+        "name": "auckland_synthetic_population",
         "provenance": "Synthetic",
         "generated_by": "data/generate_population.py",
         "derived_from": ["zones.geojson", "od_pairs.json"],

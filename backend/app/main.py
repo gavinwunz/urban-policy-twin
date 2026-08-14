@@ -1,19 +1,22 @@
-"""URBAN backend application entrypoint.
+"""GOV SIM backend application entrypoint.
 
 Run locally with::
 
     uvicorn app.main:app --reload
 
-This is the M0 skeleton: a FastAPI app with CORS and a ``/health`` probe.
-Simulation, policy-compiler and parliament routers are added in later milestones.
+A FastAPI app exposing the simulation engine, the machine-learning layer fitted
+on the loop-detector speed corpus, and a local MongoDB persistence layer.
 """
 
 from __future__ import annotations
+
+import logging
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from .config import settings
+from .db import mongo
 from .routers import (
     analogues,
     assumptions,
@@ -34,6 +37,7 @@ from .routers import (
     institutions,
     media,
     microsim,
+    ml,
     northstar,
     optimise,
     parliament,
@@ -56,6 +60,8 @@ from .routers import (
     world,
 )
 
+log = logging.getLogger(__name__)
+
 
 def create_app() -> FastAPI:
     """Application factory so tests can build isolated instances."""
@@ -63,11 +69,18 @@ def create_app() -> FastAPI:
         title=settings.app_name,
         version=settings.version,
         description=(
-            "Policy digital twin backend. Every quantitative output is tagged "
+            settings.tagline
+            + " Every quantitative output is tagged "
             "Observed/Estimated/Simulated/Generated; LLMs never generate core "
             "numeric effects (SPEC §34)."
         ),
     )
+
+    @app.on_event("startup")
+    def _startup() -> None:
+        # Index creation is a no-op when Mongo is down; the app still boots.
+        mongo.ensure_indexes()
+        log.info("persistence: %s", "mongodb" if mongo.available() else "in-memory only")
 
     app.add_middleware(
         CORSMiddleware,
@@ -78,6 +91,7 @@ def create_app() -> FastAPI:
     )
 
     app.include_router(health.router)
+    app.include_router(ml.router)
     app.include_router(capabilities.router)
     app.include_router(policy.router)
     app.include_router(baseline.router)

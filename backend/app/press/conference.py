@@ -33,7 +33,7 @@ _OUTLETS = {
     ReporterArchetype.business_press: ("Business Daily (SIMULATED)", "Business correspondent"),
     ReporterArchetype.tabloid: ("The Daily Pulse (SIMULATED)", "News reporter"),
     ReporterArchetype.environmental: ("Clean City Review (SIMULATED)", "Environment correspondent"),
-    ReporterArchetype.opposition_local: ("The Meridia Courier (SIMULATED)", "Local affairs reporter"),
+    ReporterArchetype.opposition_local: ("The Auckland Courier (SIMULATED)", "Local affairs reporter"),
 }
 
 

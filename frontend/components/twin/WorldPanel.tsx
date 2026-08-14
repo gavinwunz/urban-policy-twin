@@ -10,7 +10,7 @@
  * This tab is policy-independent (it describes the world *before* any
  * intervention) and loads on mount. It is **not a forecast**: every number is a
  * count read from the synthetic city dataset or the deterministic baseline model
- * — no LLM produces any figure (SPEC §34). Meridia is a synthetic city, so the
+ * — no LLM produces any figure (SPEC §34). The Auckland grid is a modelled zone system, so the
  * structural counts are tagged Simulated; the Institutions layer is an Observed
  * description of how governance agents are modelled and the Society layer's
  * opinion priors are Estimated assumptions — each layer carries its own
@@ -498,7 +498,7 @@ export default function WorldPanel() {
 
           <p className="world-foot">
             Structural snapshot, not a forecast — counts read from the synthetic
-            Meridia dataset and the deterministic baseline model; no LLM produced
+            Auckland dataset and the deterministic baseline model; no LLM produced
             any number (SPEC §34). Policy effects live in the Run, Compare and
             per-domain tabs.
           </p>

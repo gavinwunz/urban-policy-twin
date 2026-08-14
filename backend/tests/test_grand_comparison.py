@@ -1,7 +1,7 @@
 """Grand counterfactual A/B/C/D comparison (SPEC §21/§22/§34).
 
 The §21 spec names four worlds by role: A (baseline), B (intervention),
-C (opposition amendment) and D (URBAN-optimised policy). ``/compare`` alone only
+C (opposition amendment) and D (GOV SIM-optimised policy). ``/compare`` alone only
 takes arbitrary caller amendments; ``compare_grand`` composes the canonical
 four-way set — deriving C from the deterministic opposition rule and D from the
 §22 optimiser's best-balanced pick — reusing the existing deterministic services
@@ -76,7 +76,7 @@ def test_world_d_comes_from_the_optimiser():
         constraints={"max_low_income_burden_increase_pct": 5},
     )
     d = res.derivation["world_d"]
-    assert d["role"].startswith("URBAN Optimised Policy")
+    assert d["role"].startswith("GOV SIM Optimised Policy")
     assert d["chosen_policy_id"] is not None
     assert d["config"] is not None
     assert d["n_candidates"] > 0
@@ -134,7 +134,7 @@ def test_endpoint_returns_grand_comparison():
     data = r.json()
     assert data["provenance"] == "Simulated"
     assert data["derivation"]["world_c"]["role"].startswith("Opposition Amendment")
-    assert data["derivation"]["world_d"]["role"].startswith("URBAN Optimised Policy")
+    assert data["derivation"]["world_d"]["role"].startswith("GOV SIM Optimised Policy")
     assert {w["id"] for w in data["worlds"]} == {"B", "C", "D"}
 
 

@@ -81,7 +81,7 @@ class PolicyDSL(BaseModel):
     """Structured policy — the compiler's primary output (SPEC §3)."""
 
     id: str = "policy_v1"
-    jurisdiction: str = "meridia"
+    jurisdiction: str = "auckland"
     domain: list[str] = Field(default_factory=list)
     intervention: Intervention = Field(default_factory=Intervention)
     exemptions: list[str] = Field(default_factory=list)

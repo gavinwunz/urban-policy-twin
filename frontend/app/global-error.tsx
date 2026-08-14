@@ -46,7 +46,7 @@ export default function GlobalError({
               margin: "0 0 0.5rem",
             }}
           >
-            URBAN — Policy Digital Twin
+            GOV SIM — Policy Digital Twin
           </p>
           <h1 style={{ fontSize: "2rem", lineHeight: 1.15, margin: "0 0 1rem" }}>
             The app failed to start

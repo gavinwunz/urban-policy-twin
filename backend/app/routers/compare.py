@@ -126,7 +126,7 @@ def compare_example() -> CounterfactualComparison:
 
     Compiles the canonical demo congestion charge and runs the *identical*
     ``compare_grand`` service ``POST /compare/grand`` uses — deriving World C
-    (opposition amendment) and World D (URBAN-optimised) deterministically — so
+    (opposition amendment) and World D (GOV SIM-optimised) deterministically — so
     this keyless surface can never disagree with the POST endpoint (SPEC §34).
     """
     policy = compile_policy(_DEMO_TEXT).policy
